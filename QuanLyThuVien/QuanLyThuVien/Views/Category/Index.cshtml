@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Category>
+
+<h1>Index Category</h1>
+<table class="table table-bordered table-striped">
+    <thead>
+        <th>Category Name</th>
+        <th>Display Order</th>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.DisplayOrder</td>
+            </tr>
+        }
+    </tbody>
+    <a asp-controller="Category" asp-action="Create">Create</a>
+</table>
