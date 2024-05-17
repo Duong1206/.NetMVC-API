@@ -1,19 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebBanSach.Data;
 using WebBanSach.Models;
+using WebBanSach.Repository.IRepository;
 
 namespace WebBanSach.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+        private readonly IUnitOfWork _unitOfWork;
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public IActionResult Index()
         {
-            IEnumerable<Category> objCategoyList = _db.Categories.ToList();
+            IEnumerable<Category> objCategoyList = _unitOfWork.Category.GetAll();
             return View(objCategoyList);
         }
         public IActionResult Create()
@@ -30,8 +31,8 @@ namespace WebBanSach.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Categories.Add(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Add(obj);
+                _unitOfWork.Save();
                 TempData["Success"] = "Category Create Successfully";
                 return RedirectToAction("Index");
             }
@@ -44,7 +45,7 @@ namespace WebBanSach.Controllers
             {
                 return NotFound();
             }
-            var CategoryFromDb = _db.Categories.Find(id);
+            var CategoryFromDb = _unitOfWork.Category.GetFirstOrDefault(u=>u.Id==id);
             if (CategoryFromDb == null)
             {
                 return NotFound();
@@ -61,8 +62,8 @@ namespace WebBanSach.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Update(obj);
+                _unitOfWork.Save();
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -74,7 +75,7 @@ namespace WebBanSach.Controllers
             {
                 return NotFound();
             }
-            var CategoryFromDb = _db.Categories.Find(id);
+            var CategoryFromDb = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
             if (CategoryFromDb == null)
             {
                 return NotFound();
@@ -85,15 +86,15 @@ namespace WebBanSach.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
-            var obj = _db.Categories.Find(id);
+            var obj = _unitOfWork.Category.GetFirstOrDefault(u=>u.Id==id);
             if (obj == null)
             {
                 return NotFound();
             }
             else
             {
-                _db.Categories.Remove(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Remove(obj);
+                _unitOfWork.Save();
                 return RedirectToAction("Index");
             }
             return View(obj);
