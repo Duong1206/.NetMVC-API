@@ -1,0 +1,23 @@
+﻿@model IEnumerable<CoverType>
+
+<partial name="_Notification" />
+<h1>Index Cover Type</h1>
+    <a asp-action="Create" asp-controller="CoverType">Create</a>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <th>Cover Type Name</th>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <a class="btn btn-primary" asp-controller="CoverType" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <a class="btn btn-primary" asp-controller="CoverType" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
