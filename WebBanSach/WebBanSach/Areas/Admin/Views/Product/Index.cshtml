@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Product>
+
+<partial name="_Notification" />
+
+<h1>Index Product</h1>
+<a asp-action="Upsert" asp-controller="Product">Create</a>
+<table class="table table-bordered" id="tblData">
+    <thead>
+        <th>Title</th>
+        <th>Desscription</th>
+        <th>ISBN</th>
+        <th>Price50</th>
+        <th>Price100</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th></th>
+    </thead>
+</table>
+
+@section Scripts{
+    <script src="~/js//product.js"></script>
+}

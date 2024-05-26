@@ -19,15 +19,30 @@ namespace WebBanSach.Repository
             DbSet.Add(entity);
         }
 
-        public IEnumerable<T> GetAll()
+        // include category, covertype
+        public IEnumerable<T> GetAll(string? includeProperties = null)
         {
             IQueryable<T> query = DbSet;
+            if(includeProperties != null)
+            {
+                foreach(var item in includeProperties.Split(new char[','],StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(item);
+                }
+            }
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> filer)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> filer, string? includeProperties = null)
         {
             IQueryable<T> query = DbSet;
+            if (includeProperties != null)
+            {
+                foreach (var item in includeProperties.Split(new char[','], StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(item);
+                }
+            }
             query = query.Where(filer);
             return query.FirstOrDefault();
         }

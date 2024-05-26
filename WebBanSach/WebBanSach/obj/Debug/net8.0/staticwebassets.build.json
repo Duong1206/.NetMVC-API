@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w0PSR8w/svTYDexXO7xQBh5bvCGfxLb+LNaTWA1q8co=",
+  "Hash": "TKb+3+S6EYHh8ovq7kUO3qPk4Wq7MPirB0i14+UJHTI=",
   "Source": "WebBanSach",
   "BasePath": "_content/WebBanSach",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\product.js",
+      "SourceId": "WebBanSach",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\",
+      "BasePath": "_content/WebBanSach",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\site.js",
