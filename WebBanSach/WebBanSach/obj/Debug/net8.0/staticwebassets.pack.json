@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\images\\products\\mayman.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mayman.jpg"
+    },
+    {
       "Id": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },

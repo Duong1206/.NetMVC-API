@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\views\\covertype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\views\\covertype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\repository\\covertyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\repository\\covertyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\models\\covertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\models\\covertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\models\\viewmodel\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,48 +79,12 @@
       "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\views\\covertype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\models\\covertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\models\\covertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\views\\covertype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\views\\covertype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\controllers\\covertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\controllers\\covertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\repository\\covertyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\repository\\covertyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\views\\covertype\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -126,10 +130,6 @@
       "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|c:\\users\\nguye\\source\\repos\\webbansach\\webbansach\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{785280B5-6284-449B-B20F-E158F3878464}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -157,179 +157,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\ViewModel\\ProductVM.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Models\\ViewModel\\ProductVM.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\ViewModel\\ProductVM.cs",
-              "RelativeToolTip": "WebBanSach\\Models\\ViewModel\\ProductVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T07:50:54.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\IRepository\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Repository\\IRepository\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\IRepository\\IUnitOfWork.cs",
-              "RelativeToolTip": "WebBanSach\\Repository\\IRepository\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T04:42:33.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\IRepository\\IRepository.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Repository\\IRepository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\IRepository\\IRepository.cs",
-              "RelativeToolTip": "WebBanSach\\Repository\\IRepository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:19:05.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CoverType.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\CoverType.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Models\\CoverType.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\CoverType.cs",
-              "RelativeToolTip": "WebBanSach\\Models\\CoverType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:04:28.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\Product.cs",
-              "RelativeToolTip": "WebBanSach\\Models\\Product.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwCMAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T04:13:59.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAHQAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T04:46:41.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CoverTypeController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
-              "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAADgv10AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:40:41.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "product.js",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\product.js",
-              "RelativeDocumentMoniker": "WebBanSach\\wwwroot\\js\\product.js",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\product.js",
-              "RelativeToolTip": "WebBanSach\\wwwroot\\js\\product.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-25T16:20:54.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\CoverType\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Views\\CoverType\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\CoverType\\Index.cshtml",
-              "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Views\\CoverType\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T07:48:41.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\Repository.cs",
-              "RelativeToolTip": "WebBanSach\\Repository\\Repository.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAkwCAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:21:22.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "WebBanSach\\Repository\\ProductRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T04:43:02.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Notification.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Views\\Shared\\_Notification.cshtml",
-              "RelativeDocumentMoniker": "WebBanSach\\Views\\Shared\\_Notification.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Views\\Shared\\_Notification.cshtml",
-              "RelativeToolTip": "WebBanSach\\Views\\Shared\\_Notification.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T07:42:10.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T16:10:47.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\CoverType\\Create.cshtml",
               "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Views\\CoverType\\Create.cshtml",
@@ -342,68 +174,261 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebBanSach\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebBanSach\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T04:33:22.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\CoverType\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Views\\CoverType\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\CoverType\\Index.cshtml",
+              "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Views\\CoverType\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T07:48:41.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T04:46:41.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AQIAAOMgAAAAAAAAAAAEwOEgAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-26T08:36:22.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "jquery.min.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "RelativeDocumentMoniker": "WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "RelativeToolTip": "WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-26T08:39:06.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T16:10:47.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\Product.cs",
+              "RelativeToolTip": "WebBanSach\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T04:13:59.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Upsert.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
               "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
               "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
               "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAowFMAAAAiAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwFgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-24T07:11:03.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebBanSach\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:18:28.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAvwGQAAAAMAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAWwGQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T04:26:01.608Z"
+              "WhenOpened": "2024-05-15T04:26:01.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebBanSach\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebBanSach\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAmwDgAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T04:33:22.468Z"
+              "DocumentIndex": 7,
+              "Title": "product.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\product.js",
+              "RelativeDocumentMoniker": "WebBanSach\\wwwroot\\js\\product.js",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\product.js",
+              "RelativeToolTip": "WebBanSach\\wwwroot\\js\\product.js",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-29T07:06:39.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\Repository.cs",
+              "RelativeToolTip": "WebBanSach\\Repository\\Repository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:21:22.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "WebBanSach\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T04:43:02.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CoverTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\CoverTypeRepository.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Repository\\CoverTypeRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\CoverTypeRepository.cs",
+              "RelativeToolTip": "WebBanSach\\Repository\\CoverTypeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T06:39:42.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CoverType.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\CoverType.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Models\\CoverType.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\CoverType.cs",
+              "RelativeToolTip": "WebBanSach\\Models\\CoverType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:04:28.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CoverTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
+              "RelativeToolTip": "WebBanSach\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAADgv10AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:40:41.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\ViewModel\\ProductVM.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Models\\ViewModel\\ProductVM.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\ViewModel\\ProductVM.cs",
+              "RelativeToolTip": "WebBanSach\\Models\\ViewModel\\ProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:50:54.554Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "jquery.min.js",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-              "RelativeDocumentMoniker": "WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-              "RelativeToolTip": "WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-26T08:39:06.18Z"
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeToolTip": "WebBanSach\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T04:42:33.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "jquery.js",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "RelativeDocumentMoniker": "WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "RelativeToolTip": "WebBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ViewState": "AQIAAPogAAAAAAAAAAASwOEgAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-26T08:36:22.279Z"
+              "DocumentIndex": 15,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "WebBanSach\\Repository\\IRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "WebBanSach\\Repository\\IRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:19:05.516Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "_Notification.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Views\\Shared\\_Notification.cshtml",
+              "RelativeDocumentMoniker": "WebBanSach\\Views\\Shared\\_Notification.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Views\\Shared\\_Notification.cshtml",
+              "RelativeToolTip": "WebBanSach\\Views\\Shared\\_Notification.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T07:42:10.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebBanSach\\Models\\Category.cs",
@@ -415,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Program.cs",
               "RelativeDocumentMoniker": "WebBanSach\\Program.cs",
@@ -427,19 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CoverTypeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\CoverTypeRepository.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Repository\\CoverTypeRepository.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Repository\\CoverTypeRepository.cs",
-              "RelativeToolTip": "WebBanSach\\Repository\\CoverTypeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T06:39:42.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\CoverType\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Views\\CoverType\\Delete.cshtml",
@@ -451,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Admin\\Views\\CoverType\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebBanSach\\Areas\\Admin\\Views\\CoverType\\Edit.cshtml",
@@ -463,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "20240515042523_AddCategoryToDb.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Migrations\\20240515042523_AddCategoryToDb.cs",
               "RelativeDocumentMoniker": "WebBanSach\\Migrations\\20240515042523_AddCategoryToDb.cs",
@@ -475,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Areas\\Customer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebBanSach\\Areas\\Customer\\Controllers\\HomeController.cs",
@@ -487,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20240523042152_AddProductToDb.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Migrations\\20240523042152_AddProductToDb.cs",
               "RelativeDocumentMoniker": "WebBanSach\\Migrations\\20240523042152_AddProductToDb.cs",
@@ -499,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "20240517070618_AddCoverTypeToDb.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Migrations\\20240517070618_AddCoverTypeToDb.cs",
               "RelativeDocumentMoniker": "WebBanSach\\Migrations\\20240517070618_AddCoverTypeToDb.cs",
@@ -511,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "WebBanSach\\wwwroot\\js\\site.js",
@@ -523,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "dbo.Products [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/SUNSHINE/WebBanSach/True/SqlTable/dbo.Products.sql",
               "ToolTip": "dbo.Products [Data]",
@@ -545,18 +558,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebBanSach\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T04:18:28.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\appsettings.json",
               "RelativeDocumentMoniker": "WebBanSach\\appsettings.json",

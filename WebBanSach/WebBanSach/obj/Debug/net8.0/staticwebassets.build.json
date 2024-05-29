@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TKb+3+S6EYHh8ovq7kUO3qPk4Wq7MPirB0i14+UJHTI=",
+  "Hash": "V2cV3f9rT80St680+FgbzjSs7IzncUm2me1ZlBKyOZ8=",
   "Source": "WebBanSach",
   "BasePath": "_content/WebBanSach",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\images\\products\\mayman.jpg",
+      "SourceId": "WebBanSach",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\",
+      "BasePath": "_content/WebBanSach",
+      "RelativePath": "images/products/mayman.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\mayman.jpg"
     },
     {
       "Identity": "C:\\Users\\nguye\\source\\repos\\WebBanSach\\WebBanSach\\wwwroot\\js\\product.js",
