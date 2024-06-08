@@ -1,0 +1,52 @@
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.deps.json
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.dll
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.pdb
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Model.dll
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Model.pdb
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.csproj.AssemblyReference.cache
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.AssemblyInfoInputs.cache
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.AssemblyInfo.cs
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.csproj.CoreCompileInputs.cache
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach..6D6F26AC.Up2Date
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.dll
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\refint\BanSach.DataAcess.dll
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.pdb
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\ref\BanSach.DataAcess.dll
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.runtimeconfig.json
+D:\LEARNING\CODE\C_Sharp\ASP\CORE\unica\core6\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.genruntimeconfig.cache
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.deps.json
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.runtimeconfig.json
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.dll
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.pdb
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Model.dll
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Model.pdb
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.csproj.AssemblyReference.cache
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.AssemblyInfoInputs.cache
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.AssemblyInfo.cs
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach..6D6F26AC.Up2Date
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.dll
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\refint\BanSach.DataAcess.dll
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.pdb
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.genruntimeconfig.cache
+C:\Users\nguye\source\repos\BanSach\BanSach.DataAcess\obj\Debug\net6.0\ref\BanSach.DataAcess.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.deps.json
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.runtimeconfig.json
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.pdb
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Model.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Model.pdb
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.sourcelink.json
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach..6D6F26AC.Up2Date
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\refint\BanSach.DataAcess.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.pdb
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.genruntimeconfig.cache
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\ref\BanSach.DataAcess.dll
