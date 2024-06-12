@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BanSach.Model.Company>
+
+<!--hiện thị khi thành công-->
+<partial name="_Notification" />
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2>Company List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Company" asp-action="Upsert" class="btn btn-primary">Create New Company</a>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered" id="tblData">
+    <thead>
+      
+            <th>Name</th>
+            <th>StreetAddress</th>
+            <th>City</th>
+            <th>PostalCode</th>
+            <th>Phone Number</th>
+               <th></th>
+       
+    </thead>
+  
+</table>
+
+@section Scripts {
+    <script src="~/js/company.js"></script>
+}

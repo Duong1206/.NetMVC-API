@@ -9,8 +9,9 @@ namespace BanSach.DataAcess.Repository.IRepository
     public interface IUnitOfWork
     {
         ICategoryRepository Category { get; }
-        ICoverTypeRePository coverType { get; }
+        ICoverTypeRepository coverType { get; }
         IProductRepository Product { get; }
+        ICompanyRepository Company { get; }
         void Save();
     }
 }

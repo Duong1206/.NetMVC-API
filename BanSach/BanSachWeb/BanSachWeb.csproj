@@ -10,6 +10,8 @@
     <PackageReference Include="Baseline" Version="4.1.0" />
     <PackageReference Include="DryIoc.dll" Version="5.4.3" />
     <PackageReference Include="LamarCodeGeneration" Version="6.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.29" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.29" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.30" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.30" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.29" />
@@ -23,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BanSach.DataAcess\BanSach.DataAcess.csproj" />
+    <ProjectReference Include="..\BanSach.Utility\BanSach.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

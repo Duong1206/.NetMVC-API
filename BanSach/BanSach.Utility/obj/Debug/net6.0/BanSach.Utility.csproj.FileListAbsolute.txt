@@ -20,3 +20,18 @@ C:\Users\nguye\source\repos\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Uti
 C:\Users\nguye\source\repos\BanSach\BanSach.Utility\obj\Debug\net6.0\refint\BanSach.Utility.dll
 C:\Users\nguye\source\repos\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.pdb
 C:\Users\nguye\source\repos\BanSach\BanSach.Utility\obj\Debug\net6.0\ref\BanSach.Utility.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\bin\Debug\net6.0\BanSach.Utility.deps.json
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\bin\Debug\net6.0\BanSach.Utility.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\bin\Debug\net6.0\BanSach.Utility.pdb
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.sourcelink.json
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\refint\BanSach.Utility.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.pdb
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\ref\BanSach.Utility.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\bin\Debug\net6.0\BanSach.Utility.runtimeconfig.json
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSach.Utility\obj\Debug\net6.0\BanSach.Utility.genruntimeconfig.cache

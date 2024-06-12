@@ -1,10 +1,13 @@
-﻿
+
 using BanSach.DataAcess.Data;
 using BanSach.DataAcess;
 using BanSach.DataAcess.Repository;
 using BanSach.DataAcess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using BanSach.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +22,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
 
+builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
 
 /*builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
@@ -27,6 +33,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -41,7 +49,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();;
+app.MapRazorPages();
 app.UseAuthorization();
 
 app.MapControllerRoute(

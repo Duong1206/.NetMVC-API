@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\29ec9314-2814-4396-ba14-2b65b6c6e251.webp",
+      "PackagePath": "staticwebassets\\images\\products\\29ec9314-2814-4396-ba14-2b65b6c6e251.webp"
+    },
+    {
       "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp",
       "PackagePath": "staticwebassets\\images\\products\\59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp"
     },
@@ -75,6 +79,10 @@
     {
       "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-8.jpg",
       "PackagePath": "staticwebassets\\img\\vendor-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
     },
     {
       "Id": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",

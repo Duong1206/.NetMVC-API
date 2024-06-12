@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BanSach.DataAcess.Repository
 {
-    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRePository
+    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
     {
         //tạo 1 biến 
         private readonly ApplicationDbContext _db;

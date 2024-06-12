@@ -12,10 +12,10 @@ namespace BanSach.DataAcess.Repository
     {
         public ICategoryRepository Category { get; private set; }
 
-        public ICoverTypeRePository coverType { get; private set; }
+        public ICoverTypeRepository coverType { get; private set; }
 
         public IProductRepository Product { get; private set; }
-
+        public ICompanyRepository Company { get; private set; }
 
 
 
@@ -31,7 +31,7 @@ namespace BanSach.DataAcess.Repository
             Category = new CategoryRepository(_db);
             coverType = new CoverTypeRepository(_db);
             Product = new ProductRepository(_db);
-
+            Company = new CompanyRepository(_db);
         }
 
         public void Save()

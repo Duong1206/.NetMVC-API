@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BanSach.DataAcess.Repository.IRepository
 {
-    public interface ICoverTypeRePository : IRepository<CoverType>
+    public interface ICoverTypeRepository : IRepository<CoverType>
     {
         void Update(CoverType coverType);
 
