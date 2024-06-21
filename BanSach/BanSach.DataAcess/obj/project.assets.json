@@ -8107,11 +8107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+      "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
       "projectName": "BanSach.DataAcess",
-      "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+      "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\obj\\",
+      "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.DataAcess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8129,8 +8129,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
-              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
+            "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
             }
           }
         }

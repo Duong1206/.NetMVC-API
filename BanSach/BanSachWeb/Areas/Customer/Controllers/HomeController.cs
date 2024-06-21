@@ -19,9 +19,18 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category");
+            return View(productList);
         }
-
+        public IActionResult Details(int id)
+        {
+            ShoppingCart cartObj = new()
+            {
+               Product = _unitOfWork.Product.GetFirstOrDefault(u=>u.Id == id,includeProperties:"Category"),
+               Count = 1
+            };
+            return View(cartObj);
+        }
         public IActionResult Privacy()
         {
             return View();

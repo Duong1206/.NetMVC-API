@@ -12894,11 +12894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+      "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
       "projectName": "BanSachWeb",
-      "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+      "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\",
+      "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSachWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12916,11 +12916,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
-              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
+            "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
+              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
             },
-            "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
-              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
+            "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
             }
           }
         }
