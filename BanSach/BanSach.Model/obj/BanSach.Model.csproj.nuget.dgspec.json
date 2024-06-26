@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {}
+    "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+    "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
         "projectName": "BanSach.Model",
-        "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+        "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Model\\obj\\",
+        "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

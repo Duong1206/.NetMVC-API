@@ -1,7 +1,9 @@
 ﻿using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace BanSachWeb.Areas.Customer.Controllers
 {
@@ -27,9 +29,33 @@ namespace BanSachWeb.Areas.Customer.Controllers
             ShoppingCart cartObj = new()
             {
                Product = _unitOfWork.Product.GetFirstOrDefault(u=>u.Id == id,includeProperties:"Category"),
-               Count = 1
+               Count = 1,
+               ProductId = id
+               
             };
             return View(cartObj);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public IActionResult Details(ShoppingCart shoppingCart)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            shoppingCart.ApplicationUserId = claim.Value;
+
+            ShoppingCart cartObj = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.ApplicationUserId == claim.Value && u.ProductId == shoppingCart.ProductId);
+            if (cartObj == null)
+            {
+                _unitOfWork.ShoppingCart.Add(shoppingCart);
+            }
+            else
+            {
+                _unitOfWork.ShoppingCart.IncrementCount(cartObj, shoppingCart.Count);
+            }
+            _unitOfWork.Save();
+
+            return RedirectToAction(nameof(Index));
         }
         public IActionResult Privacy()
         {

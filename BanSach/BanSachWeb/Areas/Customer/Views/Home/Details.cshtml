@@ -1,6 +1,7 @@
 ﻿@model ShoppingCart
 
 <form asp-controller="Home" asp-action="Details" method="post">
+    <input hidden asp-for="ProductId" />
 <div class="card container">
     <div class="card-header bg-primary text-light ml-0 row">
         <div class="col-12 col-md-6">
@@ -68,7 +69,7 @@
                 <a class="btn btn-success form-control " asp-action="Index" style="height:50px;">Back To List</a>
             </div>
             <div class="col-12 col-md-6 pb-1">
-                <button type="submit" value="Add to Cart" class="btn btn-primary form-control" style="height:50px"></button>
+                <button type="submit" value="Add to Cart" class="btn btn-primary form-control" style="height:50px">Add To Cart</button>
             </div>
         </div>
     </div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E/Tk6/8WroY=",
+  "dgSpecHash": "WI0HNbqaMEM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+  "projectFilePath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

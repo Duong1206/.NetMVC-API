@@ -1122,11 +1122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
       "projectName": "BanSach.Utility",
-      "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+      "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\PS\\BanSach\\BanSach.Utility\\obj\\",
+      "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

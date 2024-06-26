@@ -19,7 +19,7 @@ namespace BanSach.DataAcess.Repository.IRepository
         T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null);
         // lấy tất cả
 
-        IEnumerable<T> GetAll(string? includeProperties = null);
+        IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter=null, string? includeProperties = null);
         // add 
         void Add(T entity);
         void Remove(T entity);

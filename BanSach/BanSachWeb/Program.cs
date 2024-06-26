@@ -16,7 +16,13 @@ builder.Services.AddControllersWithViews();
 
 // thêm servicer chạy runtime không cần build lại
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath = $"/Identity/Account/AccessDeniedPath";
 
+});
 // thêm servvice chuyền chuỗi kn vào
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(

@@ -12,6 +12,7 @@ namespace BanSach.Model
     public class ShoppingCart
     {
         public int Id { get; set; }
+        public int ProductId { get; set; }
         [ForeignKey("ProductId")]
         [ValidateNever]
         public Product Product { get; set; }
@@ -21,5 +22,7 @@ namespace BanSach.Model
         public string ApplicationUserId { get; set; }
         [ValidateNever]
         public ApplicationUser ApplicationUser { get; set; }
+        [NotMapped]
+        public double Price { get; set; }
     }
 }
