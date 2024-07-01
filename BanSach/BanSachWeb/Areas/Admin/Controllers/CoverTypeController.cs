@@ -1,6 +1,7 @@
 ﻿using BanSach.DataAcess.Data;
 using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BanSachWeb.Areas.Admin.Controllers
@@ -16,17 +17,20 @@ namespace BanSachWeb.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
             //tạo một biến hứng dl
             IEnumerable<CoverType> objcovertypeList = _unitOfWork.coverType.GetAll();
             return View(objcovertypeList);
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
 
             return View();
         }
+        [Authorize(Roles = "Admin")]
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
         public IActionResult Create(CoverType obj)
@@ -46,6 +50,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         // lấy ra  1 đối tượng với id
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
@@ -62,6 +67,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(coverTypeFromDbFirst);
         }
         // xử lý Edit
+        [Authorize(Roles = "Admin")]
 
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
@@ -82,6 +88,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         // lấy ra  1 đối tượng với id
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
@@ -97,7 +104,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(CoverTypeFromDb);
         }
         // xử lý Edit
-
+        [Authorize(Roles = "Admin")]
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
         public IActionResult DeletePost(int? id)

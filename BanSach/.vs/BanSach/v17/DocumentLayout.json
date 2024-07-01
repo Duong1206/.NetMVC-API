@@ -3,8 +3,196 @@
   "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\wwwroot\\css\\bootswatch.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\wwwroot\\css\\bootswatch.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BC2178-27B9-4651-B7C1-68FD8F53BADB}|BanSach.Utility\\BanSach.Utility.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BC2178-27B9-4651-B7C1-68FD8F53BADB}|BanSach.Utility\\BanSach.Utility.csproj|solutionrelative:bansach.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\components\\book\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\components\\book\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\controllers\\covertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\controllers\\covertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\controllers\\comanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\controllers\\comanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\covertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\covertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,16 +207,48 @@
       "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\viewmodel\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\components\\book\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\components\\book\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\orderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\orderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\covertyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\covertyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\irepository\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\irepository\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\irepository\\iorderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\irepository\\iorderheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\migrations\\20240628072649_addorderheaderanddetailtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\migrations\\20240628072649_addorderheaderanddetailtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,32 +263,12 @@
       "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\irepository\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\irepository\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\customer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\customer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,48 +279,16 @@
       "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\irepository\\iapplicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\migrations\\20240626081710_addinitialtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\migrations\\20240626081710_addinitialtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.dataacess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}|BanSach.DataAcess\\BanSach.DataAcess.csproj|solutionrelative:bansach.dataacess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BC2178-27B9-4651-B7C1-68FD8F53BADB}|BanSach.Utility\\BanSach.Utility.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.utility\\bansach.utility.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{86BC2178-27B9-4651-B7C1-68FD8F53BADB}|BanSach.Utility\\BanSach.Utility.csproj|solutionrelative:bansach.utility\\bansach.utility.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\covertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\covertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\company\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\company\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\controllers\\covertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\controllers\\covertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\controllers\\comanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\controllers\\comanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -129,10 +297,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -149,10 +313,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}|BanSach.Model\\BanSach.Model.csproj|solutionrelative:bansach.model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -175,20 +335,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86BC2178-27B9-4651-B7C1-68FD8F53BADB}|BanSach.Utility\\BanSach.Utility.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BC2178-27B9-4651-B7C1-68FD8F53BADB}|BanSach.Utility\\BanSach.Utility.csproj|solutionrelative:bansach.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86BC2178-27B9-4651-B7C1-68FD8F53BADB}|BanSach.Utility\\BanSach.Utility.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansach.utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BC2178-27B9-4651-B7C1-68FD8F53BADB}|BanSach.Utility\\BanSach.Utility.csproj|solutionrelative:bansach.utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -215,10 +367,6 @@
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -227,32 +375,12 @@
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\components\\imagebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\components\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\components\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\components\\imagebar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\components\\imagebar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\wwwroot\\css\\bootswatch.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\wwwroot\\css\\bootswatch.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|c:\\users\\nguye\\onedrive\\m\u00E1y t\u00EDnh\\codemvc1\\bansach\\bansachweb\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7897AC5-C216-4F65-96FC-B3023CC59C6A}|BanSachWeb\\BanSachWeb.csproj|solutionrelative:bansachweb\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -262,7 +390,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -291,210 +419,348 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ShoppingCartVM.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ViewModel\\ShoppingCartVM.cs",
-              "RelativeDocumentMoniker": "BanSach.Model\\ViewModel\\ShoppingCartVM.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ViewModel\\ShoppingCartVM.cs",
-              "RelativeToolTip": "BanSach.Model\\ViewModel\\ShoppingCartVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T16:04:50.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ViewModel\\ProductVM.cs",
-              "RelativeDocumentMoniker": "BanSach.Model\\ViewModel\\ProductVM.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ViewModel\\ProductVM.cs",
-              "RelativeToolTip": "BanSach.Model\\ViewModel\\ProductVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T16:04:43.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAiwCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T15:42:07.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T15:20:53.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\Components\\Book\\Default.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\Components\\Book\\Default.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\Components\\Book\\Default.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\Components\\Book\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T08:21:49.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShoppingCart.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ShoppingCart.cs",
-              "RelativeDocumentMoniker": "BanSach.Model\\ShoppingCart.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ShoppingCart.cs",
-              "RelativeToolTip": "BanSach.Model\\ShoppingCart.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:51:16.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAAAAYAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T06:16:02.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAwEcAAAB+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T10:31:22.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Program.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Program.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Program.cs",
-              "RelativeToolTip": "BanSachWeb\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAB8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T05:43:28.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IShoppingCartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IShoppingCartRepository.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IShoppingCartRepository.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IShoppingCartRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:28:33.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAuwCIAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T04:29:29.704Z",
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "BanSachWeb\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAIFQAAAAAAAAAAAswDVRAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-01T07:35:58.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IRepository.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IRepository.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:35:17.555Z",
-              "EditorCaption": ""
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T09:09:28.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\Repository.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Repository\\Repository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:37:39.961Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T09:09:24.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:15:10.867Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ShoppingCartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\ShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\ShoppingCartRepository.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\ShoppingCartRepository.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Repository\\ShoppingCartRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAqwB8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:25:09.085Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:14:32.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Repository\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:31:10.359Z"
+              "DocumentIndex": 3,
+              "Title": "Bootswatch.css",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\Bootswatch.css",
+              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\css\\Bootswatch.css",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\Bootswatch.css",
+              "RelativeToolTip": "BanSachWeb\\wwwroot\\css\\Bootswatch.css",
+              "ViewState": "AQIAAF81AAAAAAAAAAAAwKU1AAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-08T08:11:41.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAwAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T09:59:03.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Admin.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\_Admin.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Admin.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\_Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:08:42.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T09:09:30.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\script.js",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-01T07:35:50.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BanSachWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-01T07:35:57.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAACYAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T08:23:07.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T09:09:29.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:20:53.183Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:14:30.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:14:29.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:14:24.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T09:08:23.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T09:08:22.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:19:26.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T03:55:57.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ApplicationUser.cs",
+              "RelativeToolTip": "BanSach.Model\\ApplicationUser.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T03:59:57.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Notification.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Notification.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\_Notification.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Notification.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\_Notification.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T09:59:04.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:19:26.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:14:41.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Controllers\\HomeController.cs",
               "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAxwDcAAAAfAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T07:41:57.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:42:07.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T06:16:02.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Privacy.cshtml",
@@ -506,511 +772,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApplicationUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\ApplicationUserRepository.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\ApplicationUserRepository.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\ApplicationUserRepository.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Repository\\ApplicationUserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:22:13.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IApplicationUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IApplicationUserRepository.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IApplicationUserRepository.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IApplicationUserRepository.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IApplicationUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:26:42.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IUnitOfWork.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:31:15.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20240626081710_AddInitialToDb.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240626081710_AddInitialToDb.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240626081710_AddInitialToDb.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240626081710_AddInitialToDb.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240626081710_AddInitialToDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:17:10.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Category.cs",
-              "RelativeDocumentMoniker": "BanSach.Model\\Category.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Category.cs",
-              "RelativeToolTip": "BanSach.Model\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:48:19.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Product.cs",
-              "RelativeDocumentMoniker": "BanSach.Model\\Product.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Product.cs",
-              "RelativeToolTip": "BanSach.Model\\Product.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvzIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T04:43:08.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CoverType.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\CoverType.cs",
-              "RelativeDocumentMoniker": "BanSach.Model\\CoverType.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\CoverType.cs",
-              "RelativeToolTip": "BanSach.Model\\CoverType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:02:15.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Company.cs",
-              "RelativeDocumentMoniker": "BanSach.Model\\Company.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Company.cs",
-              "RelativeToolTip": "BanSach.Model\\Company.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAawBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:11:36.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T19:10:29.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BanSach.Utility.csproj",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
-              "RelativeDocumentMoniker": "BanSach.Utility\\BanSach.Utility.csproj",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
-              "RelativeToolTip": "BanSach.Utility\\BanSach.Utility.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-26T08:01:09.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Upsert.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T05:31:11.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CoverTypeController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAwwA4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T05:19:07.72Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "ComanyController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\ComanyController.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Controllers\\ComanyController.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\ComanyController.cs",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Controllers\\ComanyController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:12:52.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T05:44:23.764Z"
+              "WhenOpened": "2024-06-30T08:14:40.635Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Upsert.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T04:38:46.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAmwCIAAACJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T09:59:03.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Book.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Components\\Book.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Book.cs",
-              "RelativeToolTip": "BanSachWeb\\Components\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T08:17:19.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20240611153611_AddCartToDb.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T15:36:12.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAYwK8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T07:34:22.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEEAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T08:23:13.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "20240610144411_AddCompanyToDb.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T14:44:12.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "BanSach.Model\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ApplicationUser.cs",
-              "RelativeToolTip": "BanSach.Model\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:59:57.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "BanSachWeb\\appsettings.json",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\appsettings.json",
-              "RelativeToolTip": "BanSachWeb\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAADWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-08T05:43:29.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "company.js",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\company.js",
-              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\company.js",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\company.js",
-              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\company.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-09T05:25:52.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "BanSachWeb\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "BanSachWeb\\ScaffoldingReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-08T19:14:42.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "20240610141434_AddCompanyToDb.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs",
-              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs",
-              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T14:14:34.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
               "Title": "SD.cs",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\SD.cs",
               "RelativeDocumentMoniker": "BanSach.Utility\\SD.cs",
               "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\SD.cs",
               "RelativeToolTip": "BanSach.Utility\\SD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T07:36:20.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\EmailSender.cs",
-              "RelativeDocumentMoniker": "BanSach.Utility\\EmailSender.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\EmailSender.cs",
-              "RelativeToolTip": "BanSach.Utility\\EmailSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T07:47:12.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 33,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\Components\\Book\\Default.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\Components\\Book\\Default.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\Components\\Book\\Default.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\Components\\Book\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T08:23:07.508Z"
+              "WhenOpened": "2024-06-08T08:21:49.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T05:24:52.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "LoginWith2fa.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T08:23:28.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T08:23:32.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "LoginWithRecoveryCode.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T08:23:34.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Lockout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T08:23:29.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",
-              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\main.js",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",
-              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\main.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-09T05:26:16.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "product.js",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\product.js",
-              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\product.js",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\product.js",
-              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\product.js",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAcwEoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-06T02:59:18.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-09T05:26:15.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:12:04.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Imagebar.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Imagebar.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Components\\Imagebar.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Imagebar.cs",
-              "RelativeToolTip": "BanSachWeb\\Components\\Imagebar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T06:46:09.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Navbar.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Navbar.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Components\\Navbar.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Navbar.cs",
-              "RelativeToolTip": "BanSachWeb\\Components\\Navbar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T06:27:11.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T03:55:57.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T19:29:48.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 32,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
               "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
@@ -1022,19 +820,739 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "_Notification.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Notification.cshtml",
-              "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\_Notification.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\_Notification.cshtml",
-              "RelativeToolTip": "BanSachWeb\\Views\\Shared\\_Notification.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAACBjwAAAAAAAAAAA",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAB+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T09:59:04.452Z"
+              "WhenOpened": "2024-06-11T10:31:22.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAANUAAAAAAAAAAAAowNQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T04:29:29.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CoverTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Controllers\\CoverTypeController.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAwwGoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T05:19:07.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ComanyController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\ComanyController.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Controllers\\ComanyController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\ComanyController.cs",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Controllers\\ComanyController.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAowK0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T05:12:52.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowG0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T05:12:04.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T19:29:48.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\OrderDetail.cs",
+              "RelativeToolTip": "BanSach.Model\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:23:27.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ErrorViewModel.cs",
+              "RelativeToolTip": "BanSach.Model\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T09:53:12.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CoverType.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\CoverType.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\CoverType.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\CoverType.cs",
+              "RelativeToolTip": "BanSach.Model\\CoverType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T06:02:15.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Category.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\Category.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Category.cs",
+              "RelativeToolTip": "BanSach.Model\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T04:48:19.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Company.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\Company.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Company.cs",
+              "RelativeToolTip": "BanSach.Model\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAawBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T04:11:36.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Product.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\Product.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\Product.cs",
+              "RelativeToolTip": "BanSach.Model\\Product.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvzIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T04:43:08.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\UnitOfWork.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvygAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:31:10.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Program.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Program.cs",
+              "RelativeToolTip": "BanSachWeb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T05:43:28.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "OrderHeader.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\OrderHeader.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\OrderHeader.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\OrderHeader.cs",
+              "RelativeToolTip": "BanSach.Model\\OrderHeader.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswCoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:16:52.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ViewModel\\ProductVM.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\ViewModel\\ProductVM.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ViewModel\\ProductVM.cs",
+              "RelativeToolTip": "BanSach.Model\\ViewModel\\ProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:04:43.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAwHMAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T07:10:06.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "OrderHeaderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\OrderHeaderRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\OrderHeaderRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\OrderHeaderRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\OrderHeaderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:02:26.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:31:15.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ShoppingCartVM.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ViewModel\\ShoppingCartVM.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\ViewModel\\ShoppingCartVM.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ViewModel\\ShoppingCartVM.cs",
+              "RelativeToolTip": "BanSach.Model\\ViewModel\\ShoppingCartVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:04:50.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADoAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T15:20:53.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\OrderDetailRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\OrderDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:02:30.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:11:40.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\CompanyRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\CompanyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:11:39.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CoverTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\CoverTypeRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\CoverTypeRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\CoverTypeRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\CoverTypeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:11:38.069Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 58,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IOrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IOrderDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:09:59.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IOrderHeaderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IOrderHeaderRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IOrderHeaderRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IOrderHeaderRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IOrderHeaderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:02:20.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20240628072649_addOrderHeaderAndDetailToDb.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240628072649_addOrderHeaderAndDetailToDb.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240628072649_addOrderHeaderAndDetailToDb.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240628072649_addOrderHeaderAndDetailToDb.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240628072649_addOrderHeaderAndDetailToDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:26:49.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T19:10:29.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "BanSach.Model\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Model\\ShoppingCart.cs",
+              "RelativeToolTip": "BanSach.Model\\ShoppingCart.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T07:51:16.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IShoppingCartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IShoppingCartRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IShoppingCartRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IShoppingCartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:28:33.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:35:17.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\Repository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:37:39.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ShoppingCartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\ShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\ShoppingCartRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\ShoppingCartRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\ShoppingCartRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwB8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:25:09.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ApplicationUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\ApplicationUserRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\ApplicationUserRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\ApplicationUserRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\ApplicationUserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:22:13.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IApplicationUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IApplicationUserRepository.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Repository\\IRepository\\IApplicationUserRepository.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Repository\\IRepository\\IApplicationUserRepository.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Repository\\IRepository\\IApplicationUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:26:42.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20240626081710_AddInitialToDb.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240626081710_AddInitialToDb.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240626081710_AddInitialToDb.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240626081710_AddInitialToDb.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240626081710_AddInitialToDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:17:10.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "BanSach.Utility.csproj",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+              "RelativeDocumentMoniker": "BanSach.Utility\\BanSach.Utility.csproj",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+              "RelativeToolTip": "BanSach.Utility\\BanSach.Utility.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T08:01:09.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Upsert.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Company\\Upsert.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T05:31:11.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T05:44:23.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Upsert.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T04:38:46.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Book.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Components\\Book.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Book.cs",
+              "RelativeToolTip": "BanSachWeb\\Components\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:17:19.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20240611153611_AddCartToDb.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240611153611_AddCartToDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T15:36:12.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAYwK8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:34:22.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T08:23:13.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "20240610144411_AddCompanyToDb.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240610144411_AddCompanyToDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:44:12.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "BanSachWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\appsettings.json",
+              "RelativeToolTip": "BanSachWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAADWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-08T05:43:29.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "company.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\company.js",
+              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\company.js",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\company.js",
+              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\company.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-09T05:25:52.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "BanSachWeb\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "BanSachWeb\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-08T19:14:42.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20240610141434_AddCompanyToDb.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs",
+              "RelativeDocumentMoniker": "BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs",
+              "RelativeToolTip": "BanSach.DataAcess\\Migrations\\20240610141434_AddCompanyToDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:14:34.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\EmailSender.cs",
+              "RelativeDocumentMoniker": "BanSach.Utility\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSach.Utility\\EmailSender.cs",
+              "RelativeToolTip": "BanSach.Utility\\EmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:47:12.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Admin\\Views\\Company\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T05:24:52.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "LoginWith2fa.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T08:23:28.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T08:23:32.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "LoginWithRecoveryCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T08:23:34.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeToolTip": "BanSachWeb\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T08:23:29.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-09T05:26:16.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "product.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\product.js",
+              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\product.js",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\product.js",
+              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\product.js",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAcwEoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-06T02:59:18.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "BanSachWeb\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-09T05:26:15.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Imagebar.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Imagebar.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Components\\Imagebar.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Imagebar.cs",
+              "RelativeToolTip": "BanSachWeb\\Components\\Imagebar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T06:46:09.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Navbar.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Navbar.cs",
+              "RelativeDocumentMoniker": "BanSachWeb\\Components\\Navbar.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Components\\Navbar.cs",
+              "RelativeToolTip": "BanSachWeb\\Components\\Navbar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T06:27:11.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\Views\\Shared\\Components\\Imagebar\\Index.cshtml",
               "RelativeDocumentMoniker": "BanSachWeb\\Views\\Shared\\Components\\Imagebar\\Index.cshtml",
@@ -1043,18 +1561,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-08T06:43:05.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Bootswatch.css",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\Bootswatch.css",
-              "RelativeDocumentMoniker": "BanSachWeb\\wwwroot\\css\\Bootswatch.css",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\M\u00E1y t\u00EDnh\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\Bootswatch.css",
-              "RelativeToolTip": "BanSachWeb\\wwwroot\\css\\Bootswatch.css",
-              "ViewState": "AQIAAF81AAAAAAAAAAAAwKU1AAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-08T08:11:41.169Z"
             }
           ]
         }

@@ -1,6 +1,7 @@
 ﻿using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model;
 using BanSach.Model.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.IO;
@@ -29,6 +30,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
          {
              _unitOfWork = unitOfWork;
          }*/
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
             //tạo một biến hứng dl
@@ -37,6 +39,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         // lấy ra  1 đối tượng với id
+        [Authorize(Roles = "Admin")]
         public IActionResult Upsert(int? id)
         {
 
@@ -87,7 +90,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
         // 
 
 
-
+        [Authorize(Roles = "Admin")]
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
         public IActionResult Upsert(Company obj)
@@ -168,6 +171,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
            }*/
         [HttpDelete]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             var obj = _unitOfWork.Company.GetFirstOrDefault(u => u.Id == id);

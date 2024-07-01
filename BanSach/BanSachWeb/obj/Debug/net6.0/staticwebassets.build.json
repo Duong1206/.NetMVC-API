@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CwISF5LOlP6duf+H3z88KhAWfU6IE8POh1slbH6fWmg=",
+  "Hash": "aKMY8wr2mrxApdvUO64DkBhVdobcg04+57AxIqyjQZ4=",
   "Source": "BanSachWeb",
   "BasePath": "_content/BanSachWeb",
   "Mode": "Default",
@@ -1649,6 +1649,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\product.js"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\script.js",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\site.js",
