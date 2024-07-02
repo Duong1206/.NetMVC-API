@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aKMY8wr2mrxApdvUO64DkBhVdobcg04+57AxIqyjQZ4=",
+  "Hash": "hLYtFDsklKWoKRrkJ6E3GSrz/zUIarltcglSl0I+3n0=",
   "Source": "BanSachWeb",
   "BasePath": "_content/BanSachWeb",
   "Mode": "Default",
@@ -1364,6 +1364,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\6185a46f-ef7c-4069-9a77-6547c863c36a.webp",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/6185a46f-ef7c-4069-9a77-6547c863c36a.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\6185a46f-ef7c-4069-9a77-6547c863c36a.webp"
     },
     {
       "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library1.jpg",
