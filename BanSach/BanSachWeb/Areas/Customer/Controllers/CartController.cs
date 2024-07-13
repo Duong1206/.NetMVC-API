@@ -9,7 +9,6 @@ using System.Security.Claims;
 namespace BanSachWeb.Areas.Customer.Controllers
 {
     [Area("Customer")]
-    [Authorize]
     [BindProperties]
     public class CartController : Controller
     {
@@ -20,6 +19,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
         {
             _unitOfWork = unitOfWork;
         }
+        [Authorize]
         public IActionResult Index()
         {
             var claimsIdentity = (ClaimsIdentity)User.Identity;

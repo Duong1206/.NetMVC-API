@@ -3,16 +3,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BanSachWeb.Components
 {
-    public class Book : ViewComponent
+    public class Filter : ViewComponent
     {
         private readonly ApplicationDbContext _context;
-        public Book(ApplicationDbContext context)
+        public Filter(ApplicationDbContext context)
         {
             _context = context;
         }
         public IViewComponentResult Invoke()
         {
-            return View(_context.Products.ToList());
+            return View("Index",_context.Categories.ToList());
         }
     }
 }

@@ -2326,3 +2326,6 @@ C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSachWeb\obj\Debug\net6.0\refint
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSachWeb\obj\Debug\net6.0\BanSachWeb.pdb
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSachWeb\obj\Debug\net6.0\BanSachWeb.genruntimeconfig.cache
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSachWeb\obj\Debug\net6.0\ref\BanSachWeb.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachWeb\bin\Debug\net6.0\Bogus.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachWeb\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachWeb\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll

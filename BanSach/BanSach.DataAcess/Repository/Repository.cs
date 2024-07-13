@@ -24,6 +24,8 @@ namespace BanSach.DataAcess.Repository
             this.DbSet = _db.Set<T>();
         }
 
+        
+
         public void Add(T entity)
         { 
           DbSet.Add(entity);

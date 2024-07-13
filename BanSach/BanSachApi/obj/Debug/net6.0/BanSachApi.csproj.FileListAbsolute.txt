@@ -80,3 +80,6 @@ C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachApi\bin\Debug\net6.0\
 C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachApi\bin\Debug\net6.0\BanSach.Utility.dll
 C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachApi\bin\Debug\net6.0\BanSach.Utility.pdb
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachApi\bin\Debug\net6.0\Bogus.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachApi\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\nguye\OneDrive\Máy tính\CodeMVC1\BanSach\BanSachApi\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll

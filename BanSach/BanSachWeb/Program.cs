@@ -8,6 +8,7 @@ using System.Configuration;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using BanSach.Utility;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,13 +17,14 @@ builder.Services.AddControllersWithViews();
 
 // thêm servicer chạy runtime không cần build lại
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.LoginPath = $"/Identity/Account/Login";
-    options.LogoutPath = $"/Identity/Account/Logout";
-    options.AccessDeniedPath = $"/Identity/Account/AccessDeniedPath";
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "$/Identity/Account/Login";
+        options.LogoutPath = "$/Identity/Account/Logout";
+        options.AccessDeniedPath = "$/Identity/Account/AccessDeniedPath";
+    });
 
-});
 // thêm servvice chuyền chuỗi kn vào
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
@@ -55,10 +57,10 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseAuthentication();;
-app.MapRazorPages();
-app.UseAuthorization();
+app.UseAuthentication();
 
+app.UseAuthorization();
+app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
