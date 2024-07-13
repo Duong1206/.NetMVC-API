@@ -1,6 +1,7 @@
 ﻿using BanSach.DataAcess.Mappers;
 using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model.Dtos.Category;
+using BanSach.Model.Dtos.Stock;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,14 +19,15 @@ namespace BanSachApi.Controllers
             _unitOfWork = unitOfWork;
         }
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var category = _unitOfWork.Category.GetAll().Select(s => s.ToCategoryDto());
+            var category = await _unitOfWork.Category.GetAllAsync();
+            var categoryDto = category.Select(s=>s.ToCategoryDto());
             return Ok(category);
         }
         [HttpGet("{id}")]
-        public IActionResult GetById([FromRoute] int id) {
-            var category = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == id);
+        public async Task<IActionResult> GetById([FromRoute] int id) {
+            var category = await _unitOfWork.Category.GetByIdAsync(id);
             if (category == null)
             {
                 return NotFound();
@@ -36,12 +38,17 @@ namespace BanSachApi.Controllers
         }
         [HttpPost]
 
-        public IActionResult Create([FromBody] CreateCategoryRequestDto createCategoryDto)
+        public async Task<IActionResult> Create([FromBody] CreateCategoryRequestDto createCategoryDto)
         {
-            var categoryModel = createCategoryDto.ToCategoryFromCreateDTO();
-            _unitOfWork.Category.Add(categoryModel);
-            _unitOfWork.Save();
-            return CreatedAtAction(nameof(GetById), new { id = categoryModel.Id }, categoryModel.ToCategoryDto());
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var category = createCategoryDto.ToCategoryFromCreateDTO();
+            await _unitOfWork.Category.CreateAsync(category);
+
+            return CreatedAtAction(nameof(GetById), new { id = category.Id }, category.ToCategoryDto());
         }
         [HttpPut]
         [Route("{id}")]
@@ -61,16 +68,13 @@ namespace BanSachApi.Controllers
         }
         [HttpDelete]
         [Route("{id}")]
-        public IActionResult Delete([FromRoute] int id)
+        public async Task<IActionResult> Delete([FromRoute] int id)
         {
-            var categoryModel = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
+            var categoryModel = await _unitOfWork.Category.DeleteAsync(id);
             if(categoryModel == null)
             {
                 return NotFound();
             }
-            _unitOfWork.Category.Remove(categoryModel);
-            _unitOfWork.Save();
-
             return NoContent();
         }
     } 

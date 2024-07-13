@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BanSach.Model;
+using BanSach.Model.Dtos.Category;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -26,6 +28,11 @@ namespace BanSach.DataAcess.Repository.IRepository
         
         // xoá nhiều category
         void RemoveRange(IEnumerable<T> entity);
+        Task<List<T>> GetAllAsync();
+        Task<T> GetByIdAsync(int id);
+        Task<T> CreateAsync(T entity);
+       /* Task<T?> UpdateAsync(int id, UpdateCategoryRequestDto entityDto);*/
+        Task<T?> DeleteAsync(int id);
 
     }
 }

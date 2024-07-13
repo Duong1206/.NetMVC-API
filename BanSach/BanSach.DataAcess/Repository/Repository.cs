@@ -1,5 +1,7 @@
 ﻿using BanSach.DataAcess.Data;
 using BanSach.DataAcess.Repository.IRepository;
+using BanSach.Model;
+using BanSach.Model.Dtos.Category;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -31,6 +33,32 @@ namespace BanSach.DataAcess.Repository
           DbSet.Add(entity);
         }
 
+        public async Task<T> CreateAsync(T entity)
+        {
+            await _db.Set<T>().AddAsync(entity);
+            await _db.SaveChangesAsync();
+            return entity;
+        }
+
+        public async Task<T?> DeleteAsync(int id)
+        {
+            var entity = await _db.Set<T>().FindAsync(id);
+            if (entity == null)
+            {
+                // Nếu không tìm thấy thực thể, trả về null
+                return null;
+            }
+
+            // Xóa thực thể
+            _db.Set<T>().Remove(entity);
+
+            // Lưu thay đổi vào cơ sở dữ liệu
+            await _db.SaveChangesAsync();
+
+            // Trả về thực thể đã xóa
+            return entity;
+        }
+
         // include category, covertype
 
 
@@ -51,6 +79,17 @@ namespace BanSach.DataAcess.Repository
                 }
             }
             return query.ToList();
+        }
+
+        public Task<List<T>> GetAllAsync()
+        {
+            return _db.Set<T>().ToListAsync();
+        }
+
+        public async Task<T> GetByIdAsync(int id)
+        {
+            var entity = await _db.Set<T>().FindAsync(id);
+            return entity;
         }
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null)
@@ -76,5 +115,10 @@ namespace BanSach.DataAcess.Repository
         {
            DbSet.RemoveRange(entity);
         }
+
+        /*public Task<T?> UpdateAsync(int id, UpdateCategoryRequestDto entityDto)
+        {
+            throw new NotImplementedException();
+        }*/
     }
 }
