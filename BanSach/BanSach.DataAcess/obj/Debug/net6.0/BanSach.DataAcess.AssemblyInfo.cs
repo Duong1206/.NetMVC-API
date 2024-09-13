@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanSach.DataAcess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36d53ad63a6e73d2fe5f15a078f3c7cba179dbd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d31efff954d966f362471e67f070364c62021ecf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanSach.DataAcess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanSach.DataAcess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

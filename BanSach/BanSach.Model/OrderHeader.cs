@@ -11,6 +11,8 @@ namespace BanSach.Model
 {
     public class OrderHeader
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public int Id { get; set; }
         public string ApplicationUserId { get; set; }
         [ForeignKey("ApplicationUserId")]

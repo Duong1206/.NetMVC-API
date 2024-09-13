@@ -12,6 +12,7 @@ namespace BanSach.Model
     public class OrderDetail
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
         public int OrderId { get; set; }

@@ -27,7 +27,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category").Take(PageSize);
             return View(productList);
         }
-        [Authorize]
+        
         public IActionResult Details(int id)
         {
             ShoppingCart cartObj = new()

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanSach.Utility")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7aa6843e3fb442c85ae16e18129134c2ed553545")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d31efff954d966f362471e67f070364c62021ecf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanSach.Utility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanSach.Utility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

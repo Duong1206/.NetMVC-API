@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kf/ar5BnEJO5r+qrWqQr9sU7dbmGvzYEMKXzgvcPLFM=",
+  "Hash": "BcQFtMKLCP4DH0x+xzffqs4TCB0eHgqY3+KP/Hd9U7s=",
   "Source": "BanSachWeb",
   "BasePath": "_content/BanSachWeb",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BanSachWeb\\wwwroot",
       "Source": "BanSachWeb",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.29\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BanSachWeb.styles.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BanSachWeb.styles.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "BanSachWeb.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BanSachWeb.styles.css"
+      "OriginalItemSpec": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BanSachWeb.styles.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BanSachWeb.bundle.scp.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BanSachWeb.bundle.scp.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "BanSachWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BanSachWeb.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BanSachWeb.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\Bootswatch.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\Bootswatch.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "css/Bootswatch.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Bootswatch.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\login.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\login.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\site.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\style.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\style.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\style.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\css\\style.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "css/style.min.css",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\favicon.ico",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\12baea9a-22d9-4a6a-82d3-a1f03b63c854.webp",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\12baea9a-22d9-4a6a-82d3-a1f03b63c854.webp",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "images/products/12baea9a-22d9-4a6a-82d3-a1f03b63c854.webp",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\12baea9a-22d9-4a6a-82d3-a1f03b63c854.webp"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\29ec9314-2814-4396-ba14-2b65b6c6e251.webp",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\29ec9314-2814-4396-ba14-2b65b6c6e251.webp",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "images/products/29ec9314-2814-4396-ba14-2b65b6c6e251.webp",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\29ec9314-2814-4396-ba14-2b65b6c6e251.webp"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\5146f068-d4d7-4305-aaff-74e266c76a7e.webp",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\5146f068-d4d7-4305-aaff-74e266c76a7e.webp",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "images/products/5146f068-d4d7-4305-aaff-74e266c76a7e.webp",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\5146f068-d4d7-4305-aaff-74e266c76a7e.webp"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "images/products/59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp",
       "AssetKind": "All",
@@ -1385,10 +1385,29 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\8c9409cd-b8ab-4cc5-959b-b78de67ae818.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\5e39fbb3-7bfd-41af-a205-dbf4c72a5f7b.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/5e39fbb3-7bfd-41af-a205-dbf4c72a5f7b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\5e39fbb3-7bfd-41af-a205-dbf4c72a5f7b.jpg"
+    },
+    {
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\8c9409cd-b8ab-4cc5-959b-b78de67ae818.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "images/products/8c9409cd-b8ab-4cc5-959b-b78de67ae818.jpg",
       "AssetKind": "All",
@@ -1404,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\8c9409cd-b8ab-4cc5-959b-b78de67ae818.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\96551324-9c5a-434e-8eff-83c0e82b3bdf.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\96551324-9c5a-434e-8eff-83c0e82b3bdf.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "images/products/96551324-9c5a-434e-8eff-83c0e82b3bdf.jpg",
       "AssetKind": "All",
@@ -1423,10 +1442,48 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\96551324-9c5a-434e-8eff-83c0e82b3bdf.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library1.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\b8a85183-9b17-47bd-8f72-3d9ed6eb8c71.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/b8a85183-9b17-47bd-8f72-3d9ed6eb8c71.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\b8a85183-9b17-47bd-8f72-3d9ed6eb8c71.jpg"
+    },
+    {
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\c2f4dcd0-48c3-4029-98c9-2a4f6a2b6450.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/c2f4dcd0-48c3-4029-98c9-2a4f6a2b6450.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\c2f4dcd0-48c3-4029-98c9-2a4f6a2b6450.jpg"
+    },
+    {
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library1.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/Library/Library1.jpg",
       "AssetKind": "All",
@@ -1442,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Library\\Library1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library2.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library2.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/Library/Library2.jpg",
       "AssetKind": "All",
@@ -1461,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Library\\Library2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library3.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library3.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/Library/Library3.jpg",
       "AssetKind": "All",
@@ -1480,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Library\\Library3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library4.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library4.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/Library/Library4.jpg",
       "AssetKind": "All",
@@ -1499,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Library\\Library4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library6.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library6.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/Library/Library6.jpg",
       "AssetKind": "All",
@@ -1518,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Library\\Library6.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-1.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-1.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/vendor-1.jpg",
       "AssetKind": "All",
@@ -1537,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-2.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-2.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/vendor-2.jpg",
       "AssetKind": "All",
@@ -1556,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-3.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-3.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/vendor-3.jpg",
       "AssetKind": "All",
@@ -1575,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-4.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-4.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/vendor-4.jpg",
       "AssetKind": "All",
@@ -1594,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-5.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-5.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/vendor-5.jpg",
       "AssetKind": "All",
@@ -1613,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-6.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-6.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/vendor-6.jpg",
       "AssetKind": "All",
@@ -1632,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-7.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-7.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/vendor-7.jpg",
       "AssetKind": "All",
@@ -1651,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-8.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\vendor-8.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "img/vendor-8.jpg",
       "AssetKind": "All",
@@ -1670,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vendor-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\company.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\company.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "js/company.js",
       "AssetKind": "All",
@@ -1689,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\js\\company.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -1708,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\product.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\product.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "js/product.js",
       "AssetKind": "All",
@@ -1727,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\script.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\script.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -1746,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\site.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1765,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\validate.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\validate.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "js/validate.js",
       "AssetKind": "All",
@@ -1784,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validate.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1803,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1822,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1841,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1860,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1879,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1898,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1917,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1936,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1955,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1974,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1993,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2012,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2031,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2050,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2069,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2088,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2107,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2126,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2145,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2164,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2183,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2202,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2221,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2240,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2259,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2278,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2297,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2316,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2335,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2354,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2373,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2392,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2411,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2430,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2449,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2468,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2487,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2506,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2525,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2544,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2563,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2582,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2601,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2620,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2639,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\easing\\easing.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\easing\\easing.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/easing/easing.js",
       "AssetKind": "All",
@@ -2658,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\easing\\easing.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\easing\\easing.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -2677,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2696,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2715,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2734,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2753,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2772,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2791,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2810,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2829,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2848,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2867,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2886,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2905,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
@@ -2924,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
@@ -2943,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
@@ -2962,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
@@ -2981,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -3000,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
@@ -3019,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
@@ -3038,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
@@ -3057,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/LICENSE",
       "AssetKind": "All",
@@ -3076,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
@@ -3095,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
@@ -3114,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\mail\\contact.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\mail\\contact.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "mail/contact.js",
       "AssetKind": "All",
@@ -3133,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\mail\\contact.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\mail\\contact.php",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\mail\\contact.php",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "mail/contact.php",
       "AssetKind": "All",
@@ -3152,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\mail\\contact.php"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\mail\\jqBootstrapValidation.min.js",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "mail/jqBootstrapValidation.min.js",
       "AssetKind": "All",
@@ -3171,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\mail\\jqBootstrapValidation.min.js"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -3190,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -3209,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -3228,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -3247,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -3266,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -3285,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -3304,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -3323,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_code.scss",
       "AssetKind": "All",
@@ -3342,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_code.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_custom-forms.scss",
       "AssetKind": "All",
@@ -3361,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -3380,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -3399,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -3418,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -3437,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -3456,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_input-group.scss",
       "AssetKind": "All",
@@ -3475,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_input-group.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_jumbotron.scss",
       "AssetKind": "All",
@@ -3494,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -3513,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_media.scss",
       "AssetKind": "All",
@@ -3532,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_media.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -3551,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -3570,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -3589,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -3608,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -3627,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -3646,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_print.scss",
       "AssetKind": "All",
@@ -3665,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_print.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -3684,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -3703,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -3722,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -3741,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -3760,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -3779,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -3798,10 +3855,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_transitions.scss",
       "AssetKind": "All",
@@ -3817,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -3836,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -3855,10 +3912,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/_variables.scss",
       "AssetKind": "All",
@@ -3874,10 +3931,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -3893,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -3912,10 +3969,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -3931,10 +3988,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -3950,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_background-variant.scss",
       "AssetKind": "All",
@@ -3969,10 +4026,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_badge.scss",
       "AssetKind": "All",
@@ -3988,10 +4045,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -4007,10 +4064,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -4026,10 +4083,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -4045,10 +4102,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -4064,10 +4121,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -4083,10 +4140,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -4102,10 +4159,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -4121,10 +4178,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_float.scss",
       "AssetKind": "All",
@@ -4140,10 +4197,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -4159,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -4178,10 +4235,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -4197,10 +4254,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_grid-framework.scss",
       "AssetKind": "All",
@@ -4216,10 +4273,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_hover.scss",
       "AssetKind": "All",
@@ -4235,10 +4292,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -4254,10 +4311,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -4273,10 +4330,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -4292,10 +4349,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_nav-divider.scss",
       "AssetKind": "All",
@@ -4311,10 +4368,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -4330,10 +4387,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -4349,10 +4406,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -4368,10 +4425,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_screen-reader.scss",
       "AssetKind": "All",
@@ -4387,10 +4444,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_size.scss",
       "AssetKind": "All",
@@ -4406,10 +4463,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_table-row.scss",
       "AssetKind": "All",
@@ -4425,10 +4482,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_text-emphasis.scss",
       "AssetKind": "All",
@@ -4444,10 +4501,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_text-hide.scss",
       "AssetKind": "All",
@@ -4463,10 +4520,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -4482,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -4501,10 +4558,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/mixins/_visibility.scss",
       "AssetKind": "All",
@@ -4520,10 +4577,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_align.scss",
       "AssetKind": "All",
@@ -4539,10 +4596,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_background.scss",
       "AssetKind": "All",
@@ -4558,10 +4615,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_borders.scss",
       "AssetKind": "All",
@@ -4577,10 +4634,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_clearfix.scss",
       "AssetKind": "All",
@@ -4596,10 +4653,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_display.scss",
       "AssetKind": "All",
@@ -4615,10 +4672,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_embed.scss",
       "AssetKind": "All",
@@ -4634,10 +4691,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_flex.scss",
       "AssetKind": "All",
@@ -4653,10 +4710,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_float.scss",
       "AssetKind": "All",
@@ -4672,10 +4729,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_interactions.scss",
       "AssetKind": "All",
@@ -4691,10 +4748,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_overflow.scss",
       "AssetKind": "All",
@@ -4710,10 +4767,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_position.scss",
       "AssetKind": "All",
@@ -4729,10 +4786,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_screenreaders.scss",
       "AssetKind": "All",
@@ -4748,10 +4805,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_shadows.scss",
       "AssetKind": "All",
@@ -4767,10 +4824,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_sizing.scss",
       "AssetKind": "All",
@@ -4786,10 +4843,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_spacing.scss",
       "AssetKind": "All",
@@ -4805,10 +4862,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_stretched-link.scss",
       "AssetKind": "All",
@@ -4824,10 +4881,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_text.scss",
       "AssetKind": "All",
@@ -4843,10 +4900,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/utilities/_visibility.scss",
       "AssetKind": "All",
@@ -4862,10 +4919,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -4881,10 +4938,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\style.scss",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\scss\\style.scss",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
       "RelativePath": "scss/style.scss",
       "AssetKind": "All",

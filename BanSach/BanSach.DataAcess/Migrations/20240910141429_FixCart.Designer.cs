@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BanSach.DataAcess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240713092035_AddInitialToDb")]
-    partial class AddInitialToDb
+    [Migration("20240910141429_FixCart")]
+    partial class FixCart
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

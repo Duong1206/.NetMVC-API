@@ -68,3 +68,21 @@ C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSach.DataAcess\obj\Debug\net6.0
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.pdb
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.genruntimeconfig.cache
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSach.DataAcess\obj\Debug\net6.0\ref\BanSach.DataAcess.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.deps.json
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.runtimeconfig.json
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.DataAcess.pdb
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Model.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Model.pdb
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.csproj.AssemblyReference.cache
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.AssemblyInfoInputs.cache
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.AssemblyInfo.cs
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.csproj.CoreCompileInputs.cache
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.sourcelink.json
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach..6D6F26AC.Up2Date
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\refint\BanSach.DataAcess.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.pdb
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.genruntimeconfig.cache
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.DataAcess\obj\Debug\net6.0\ref\BanSach.DataAcess.dll
