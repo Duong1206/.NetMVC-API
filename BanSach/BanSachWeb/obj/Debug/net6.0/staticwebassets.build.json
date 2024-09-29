@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BcQFtMKLCP4DH0x+xzffqs4TCB0eHgqY3+KP/Hd9U7s=",
+  "Hash": "BhzqtepI6hw6T87ozJN7QBSvUImXJmTuoYG8j/n4SOs=",
   "Source": "BanSachWeb",
   "BasePath": "_content/BanSachWeb",
   "Mode": "Default",
@@ -1385,12 +1385,12 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp"
     },
     {
-      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\5e39fbb3-7bfd-41af-a205-dbf4c72a5f7b.jpg",
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\759177bb-8a17-4904-b2d3-809dbdb39e0e.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
-      "RelativePath": "images/products/5e39fbb3-7bfd-41af-a205-dbf4c72a5f7b.jpg",
+      "RelativePath": "images/products/759177bb-8a17-4904-b2d3-809dbdb39e0e.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1401,7 +1401,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\5e39fbb3-7bfd-41af-a205-dbf4c72a5f7b.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\759177bb-8a17-4904-b2d3-809dbdb39e0e.jpg"
     },
     {
       "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\8c9409cd-b8ab-4cc5-959b-b78de67ae818.jpg",
@@ -1478,6 +1478,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\c2f4dcd0-48c3-4029-98c9-2a4f6a2b6450.jpg"
+    },
+    {
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\d5a973fd-ddef-4b38-ae05-13c539524d53.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/d5a973fd-ddef-4b38-ae05-13c539524d53.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\d5a973fd-ddef-4b38-ae05-13c539524d53.jpg"
     },
     {
       "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library1.jpg",
@@ -1744,6 +1763,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\contact.js",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "js/contact.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\contact.js"
     },
     {
       "Identity": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",

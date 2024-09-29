@@ -10,7 +10,8 @@
 
             @foreach (var item in Model)
             {
-                <a href="#" class="nav-item nav-link">@item.Name</a>
+                <a href="@Url.Action("ProductCategory", "Shop", new { categoryId = item.Id })" class="nav-item nav-link">@item.Name</a>
+
             }
 
         </div>

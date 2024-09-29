@@ -3,28 +3,26 @@
 <!-- Category Start -->
 <div class="border-bottom mb-4 pb-4">
     <h5 class="font-weight-semi-bold mb-4">Filter by category</h5>
-    <form id="category-filter">
+    <form id="category-filtered">
         @{
-            var totalDisplayOrder = 0;
+            var totalDisplayOrder = Model.Sum(item => item.DisplayOrder); // Tính tổng của tất cả DisplayOrder
         }
 
         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-            <input type="checkbox" class="custom-control-input" value="all" id="category-all">
-            <label class="custom-control-label" for="category-all">All Price</label>
-            <span class="badge border font-weight-normal">@totalDisplayOrder</span>
+            <input type="checkbox" class="custom-control-input category-checkbox" value="all" id="category-all">
+            <label class="custom-control-label" for="category-all">Tất cả thể loại</label>
+            <span class="badge border font-weight-normal text-dark">@totalDisplayOrder</span> <!-- Hiển thị tổng -->
         </div>
 
         @foreach (var item in Model)
         {
-            totalDisplayOrder += item.DisplayOrder;
-
             <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                 <input type="checkbox" class="custom-control-input category-checkbox" value="@item.Id" id="category-@item.Id">
                 <label class="custom-control-label" for="category-@item.Id">@item.Name</label>
-                <span class="badge border font-weight-normal">@item.DisplayOrder</span>
+                <span class="badge border font-weight-normal text-dark">@item.DisplayOrder</span>
             </div>
         }
+
     </form>
 </div>
-
 <!-- Category End -->

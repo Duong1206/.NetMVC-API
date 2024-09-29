@@ -45,8 +45,8 @@
       "PackagePath": "staticwebassets\\images\\products\\59c90233-c1a8-4e9c-8231-2b18b22b68a3.webp"
     },
     {
-      "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\5e39fbb3-7bfd-41af-a205-dbf4c72a5f7b.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\5e39fbb3-7bfd-41af-a205-dbf4c72a5f7b.jpg"
+      "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\759177bb-8a17-4904-b2d3-809dbdb39e0e.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\759177bb-8a17-4904-b2d3-809dbdb39e0e.jpg"
     },
     {
       "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\8c9409cd-b8ab-4cc5-959b-b78de67ae818.jpg",
@@ -63,6 +63,10 @@
     {
       "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\c2f4dcd0-48c3-4029-98c9-2a4f6a2b6450.jpg",
       "PackagePath": "staticwebassets\\images\\products\\c2f4dcd0-48c3-4029-98c9-2a4f6a2b6450.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\d5a973fd-ddef-4b38-ae05-13c539524d53.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\d5a973fd-ddef-4b38-ae05-13c539524d53.jpg"
     },
     {
       "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library1.jpg",
@@ -119,6 +123,10 @@
     {
       "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\company.js",
       "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
     },
     {
       "Id": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\wwwroot\\js\\main.js",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanSach.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d31efff954d966f362471e67f070364c62021ecf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c8b4d99ff439a54daa59e60f8349509c37f8dea")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanSach.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanSach.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
