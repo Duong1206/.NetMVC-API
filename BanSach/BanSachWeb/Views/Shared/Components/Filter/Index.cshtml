@@ -1,21 +1,28 @@
 ﻿@model IEnumerable<BanSach.Model.Category>
+
 <!-- Category Start -->
 <div class="border-bottom mb-4 pb-4">
     <h5 class="font-weight-semi-bold mb-4">Filter by category</h5>
-    <form>
+    <form id="category-filtered">
+        @{
+            var totalDisplayOrder = Model.Sum(item => item.DisplayOrder); // Tính tổng của tất cả DisplayOrder
+        }
+
         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-            <input type="checkbox" class="custom-control-input" checked id="price-all">
-            <label class="custom-control-label" for="price-all">All Price</label>
-            <span class="badge border font-weight-normal">1000</span>
+            <input type="checkbox" class="custom-control-input category-checkbox" value="all" id="category-all">
+            <label class="custom-control-label" for="category-all">Tất cả thể loại</label>
+            <span class="badge border font-weight-normal text-dark">@totalDisplayOrder</span> <!-- Hiển thị tổng -->
         </div>
-        @foreach(var item in Model)
+
+        @foreach (var item in Model)
         {
             <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                <input type="checkbox" class="custom-control-input" checked id="price-all">
-                <label class="custom-control-label" for="price-all">@item.Name</label>
-                <span class="badge border font-weight-normal">1000</span>
+                <input type="checkbox" class="custom-control-input category-checkbox" value="@item.Id" id="category-@item.Id">
+                <label class="custom-control-label" for="category-@item.Id">@item.Name</label>
+                <span class="badge border font-weight-normal text-dark">@item.DisplayOrder</span>
             </div>
         }
+
     </form>
 </div>
 <!-- Category End -->

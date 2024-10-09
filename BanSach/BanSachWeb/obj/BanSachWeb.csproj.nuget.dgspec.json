@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj": {}
+    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
+    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+        "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
         "projectName": "BanSach.DataAcess",
-        "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+        "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\obj\\",
+        "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
-                "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
+              "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+                "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+        "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
         "projectName": "BanSach.Model",
-        "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+        "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\obj\\",
+        "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+        "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
         "projectName": "BanSach.Utility",
-        "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+        "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\obj\\",
+        "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -245,14 +245,14 @@
         }
       }
     },
-    "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj": {
+    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+        "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
         "projectName": "BanSachWeb",
-        "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+        "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\",
+        "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -270,11 +270,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
-                "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
+              "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
+                "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
               },
-              "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
-                "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
+              "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+                "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
               }
             }
           }

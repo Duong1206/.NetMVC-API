@@ -127,33 +127,33 @@ namespace BanSachWeb.Areas.Identity.Pages.Account
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            if(!_roleManager.RoleExistsAsync(SD.Role_User_Admin).GetAwaiter().GetResult())
+            if (!_roleManager.RoleExistsAsync(SD.Role_User_Admin).GetAwaiter().GetResult())
             {
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Admin)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Employee)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Indi)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Comp)).GetAwaiter().GetResult();
-
-
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Admin));
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Employee));
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Indi));
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Comp));
             }
+
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-            Input = new InputModel()
+
+            Input = new InputModel
             {
-                RoleList = _roleManager.Roles.Select(x => x.Name).Select(
-                    i=>new SelectListItem
-                    {
-                        Text = i,
-                        Value = i
-                    }
-                    ),
-                CompanyList = _unitOfWork.Company.GetAll().Select(i=>new SelectListItem
+                RoleList = _roleManager.Roles.Select(x => new SelectListItem
+                {
+                    Text = x.Name,
+                    Value = x.Name
+                }).ToList(),
+
+                CompanyList = (await _unitOfWork.Company.GetAllAsync()).Select(i => new SelectListItem
                 {
                     Text = i.Name,
-                    Value = i.City.ToString()
-                })
+                    Value = i.Id.ToString() // Assuming `Id` is the unique identifier for the company
+                }).ToList()
             };
         }
+
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {

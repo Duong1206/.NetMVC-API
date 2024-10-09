@@ -13,7 +13,8 @@ namespace BanSachWeb.Areas.Customer.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            var contact = _unitOfWork.Contact.GetAll();
+            return View(contact);
         }
     }
 }

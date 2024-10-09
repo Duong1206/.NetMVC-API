@@ -17,13 +17,6 @@ builder.Services.AddControllersWithViews();
 
 // thêm servicer chạy runtime không cần build lại
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>
-    {
-        options.LoginPath = "$/Identity/Account/Login";
-        options.LogoutPath = "$/Identity/Account/Logout";
-        options.AccessDeniedPath = "$/Identity/Account/AccessDeniedPath";
-    });
 
 // thêm servvice chuyền chuỗi kn vào
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -42,6 +35,15 @@ builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProvide
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath = $"/Identity/Account/AccessDeniedPath";
+
+});
+
 
 var app = builder.Build();
 

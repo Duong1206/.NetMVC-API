@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VWtYBVECuTk=",
+  "dgSpecHash": "OFmctetXG9M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+  "projectFilePath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\bogus\\35.5.1\\bogus.35.5.1.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

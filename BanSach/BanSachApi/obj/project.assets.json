@@ -8868,11 +8868,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachApi\\BanSachApi.csproj",
+      "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachApi\\BanSachApi.csproj",
       "projectName": "BanSachApi",
-      "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachApi\\BanSachApi.csproj",
+      "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachApi\\BanSachApi.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSachApi\\obj\\",
+      "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8890,14 +8890,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
-              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
+            "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
+              "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
             },
-            "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
-              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
+            "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+              "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
             },
-            "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
-              "projectPath": "C:\\Users\\nguye\\OneDrive\\Máy tính\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
+            "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+              "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
             }
           }
         }

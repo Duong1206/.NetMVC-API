@@ -26,13 +26,13 @@ namespace BanSachWeb.Areas.Customer.Controllers
             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
             ShoppingCartVM = new ShoppingCartVM()
             {
-                ListCart = _unitOfWork.ShoppingCart.GetAll(u=>u.ApplicationUserId==claim.Value, includeProperties:"Product"),
+                ListCart = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value, includeProperties: "Product"),
                 OrderHeader = new()
             };
-            foreach(var cart in ShoppingCartVM.ListCart)
+            foreach (var cart in ShoppingCartVM.ListCart)
             {
                 cart.Price = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price100, cart.Product.Price50, cart.Product.Price100);
-            
+
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
             }
             return View(ShoppingCartVM);
@@ -63,7 +63,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
             }
             return View(ShoppingCartVM);
-            
+
         }
 
         [ActionName("Summary")]
@@ -90,7 +90,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             _unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
             _unitOfWork.Save();
 
-            foreach(var cart in ShoppingCartVM.ListCart)
+            foreach (var cart in ShoppingCartVM.ListCart)
             {
                 OrderDetail orderDetail = new OrderDetail()
                 {
@@ -107,13 +107,13 @@ namespace BanSachWeb.Areas.Customer.Controllers
             _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartVM.ListCart);
             _unitOfWork.Save();
 
-            return RedirectToAction("Index","Home");
-            
+            return RedirectToAction("Index", "Home");
+
         }
 
         public IActionResult Plus(int CartId)
         {
-            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u=>u.Id==CartId);
+            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == CartId);
             _unitOfWork.ShoppingCart.IncrementCount(cart, 1);
             _unitOfWork.Save();
             return RedirectToAction(nameof(Index));
@@ -122,7 +122,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
         public IActionResult Minus(int CartId)
         {
             var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == CartId);
-            if(cart.Count<=1)
+            if (cart.Count <= 1)
             {
                 _unitOfWork.ShoppingCart.Remove(cart);
             }
@@ -143,9 +143,9 @@ namespace BanSachWeb.Areas.Customer.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private double GetPriceBaseOnQuantity(double quantity,double price,double price50,double price100)
+        private double GetPriceBaseOnQuantity(double quantity, double price, double price50, double price100)
         {
-            if(quantity<=50)
+            if (quantity <= 50)
             {
                 return price;
             }

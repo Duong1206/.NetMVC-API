@@ -11,13 +11,13 @@ using X.PagedList;
 namespace BanSachWeb.Areas.Customer.Controllers
 {
     [Area("Customer")]
-    
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IUnitOfWork _unitOfWork;
         public int PageSize = 12;
-        public HomeController(ILogger<HomeController> logger,IUnitOfWork unitOfWork)
+        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)
         {
             _logger = logger;
             _unitOfWork = unitOfWork;
@@ -27,15 +27,15 @@ namespace BanSachWeb.Areas.Customer.Controllers
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category").Take(PageSize);
             return View(productList);
         }
-        [Authorize]
+
         public IActionResult Details(int id)
         {
             ShoppingCart cartObj = new()
             {
-               Product = _unitOfWork.Product.GetFirstOrDefault(u=>u.Id == id,includeProperties:"Category"),
-               Count = 1,
-               ProductId = id
-               
+                Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id, includeProperties: "Category"),
+                Count = 1,
+                ProductId = id
+
             };
             return View(cartObj);
         }
@@ -61,6 +61,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
         public IActionResult Privacy()
         {
             return View();

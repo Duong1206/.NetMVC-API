@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BanSach.DataAcess.Migrations
 {
-    public partial class AddInitialToDb : Migration
+    public partial class FixCart : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

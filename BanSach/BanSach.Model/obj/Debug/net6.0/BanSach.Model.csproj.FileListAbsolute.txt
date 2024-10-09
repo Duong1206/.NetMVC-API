@@ -48,3 +48,16 @@ C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSach.Model\obj\Debug\net6.0\Ban
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSach.Model\obj\Debug\net6.0\refint\BanSach.Model.dll
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.pdb
 C:\Users\nguye\OneDrive\Máy tính\PS\BanSach\BanSach.Model\obj\Debug\net6.0\ref\BanSach.Model.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\bin\Debug\net6.0\BanSach.Model.deps.json
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\bin\Debug\net6.0\BanSach.Model.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\bin\Debug\net6.0\BanSach.Model.pdb
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.csproj.AssemblyReference.cache
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.AssemblyInfoInputs.cache
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.AssemblyInfo.cs
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.csproj.CoreCompileInputs.cache
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.sourcelink.json
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\refint\BanSach.Model.dll
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.pdb
+D:\ProjectIndividual\CodeMVC1\BanSach\BanSach.Model\obj\Debug\net6.0\ref\BanSach.Model.dll
