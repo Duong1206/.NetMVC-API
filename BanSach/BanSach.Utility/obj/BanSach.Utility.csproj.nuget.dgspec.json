@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {}
+    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {}
   },
   "projects": {
-    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+        "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
         "projectName": "BanSach.Utility",
-        "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+        "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\obj\\",
+        "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

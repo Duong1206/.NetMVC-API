@@ -7186,11 +7186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+      "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
       "projectName": "BanSach.Model",
-      "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+      "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\obj\\",
+      "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

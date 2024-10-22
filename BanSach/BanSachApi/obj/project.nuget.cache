@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WaoeUu53VF8=",
+  "dgSpecHash": "62chixH+fsw=",
   "success": true,
-  "projectFilePath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachApi\\BanSachApi.csproj",
+  "projectFilePath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachApi\\BanSachApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\bogus\\35.5.1\\bogus.35.5.1.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

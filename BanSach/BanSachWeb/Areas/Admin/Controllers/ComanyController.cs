@@ -1,10 +1,7 @@
 ﻿using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model;
-using BanSach.Model.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using System.IO;
 
 
 namespace BanSachWeb.Areas.Admin.Controllers

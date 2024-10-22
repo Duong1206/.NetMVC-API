@@ -128,15 +128,25 @@
     <partial name="_ValidationScriptsPartial" />
     <script>
         $(document).ready(function () {
-            $('#Input_Role').change(function () {
-                var selection = $('#input_Role Option:Selected').text();
-                if (selection != 'Company') {
-                    $('Input_CompanyId').hide();
+            $('#registerSubmit').click(function (e) {
+                var phoneNumber = $('#Input_PhoneNumber').val();
+                var phoneRegex = /^0[35789]\d{8}$/;
+
+                if (!phoneRegex.test(phoneNumber)) {
+                    e.preventDefault(); // Prevent form submission
+                    alert("Please enter a valid Vietnamese phone number. It must be 10 digits and start with 03, 05, 07, 08, or 09.");
                 }
-                else{
-                    $('Input_CompanyId').show();
+            });
+
+            $('#Input_Role').change(function () {
+                var selection = $('#Input_Role option:selected').text();
+                if (selection != 'Company') {
+                    $('#Input_CompanyId').hide();
+                } else {
+                    $('#Input_CompanyId').show();
                 }
             });
         });
     </script>
 }
+

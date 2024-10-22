@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {}
+    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {}
   },
   "projects": {
-    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
+    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+        "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
         "projectName": "BanSach.DataAcess",
-        "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+        "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\obj\\",
+        "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
-                "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
+              "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+                "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+        "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
         "projectName": "BanSach.Model",
-        "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+        "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Model\\obj\\",
+        "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

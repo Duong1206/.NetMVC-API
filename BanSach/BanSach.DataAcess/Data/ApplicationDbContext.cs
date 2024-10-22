@@ -12,14 +12,15 @@ namespace BanSach.DataAcess.Data
         }
 
         //khai báo list Category
-        public DbSet<Category> Categories{ get; set; }
-        public DbSet<CoverType> CoverTypes{ get; set; }
-        public DbSet<Product> Products{ get; set; }
-        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
-        public DbSet<Company> companies { get; set; }
-        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
-        public DbSet<OrderHeader> OrderHeaders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
-        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Category>? Categories{ get; set; }
+        public DbSet<CoverType>? CoverTypes{ get; set; }
+        public DbSet<Product>? Products{ get; set; }
+        public DbSet<ApplicationUser>? ApplicationUsers { get; set; }
+        public DbSet<Company>? companies { get; set; }
+        public DbSet<ShoppingCart>? ShoppingCarts { get; set; }
+        public DbSet<OrderHeader>? OrderHeaders { get; set; }
+        public DbSet<OrderDetail>? OrderDetails { get; set; }
+        public DbSet<Contact>? Contacts { get; set; }
+        public DbSet<Coupon>? Coupons { get; set; }
     }
 }

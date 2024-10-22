@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Product>
+
+<ul class="list-group">
+    @foreach (var product in Model)
+    {
+        <li class="list-group-item">
+            <a href="@Url.Action("Details", "Shop", new { id = product.Id })">@product.Name</a>
+        </li>
+    }
+</ul>

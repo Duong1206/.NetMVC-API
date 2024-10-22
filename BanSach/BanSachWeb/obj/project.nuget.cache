@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zImNE3v7yzk=",
+  "dgSpecHash": "7ATFThQhiVY=",
   "success": true,
-  "projectFilePath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+  "projectFilePath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\baseline\\4.1.0\\baseline.4.1.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\bogus\\35.5.1\\bogus.35.5.1.nupkg.sha512",

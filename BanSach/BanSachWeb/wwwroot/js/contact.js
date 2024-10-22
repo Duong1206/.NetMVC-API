@@ -9,11 +9,11 @@ function loadDataTable() {
             "url": "/admin/contact/GetAll"
         },
         "columns": [
-            { "data": "name", "width": "15%" },
-            { "data": "map", "width": "15%" },
-            { "data": "address", "width": "15%" },
-            { "data": "email", "width": "15%" },
-            { "data": "phone", "width": "15%" },
+            { "data": "name", "width": "5%" },
+            { "data": "map", "width": "5%" },
+            { "data": "address", "width": "5%" },
+            { "data": "email", "width": "5%" },
+            { "data": "phone", "width": "55%" },
             {
                 "data": "id",
                 "render": function (data) {
@@ -28,7 +28,7 @@ function loadDataTable() {
                     </div>
                     `;
                 },
-                "width": "15%"
+                "width": "5%"
             }
         ]
     });

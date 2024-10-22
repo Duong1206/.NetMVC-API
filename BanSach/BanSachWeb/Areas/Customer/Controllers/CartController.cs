@@ -33,7 +33,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             {
                 cart.Price = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price100, cart.Product.Price50, cart.Product.Price100);
 
-                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
             }
             return View(ShoppingCartVM);
         }
@@ -60,7 +60,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             foreach (var cart in ShoppingCartVM.ListCart)
             {
                 cart.Price = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price100, cart.Product.Price50, cart.Product.Price100);
-                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
             }
             return View(ShoppingCartVM);
 
@@ -84,7 +84,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             foreach (var cart in ShoppingCartVM.ListCart)
             {
                 cart.Price = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price100, cart.Product.Price50, cart.Product.Price100);
-                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
+                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
             }
 
             _unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
@@ -145,17 +145,17 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
         private double GetPriceBaseOnQuantity(double quantity, double price, double price50, double price100)
         {
-            if (quantity <= 50)
+            if (quantity <= 10)
             {
                 return price;
             }
             else
             {
-                if (quantity <= 100)
+                if (quantity <= 20)
                 {
-                    return price50;
+                    return price50* 0.9;
                 }
-                return price100;
+                return price100 * 0.7;
             }
         }
     }

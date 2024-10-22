@@ -12985,11 +12985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+      "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
       "projectName": "BanSachWeb",
-      "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+      "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSachWeb\\obj\\",
+      "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13007,11 +13007,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
-              "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
+            "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
+              "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
             },
-            "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
-              "projectPath": "D:\\ProjectIndividual\\CodeMVC1\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
+            "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+              "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
             }
           }
         }

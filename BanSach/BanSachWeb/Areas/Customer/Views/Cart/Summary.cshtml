@@ -1,5 +1,27 @@
 ﻿@model BanSach.Model.ViewModel.ShoppingCartVM
+<head>
+    <meta charset="utf-8">
+    <title>Book Store</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
+    <!-- Favicon -->
+    <link href="/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
 <form method="post">
     <br />
     <div class="container">
@@ -7,9 +29,7 @@
             <div class="card-header bg-dark text-light ml-0" style="height:60px">
                 <div class="row container">
                     <div class="col-6">
-                        <i class="fa fa-shopping-cart">
-
-                        </i>&nbsp;
+                        <i class="fa fa-shopping-cart"></i>&nbsp;
                         Order Summary
                     </div>
                     <div class="col-6 text-end">
@@ -31,7 +51,7 @@
                                     <label>Name</label>
                                 </div>
                                 <div class="col-9">
-                                    <input asp-for="OrderHeader.Name" class="form-control" />
+                                    <input asp-for="OrderHeader.Name" class="form-control" readonly />
                                     <span asp-validation-for="OrderHeader.Name" class="text-danger"></span>
                                 </div>
                             </div>
@@ -40,7 +60,7 @@
                                     <label>Phone Number</label>
                                 </div>
                                 <div class="col-9">
-                                    <input asp-for="OrderHeader.PhoneNumber" class="form-control" />
+                                    <input asp-for="OrderHeader.PhoneNumber" class="form-control" readonly />
                                     <span asp-validation-for="OrderHeader.PhoneNumber" class="text-danger"></span>
                                 </div>
                             </div>
@@ -49,7 +69,7 @@
                                     <label>Street Address</label>
                                 </div>
                                 <div class="col-9">
-                                    <input asp-for="OrderHeader.StreetAddress" class="form-control" />
+                                    <input asp-for="OrderHeader.StreetAddress" class="form-control" readonly />
                                     <span asp-validation-for="OrderHeader.StreetAddress" class="text-danger"></span>
                                 </div>
                             </div>
@@ -58,7 +78,7 @@
                                     <label>City</label>
                                 </div>
                                 <div class="col-9">
-                                    <input asp-for="OrderHeader.City" class="form-control" />
+                                    <input asp-for="OrderHeader.City" class="form-control" readonly />
                                     <span asp-validation-for="OrderHeader.City" class="text-danger"></span>
                                 </div>
                             </div>
@@ -67,7 +87,7 @@
                                     <label>State</label>
                                 </div>
                                 <div class="col-9">
-                                    <input asp-for="OrderHeader.State" class="form-control" />
+                                    <input asp-for="OrderHeader.State" class="form-control" readonly />
                                     <span asp-validation-for="OrderHeader.State" class="text-danger"></span>
                                 </div>
                             </div>
@@ -76,7 +96,7 @@
                                     <label>Postal Code</label>
                                 </div>
                                 <div class="col-9">
-                                    <input asp-for="OrderHeader.PostalCode" class="form-control" />
+                                    <input asp-for="OrderHeader.PostalCode" class="form-control" readonly />
                                     <span asp-validation-for="OrderHeader.PostalCode" class="text-danger"></span>
                                 </div>
                             </div>
@@ -86,35 +106,42 @@
                                 <span class="text-info">Order Summary</span>
                             </h4>
                             <ul class="list-group mb-3">
-                                @foreach(var item in Model.ListCart)
+                                @foreach (var item in Model.ListCart)
                                 {
                                     <li class="list-group-item d-flex justify-content-between">
                                         <div>
                                             <h6 class="my-0">@item.Product.Name</h6>
                                             <small class="text-muted">Quantity: @item.Count</small>
                                         </div>
-                                        <span class="text-muted">@((item.Price*item.Count).ToString("c")) VND</span>
+                                        <div class="text-right">
+                                            <span class="text-muted" style="display:block;"><strike>@((item.Price * item.Count)) VND</strike></span>
+                                            <span class="text-muted" style="display:block;">@((item.Product.Price50 * item.Count)) VND</span>
+                                        </div>
                                     </li>
                                 }
-                                
-                                <li class="list-group-item d-flex justify-content-between bg-light">
-                                    
-                                    <small class="text-info">Total (VND)</small>
-                                   
-                                    <strong class="text-info">@Model.OrderHeader.OrderTotal.ToString("c") VND</strong>
-                                </li>
+                                <div class="row my-3">
+                                    <div class="col-9">
+                                        <input type="text" id="CouponCode" class="form-control" placeholder="Enter coupon code" />
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" id="ApplyCoupon" class="btn btn-success form-control">Apply</button>
+                                    </div>
+                                </div>
 
+                                <li class="list-group-item d-flex justify-content-between bg-light">
+                                    <small class="text-info">Total (VND)</small>
+                                    <strong class="text-info">@Model.OrderHeader.OrderTotal VND</strong>
+                                </li>
                             </ul>
                         </div>
-
                     </div>
                 </div>
             </div>
             <div class="card-footer">
                 <div class="col-12 col-md-8 pt-2">
-                    <p style="color:maroon; font-size:14px">Estimate Arrival Date: 
+                    <p style="color:maroon; font-size:14px">
+                        Estimate Arrival Date:
                         @DateTime.Now.ToString() - @DateTime.Now.AddDays(14).ToShortDateString()
-
                     </p>
                 </div>
                 <div class="col-12 col-md-4">

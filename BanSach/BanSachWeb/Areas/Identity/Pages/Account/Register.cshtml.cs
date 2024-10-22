@@ -115,6 +115,8 @@ namespace BanSachWeb.Areas.Identity.Pages.Account
             public string? City { get; set; }
             public string? State { get; set; }
             public string? PostalCode { get; set; }
+            [Required]
+            [RegularExpression(@"^0[35789]\d{8}$", ErrorMessage = "Please enter a valid Vietnamese phone number (10 digits, starting with 03, 05, 07, 08, or 09).")]
             public string? PhoneNumber { get; set; }
             public string? Role { get; set; }
             public int? CompanyId { get; set; }
