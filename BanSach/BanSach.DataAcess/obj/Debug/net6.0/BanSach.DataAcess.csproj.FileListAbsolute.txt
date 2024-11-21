@@ -104,3 +104,5 @@ D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.DataAcess\obj\Debug\net6.0\refi
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.pdb
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.DataAcess\obj\Debug\net6.0\BanSach.DataAcess.genruntimeconfig.cache
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.DataAcess\obj\Debug\net6.0\ref\BanSach.DataAcess.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Utility.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.DataAcess\bin\Debug\net6.0\BanSach.Utility.pdb

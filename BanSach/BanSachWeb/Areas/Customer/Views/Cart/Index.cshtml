@@ -24,6 +24,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="/css/style.css" rel="stylesheet">
+
 </head>
 <body>
 <!-- Page Header Start -->
@@ -94,7 +95,7 @@
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between bg-light">
                                 <span class="text-info"> Total (VND)</span>
-                                <strong class="text-info">@Model.OrderHeader.OrderTotal VND</strong>
+                                <strong class="text-info">@Model.OrderHeader?.OrderTotal VND</strong>
                             </li>
                         </ul>
                     </div>

@@ -1,5 +1,4 @@
-﻿using BanSach.DataAcess.Data;
-using BanSach.DataAcess.Repository.IRepository;
+﻿using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -125,8 +124,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
                 TempData["success"] = "Category Delete successfully";
                 return RedirectToAction("index");
             }
-
-            return View(categoryFromDb);
+/*
+            return View(categoryFromDb);*/
 
         }
     }

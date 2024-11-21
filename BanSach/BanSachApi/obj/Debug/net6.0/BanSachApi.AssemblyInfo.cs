@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanSachApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98e1bfe3760700b446eaabefaabd3a1859c038c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c98cdc57b6eef4b31dfe6d8e6067607914b4d9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanSachApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanSachApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

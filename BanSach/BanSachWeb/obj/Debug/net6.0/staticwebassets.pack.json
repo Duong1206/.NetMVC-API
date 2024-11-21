@@ -53,6 +53,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\0c66b45b-f955-4407-9fbb-d15b8cc25c0a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\0c66b45b-f955-4407-9fbb-d15b8cc25c0a.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\book1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\book1.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\book2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\book2.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\c900805c-025e-46e2-bff9-1f3d3845fe45.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\c900805c-025e-46e2-bff9-1f3d3845fe45.jpg"
+    },
+    {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library1.jpg",
       "PackagePath": "staticwebassets\\img\\Library\\Library1.jpg"
     },

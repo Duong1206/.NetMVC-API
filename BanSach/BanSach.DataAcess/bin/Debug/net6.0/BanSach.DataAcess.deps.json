@@ -9,11 +9,13 @@
       "BanSach.DataAcess/1.0.0": {
         "dependencies": {
           "BanSach.Model": "1.0.0",
+          "BanSach.Utility": "1.0.0",
           "Bogus": "35.5.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.30",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.30",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.30"
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.30",
+          "RestSharp": "112.1.0"
         },
         "runtime": {
           "BanSach.DataAcess.dll": {}
@@ -127,7 +129,7 @@
       "Microsoft.AspNetCore.Http.Extensions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
           "Microsoft.Net.Http.Headers": "2.2.0",
           "System.Buffers": "4.5.0"
         }
@@ -144,6 +146,18 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.UI/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.0",
+          "Microsoft.Extensions.Identity.Stores": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52608"
           }
@@ -180,7 +194,7 @@
           "Microsoft.AspNetCore.Routing.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "Microsoft.Extensions.DependencyModel": "2.1.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.1",
           "System.Threading.Tasks.Extensions": "4.5.1"
@@ -433,16 +447,21 @@
           }
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
         }
       },
       "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
         }
       },
@@ -667,6 +686,14 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.1.20722"
+          }
+        }
+      },
+      "RestSharp/112.1.0": {
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "assemblyVersion": "112.1.0.0",
+            "fileVersion": "112.1.0.0"
           }
         }
       },
@@ -1447,6 +1474,15 @@
         "runtime": {
           "BanSach.Model.dll": {}
         }
+      },
+      "BanSach.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.30"
+        },
+        "runtime": {
+          "BanSach.Utility.dll": {}
+        }
       }
     }
   },
@@ -1595,6 +1631,13 @@
       "sha512": "sha512-e4aPE+DfCOiGGYJzsKA9up5hmiCYzwxz+ktkFvuMUnLD2FfNPkjAXjdElfaH9wr7chEwOerOcQhNKS/THPew8A==",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.0",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Identity.UI/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mOHPfEtt524BDlZPZ4rXZRZp5R8LnMXAJ+57tx7eaSw8KGqI+qYUbtFRtZKynZma3+tuiLhJlVhOTj2IdfB8WQ==",
+      "path": "microsoft.aspnetcore.identity.ui/6.0.0",
+      "hashPath": "microsoft.aspnetcore.identity.ui.6.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.JsonPatch/2.2.0": {
       "type": "package",
@@ -1785,12 +1828,19 @@
       "path": "microsoft.extensions.dependencymodel/2.1.0",
       "hashPath": "microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EcnaSsPTqx2MGnHrmWOD0ugbuuqVT8iICqSqPzi45V5/MA1LjUNb0kwgcxBGqizV1R+WeBK7/Gw25Jzkyk9bIw==",
-      "path": "microsoft.extensions.fileproviders.abstractions/2.2.0",
-      "hashPath": "microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512"
+      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9uQbDTqX1MidhoZFUSK1JItt74IapEadFDOIWAlBIKxr3O/ZEWLWkLYGlgUeP1Dkyog6/CB7h1EAU3xADYZ/lA==",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
       "type": "package",
@@ -1973,6 +2023,13 @@
       "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
+    },
+    "RestSharp/112.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bOUGNZqhhv/QeCXHTKEUil846yBjwWXpzPKjO67kFvaAOoF361z7jLY5BMnuZ6WD2WQRA750sNMcK7MSPCQ5Mg==",
+      "path": "restsharp/112.1.0",
+      "hashPath": "restsharp.112.1.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -2591,6 +2648,11 @@
       "hashPath": "x.pagedlist.mvc.core.9.1.2.nupkg.sha512"
     },
     "BanSach.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BanSach.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

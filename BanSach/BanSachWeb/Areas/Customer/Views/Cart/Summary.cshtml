@@ -1,4 +1,7 @@
 ﻿@model BanSach.Model.ViewModel.ShoppingCartVM
+@using Microsoft.Extensions.Options
+@inject IOptions<BanSach.Utility.StripeSettings> Stripe
+
 <head>
     <meta charset="utf-8">
     <title>Book Store</title>
@@ -114,17 +117,17 @@
                                             <small class="text-muted">Quantity: @item.Count</small>
                                         </div>
                                         <div class="text-right">
-                                            <span class="text-muted" style="display:block;"><strike>@((item.Price * item.Count)) VND</strike></span>
+                                            <span class="text-muted" style="display:block;"><strike>@((item.Product.Price100 * item.Count)) VND</strike></span>
                                             <span class="text-muted" style="display:block;">@((item.Product.Price50 * item.Count)) VND</span>
                                         </div>
                                     </li>
                                 }
                                 <div class="row my-3">
                                     <div class="col-9">
-                                        <input type="text" id="CouponCode" class="form-control" placeholder="Enter coupon code" />
+                                        <input type="text" id="CouponCode" class="form-control coupon-value" placeholder="Enter coupon code" />
                                     </div>
                                     <div class="col-3">
-                                        <button type="button" id="ApplyCoupon" class="btn btn-success form-control">Apply</button>
+                                        <button type="button" id="ApplyCoupon" class="btn btn-success form-control btn-apply-coupon">Apply</button>
                                     </div>
                                 </div>
 
@@ -132,6 +135,24 @@
                                     <small class="text-info">Total (VND)</small>
                                     <strong class="text-info">@Model.OrderHeader.OrderTotal VND</strong>
                                 </li>
+                                <br />
+                                <div class="row my-3">
+                                    <div class="col-12">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="PaymentMethod" value="COD" class="form-check-input" checked>
+                                            Cash on Delivery (COD)
+                                        </label>
+                                    </div>
+                                   
+                                    <div class="col-12">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="PaymentMethod" value="Stripe" class="form-check-input">
+                                            Pay with Stripe
+                                        </label>
+                                    </div>
+                                </div>
+
+
                             </ul>
                         </div>
                     </div>
@@ -145,9 +166,10 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <button type="submit" value="Place Order" class="btn btn-primary form-control">Place Orders</button>
-                </div>
+                    <button id="btnPlaceOrder" type="submit" value="Place Order" class="btn btn-primary form-control">Place Orders</button>
             </div>
         </div>
     </div>
 </form>
+
+

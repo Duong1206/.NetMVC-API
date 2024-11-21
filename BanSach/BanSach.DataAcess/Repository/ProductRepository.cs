@@ -31,7 +31,7 @@ namespace BanSach.DataAcess.Repository
         /*override lại hàm update*/
         public void Update(Product product)
         {
-           var obj = _db.Products.FirstOrDefault(u => u.Id == product.Id);
+           var obj = _db.Products?.FirstOrDefault(u => u.Id == product.Id);
             if(obj != null)
             {
                 obj.Name = product.Name;
@@ -47,7 +47,7 @@ namespace BanSach.DataAcess.Repository
                     obj.ImageUrl = product.ImageUrl;
                 }
             }
-            _db.Products.Update(product);
+            _db.Products?.Update(product);
         }
 
         

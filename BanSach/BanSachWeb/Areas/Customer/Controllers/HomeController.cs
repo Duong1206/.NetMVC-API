@@ -2,11 +2,8 @@
 using BanSach.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Diagnostics;
-using System.Drawing.Printing;
 using System.Security.Claims;
-using X.PagedList;
 
 namespace BanSachWeb.Areas.Customer.Controllers
 {
@@ -58,8 +55,9 @@ namespace BanSachWeb.Areas.Customer.Controllers
                 _unitOfWork.ShoppingCart.IncrementCount(cartObj, shoppingCart.Count);
             }
             _unitOfWork.Save();
-
+            TempData["success"] = "Product added to cart successfully!";
             return RedirectToAction(nameof(Index));
+
         }
 
 

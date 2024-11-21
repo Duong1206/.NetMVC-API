@@ -10,6 +10,7 @@
     <PackageReference Include="Baseline" Version="4.1.0" />
     <PackageReference Include="DryIoc.dll" Version="5.4.3" />
     <PackageReference Include="LamarCodeGeneration" Version="6.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.29" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.29" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.30" />
@@ -21,16 +22,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Stripe.net" Version="47.0.0" />
     <PackageReference Include="X.PagedList.Mvc.Core" Version="9.1.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BanSach.DataAcess\BanSach.DataAcess.csproj" />
     <ProjectReference Include="..\BanSach.Utility\BanSach.Utility.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\images\products\" />
   </ItemGroup>
 
   <ItemGroup>

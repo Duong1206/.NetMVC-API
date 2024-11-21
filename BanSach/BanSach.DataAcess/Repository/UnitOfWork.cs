@@ -21,7 +21,7 @@ namespace BanSach.DataAcess.Repository
         public IOrderHeaderRepository OrderHeader { get; private set; }
         public IOrderDetailRepository OrderDetail { get; private set; }
         public IContactRepository Contact { get; private set; }
-
+        public ICouponRepository Coupon { get; private set; }
 
 
         //tạo 1 biến 
@@ -41,6 +41,7 @@ namespace BanSach.DataAcess.Repository
             OrderHeader = new OrderHeaderRepository(_db);
             OrderDetail = new OrderDetailRepository(_db);
             Contact = new ContactRepository(_db);
+            Coupon = new CouponRepository(_db);
         }
 
         public void Save()

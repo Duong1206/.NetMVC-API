@@ -12,13 +12,13 @@ namespace BanSach.Model
         public int ProductId { get; set; }
         [ForeignKey("ProductId")]
         [ValidateNever]
-        public Product Product { get; set; }
+        public Product? Product { get; set; }
         [Range(1,1000)]
         public int Count { get; set; }
         [ForeignKey("ApplicationUserId")]
-        public string ApplicationUserId { get; set; }
+        public string? ApplicationUserId { get; set; }
         [ValidateNever]
-        public ApplicationUser ApplicationUser { get; set; }
+        public ApplicationUser? ApplicationUser { get; set; }
         [NotMapped]
         public double Price { get; set; }
     }

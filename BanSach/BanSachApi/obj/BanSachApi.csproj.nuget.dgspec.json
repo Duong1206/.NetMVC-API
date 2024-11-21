@@ -31,6 +31,9 @@
             "projectReferences": {
               "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
                 "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
+              },
+              "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+                "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
               }
             }
           }
@@ -71,6 +74,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.30, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.1.0, )"
             }
           },
           "imports": [

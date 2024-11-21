@@ -1,26 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BanSach.Model
 {
     public class Coupon
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string? Name { get; set; }
         [Required]
-        public string Description { get; set; }
-        public DateTime DateStart { get; set; }
-        public DateTime DateExpired { get; set; }
-        [Required]
-        public decimal Price { get; set; }
+        public string? Description { get; set; }
+        public DateTime DateStarted { get; set; } = DateTime.Now;
+        public DateTime DateExpired { get; set; } = DateTime.Now.AddDays(5);
         [Required]
         public int Quantity { get; set; }
-        public int Status { get; set; }
+        public int Status { get; set; } 
+
     }
+
+
+
 }

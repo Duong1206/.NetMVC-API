@@ -3509,3 +3509,6 @@ D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachWeb\obj\Debug\net6.0\refint\BanS
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachWeb\obj\Debug\net6.0\BanSachWeb.pdb
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachWeb\obj\Debug\net6.0\BanSachWeb.genruntimeconfig.cache
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachWeb\obj\Debug\net6.0\ref\BanSachWeb.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachWeb\bin\Debug\net6.0\RestSharp.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachWeb\bin\Debug\net6.0\Stripe.net.dll

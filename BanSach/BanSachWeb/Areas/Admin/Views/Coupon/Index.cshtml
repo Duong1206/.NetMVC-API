@@ -1,0 +1,82 @@
+﻿@model IEnumerable<BanSach.Model.Coupon>
+
+<!--hiện thị khi thành công-->
+
+<partial name="_Notification" />
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2>Coupon List</h2>
+        </div>
+
+        <div class="col-6 text-end">
+            <a asp-controller="Coupon" asp-action="Create" class="btn btn-primary"> Create New Coupon</a>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>          
+            <th>Name</th>
+            <th>Description</th>    
+            <th>Date Started</th>
+            <th>Date Expired</th>
+            <th>Quantity</th>
+            <th>Active</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var coupon in Model)
+        {
+            <tr>     
+                <td>@coupon.Name</td>
+                <td>@coupon.Description</td>
+                <td>@coupon.DateStarted.ToString("dd-MM-yyyy")</td>
+                <td>@coupon.DateExpired.ToString("dd-MM-yyyy")</td>
+                <th>@coupon.Quantity</th>
+                <th>
+                    @if(coupon.Status == 1)
+                    {
+                        <select name="Status">
+                            <option selected value="1">Active</option>
+                            <option value="0">InActive</option>
+                        </select>
+                    }
+                    else
+                    {
+                        <select name="Status">
+                            <option value="1">Active</option>
+                            <option selected value="0">InActive</option>
+                        </select>
+                    }
+                </th>
+                <th>
+                    @if(coupon.DateExpired<DateTime.Now)
+                    {
+                        <span class="text text-danger">Expired</span>
+                    }
+                    else
+                    {
+                        TimeSpan remainingTime = coupon.DateExpired - DateTime.Now;
+                        int daysRemaining = remainingTime.Days;
+                        @if(daysRemaining ==0)
+                        {
+                            <span class="text text-danger">Today</span>
+                        }
+                        else
+                        {
+                            <spam class="text text-success">@daysRemaining days left</spam>
+                        }
+                    }
+                </th>
+
+                <td>
+                    <a asp-controller="Coupon" asp-action="Edit" asp-route-id="@coupon.Id"> Edit</a> |
+                    <a asp-controller="Coupon" asp-action="Delete" asp-route-id="@coupon.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

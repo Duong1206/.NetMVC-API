@@ -11,8 +11,6 @@ namespace BanSach.DataAcess.Repository.IRepository
     {
         void Update(Category category);
 
-        /*void Save();*/
-
 
     }
 }

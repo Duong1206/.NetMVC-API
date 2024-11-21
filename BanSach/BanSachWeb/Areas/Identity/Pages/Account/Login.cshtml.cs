@@ -14,6 +14,8 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace BanSachWeb.Areas.Identity.Pages.Account
 {
@@ -136,5 +138,7 @@ namespace BanSachWeb.Areas.Identity.Pages.Account
             // If we got this far, something failed, redisplay form
             return Page();
         }
+        
+
     }
 }

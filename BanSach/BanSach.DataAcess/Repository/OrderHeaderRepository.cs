@@ -29,7 +29,7 @@ namespace BanSach.DataAcess.Repository
 
         public void Update(OrderHeader obj)
         {
-           _db.OrderHeaders.Update(obj);
+           _db.OrderHeaders?.Update(obj);
         }
 
         public void UpdateStatus(int id, string orderStatus, string? paymentStatus = null)

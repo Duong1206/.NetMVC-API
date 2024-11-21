@@ -253,3 +253,4 @@ D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\refint\BanS
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\BanSachApi.pdb
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\BanSachApi.genruntimeconfig.cache
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\ref\BanSachApi.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\RestSharp.dll

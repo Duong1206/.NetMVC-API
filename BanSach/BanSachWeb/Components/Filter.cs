@@ -12,7 +12,7 @@ namespace BanSachWeb.Components
         }
         public IViewComponentResult Invoke()
         {
-            return View("Index",_context.Categories.ToList());
+            return View("Index",_context.Categories?.ToList());
         }
     }
 }

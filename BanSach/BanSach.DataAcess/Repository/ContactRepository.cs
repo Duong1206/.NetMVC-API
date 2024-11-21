@@ -28,7 +28,7 @@ namespace BanSach.DataAcess.Repository
 
         public void Update(Contact contact)
         {
-            _db.Contacts.Update(contact);
+            _db.Contacts?.Update(contact);
         }
     }
 }

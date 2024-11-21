@@ -31,6 +31,9 @@
             "projectReferences": {
               "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
                 "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
+              },
+              "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+                "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
               }
             }
           }
@@ -71,6 +74,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.30, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.1.0, )"
             }
           },
           "imports": [
@@ -306,6 +313,10 @@
               "target": "Package",
               "version": "[6.3.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.29, )"
@@ -339,6 +350,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[47.0.0, )"
             },
             "X.PagedList.Mvc.Core": {
               "target": "Package",

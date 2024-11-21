@@ -15,10 +15,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="RestSharp" Version="112.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BanSach.Model\BanSach.Model.csproj" />
+    <ProjectReference Include="..\BanSach.Utility\BanSach.Utility.csproj" />
   </ItemGroup>
 
 </Project>

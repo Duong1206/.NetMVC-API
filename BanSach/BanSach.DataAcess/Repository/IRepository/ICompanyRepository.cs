@@ -11,8 +11,5 @@ namespace BanSach.DataAcess.Repository.IRepository
     {
         void Update(Company company);
 
-        /*void Save();*/
-
-
     }
 }

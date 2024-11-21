@@ -64,9 +64,31 @@ namespace BanSachWeb.Areas.Customer.Controllers
             });
         }
 
-        
+        [HttpGet]
+        public IActionResult FilterProducts(string[] categories)
+        {
+            // Validate input
+            if (categories == null || !categories.Any())
+            {
+                return PartialView("_ProductList", new List<Product>()); // Return an empty list if no categories are selected
+            }
 
+            // Logic to retrieve products based on selected categories
+            var products = GetProductsByCategories(categories);
 
+            // Return PartialView with the filtered product list
+            return PartialView("_ProductList", products);
+        }
+
+        private List<Product> GetProductsByCategories(string[] categories)
+        {
+            // Filter products directly in the database based on selected categories
+            var products = _context.Products
+                .Where(p => categories.Contains(p.CategoryId.ToString()))
+                .ToList(); // Execute the query and retrieve the filtered products
+
+            return products;
+        }
 
     }
 }

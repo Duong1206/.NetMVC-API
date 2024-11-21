@@ -1,12 +1,6 @@
 ﻿using BanSach.DataAcess.Data;
 using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BanSach.DataAcess.Repository
 {
@@ -29,7 +23,7 @@ namespace BanSach.DataAcess.Repository
 
         public void Update(CoverType coverType)
         {
-           _db.CoverTypes.Update(coverType);
+           _db.CoverTypes?.Update(coverType);
         }
     }
 }

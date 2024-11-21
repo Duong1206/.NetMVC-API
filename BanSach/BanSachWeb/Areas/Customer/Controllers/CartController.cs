@@ -1,9 +1,11 @@
 ﻿using BanSach.DataAcess.Repository.IRepository;
+
 using BanSach.Model;
 using BanSach.Model.ViewModel;
 using BanSach.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Stripe.Checkout;
 using System.Security.Claims;
 
 namespace BanSachWeb.Areas.Customer.Controllers
@@ -18,6 +20,11 @@ namespace BanSachWeb.Areas.Customer.Controllers
         public CartController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
+       
+        }
+        public IActionResult Success()
+        {
+            return View();
         }
         [Authorize]
         public IActionResult Index()
@@ -37,11 +44,12 @@ namespace BanSachWeb.Areas.Customer.Controllers
             }
             return View(ShoppingCartVM);
         }
+        [Authorize]
 
         public IActionResult Summary()
         {
             var claimsIdentity = (ClaimsIdentity)User.Identity;
-            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            var claim = claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier);
             ShoppingCartVM = new ShoppingCartVM()
             {
                 ListCart = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value, includeProperties: "Product"),
@@ -49,12 +57,12 @@ namespace BanSachWeb.Areas.Customer.Controllers
             };
             ShoppingCartVM.OrderHeader.ApplicationUser = _unitOfWork.ApplicationUser.GetFirstOrDefault(u => u.Id == claim.Value);
 
-            ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.ApplicationUser.Name;
-            ShoppingCartVM.OrderHeader.PhoneNumber = ShoppingCartVM.OrderHeader.ApplicationUser.PhoneNumber;
-            ShoppingCartVM.OrderHeader.StreetAddress = ShoppingCartVM.OrderHeader.ApplicationUser.StreetAddress;
-            ShoppingCartVM.OrderHeader.City = ShoppingCartVM.OrderHeader.ApplicationUser.City;
-            ShoppingCartVM.OrderHeader.State = ShoppingCartVM.OrderHeader.ApplicationUser.State;
-            ShoppingCartVM.OrderHeader.PostalCode = ShoppingCartVM.OrderHeader.ApplicationUser.PostalCode;
+            ShoppingCartVM.OrderHeader.Name = ShoppingCartVM.OrderHeader.ApplicationUser.Name ??" ";
+            ShoppingCartVM.OrderHeader.PhoneNumber = ShoppingCartVM.OrderHeader.ApplicationUser.PhoneNumber ?? " ";
+            ShoppingCartVM.OrderHeader.StreetAddress = ShoppingCartVM.OrderHeader.ApplicationUser.StreetAddress ?? " ";
+            ShoppingCartVM.OrderHeader.City = ShoppingCartVM.OrderHeader.ApplicationUser.City ?? " ";
+            ShoppingCartVM.OrderHeader.State = ShoppingCartVM.OrderHeader.ApplicationUser.State ?? " ";
+            ShoppingCartVM.OrderHeader.PostalCode = ShoppingCartVM.OrderHeader.ApplicationUser.PostalCode ?? " ";
 
 
             foreach (var cart in ShoppingCartVM.ListCart)
@@ -67,49 +75,151 @@ namespace BanSachWeb.Areas.Customer.Controllers
         }
 
         [ActionName("Summary")]
+        [Authorize]
         [HttpPost]
-        public IActionResult SummaryPOST()
+        public IActionResult SummaryPOST(string PaymentMethod)
         {
             var claimsIdentity = (ClaimsIdentity)User.Identity;
-            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            var claim = claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier);
 
-            ShoppingCartVM.ListCart = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value, includeProperties: "Product");
-            ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
-            ShoppingCartVM.OrderHeader.OrderStatus = SD.StatisPending;
+            ShoppingCartVM.ListCart = _unitOfWork.ShoppingCart.GetAll(
+                u => u.ApplicationUserId == claim.Value, includeProperties: "Product");
+
+            ShoppingCartVM.OrderHeader.OrderTotal = 0;
             ShoppingCartVM.OrderHeader.OrderDate = DateTime.Now;
             ShoppingCartVM.OrderHeader.ApplicationUserId = claim.Value;
-
-
 
             foreach (var cart in ShoppingCartVM.ListCart)
             {
                 cart.Price = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price100, cart.Product.Price50, cart.Product.Price100);
-                ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
+                ShoppingCartVM.OrderHeader.OrderTotal += cart.Price * cart.Count;
             }
 
-            _unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
-            _unitOfWork.Save();
-
-            foreach (var cart in ShoppingCartVM.ListCart)
+            if (PaymentMethod == "COD")
             {
-                OrderDetail orderDetail = new OrderDetail()
-                {
-                    ProductId = cart.ProductId,
-                    OrderId = ShoppingCartVM.OrderHeader.Id,
-                    Price = cart.Price,
-                    Count = cart.Count,
+                ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
+                ShoppingCartVM.OrderHeader.OrderStatus = SD.StatisPending;
 
-
-                };
-                _unitOfWork.OrderDetail.Add(orderDetail);
+                // Lưu vào database ngay lập tức
+                _unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
                 _unitOfWork.Save();
+
+                foreach (var cart in ShoppingCartVM.ListCart)
+                {
+                    var orderDetail = new OrderDetail
+                    {
+                        ProductId = cart.ProductId,
+                        OrderId = ShoppingCartVM.OrderHeader.Id,
+                        Price = cart.Product.Price50,
+                        Count = cart.Count,
+                    };
+                    _unitOfWork.OrderDetail.Add(orderDetail);
+                }
+
+                _unitOfWork.Save();
+
+                // Xóa giỏ hàng
+                _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartVM.ListCart);
+                _unitOfWork.Save();
+
+                return RedirectToAction("Success", "Cart");
             }
-            _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartVM.ListCart);
+            else if (PaymentMethod == "Stripe")
+            {
+                var domain = "https://localhost:7022/";
+                var options = new SessionCreateOptions
+                {
+                    PaymentMethodTypes = new List<string> { "card" },
+                    LineItems = new List<SessionLineItemOptions>(),
+                    Mode = "payment",
+                    SuccessUrl = domain + $"customer/cart/StripeSuccess",
+                    CancelUrl = domain + $"customer/cart/StripeCancel",
+                };
+
+                foreach (var item in ShoppingCartVM.ListCart)
+                {
+                    options.LineItems.Add(new SessionLineItemOptions
+                    {
+                        PriceData = new SessionLineItemPriceDataOptions
+                        {
+                            UnitAmount = (long)(item.Product.Price50 ),
+                            Currency = "vnd",
+                            ProductData = new SessionLineItemPriceDataProductDataOptions
+                            {
+                                Name = item.Product.Name,
+                            },
+                        },
+                        Quantity = item.Count,
+                    });
+                }
+
+                var service = new SessionService();
+                Session session = service.Create(options);
+
+                TempData["StripeSessionId"] = session.Id;
+                TempData["OrderHeader"] = Newtonsoft.Json.JsonConvert.SerializeObject(ShoppingCartVM.OrderHeader);
+                TempData["OrderDetails"] = Newtonsoft.Json.JsonConvert.SerializeObject(
+                    ShoppingCartVM.ListCart.Select(cart => new OrderDetail
+                    {
+                        ProductId = cart.ProductId,
+                        Price = cart.Product.Price50,
+                        Count = cart.Count,
+                    }).ToList());
+
+                Response.Headers.Add("Location", session.Url);
+                return new StatusCodeResult(303);
+            }
+
+            return RedirectToAction("Index", "Cart");
+        }
+
+        [HttpGet]
+        public IActionResult StripeSuccess()
+        {
+            if (TempData["StripeSessionId"] == null)
+            {
+                return RedirectToAction("Index", "Cart");
+            }
+
+            var sessionId = TempData["StripeSessionId"].ToString();
+            var orderHeaderJson = TempData["OrderHeader"].ToString();
+            var orderDetailsJson = TempData["OrderDetails"].ToString();
+
+            var orderHeader = Newtonsoft.Json.JsonConvert.DeserializeObject<OrderHeader>(orderHeaderJson);
+            var orderDetails = Newtonsoft.Json.JsonConvert.DeserializeObject<List<OrderDetail>>(orderDetailsJson);
+
+            orderHeader.PaymentStatus = SD.PaymentStatusApproved;
+            orderHeader.OrderStatus = SD.StatusApproved;
+
+            _unitOfWork.OrderHeader.Add(orderHeader);
             _unitOfWork.Save();
 
-            return RedirectToAction("Index", "Home");
+            foreach (var orderDetail in orderDetails)
+            {
+                orderDetail.OrderId = orderHeader.Id;
+                _unitOfWork.OrderDetail.Add(orderDetail);
+            }
 
+            _unitOfWork.Save();
+
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier);
+
+            var shoppingCartItems = _unitOfWork.ShoppingCart.GetAll(
+                u => u.ApplicationUserId == claim.Value);
+
+            _unitOfWork.ShoppingCart.RemoveRange(shoppingCartItems);
+            _unitOfWork.Save();
+
+            return RedirectToAction("Success", "Cart");
         }
+
+        [HttpGet]
+        public IActionResult StripeCancel()
+        {
+            return RedirectToAction("Index", "Cart");
+        }
+
 
         public IActionResult Plus(int CartId)
         {
@@ -158,5 +268,8 @@ namespace BanSachWeb.Areas.Customer.Controllers
                 return price100 * 0.7;
             }
         }
+
+
+      
     }
 }

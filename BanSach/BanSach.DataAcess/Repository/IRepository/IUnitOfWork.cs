@@ -17,6 +17,7 @@ namespace BanSach.DataAcess.Repository.IRepository
         IOrderDetailRepository OrderDetail { get; }
         IOrderHeaderRepository OrderHeader { get; }
         IContactRepository Contact { get; }
+        ICouponRepository Coupon { get; }
         void Save();
     }
 }

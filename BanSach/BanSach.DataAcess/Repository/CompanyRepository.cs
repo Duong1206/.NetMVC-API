@@ -29,7 +29,7 @@ namespace BanSach.DataAcess.Repository
 
         public void Update(Company company)
         {
-           _db.companies.Update(company);
+           _db.companies?.Update(company);
         }
     }
 }

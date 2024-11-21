@@ -10,7 +10,7 @@ namespace BanSach.Model
         [Key]
         public int Id { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         // tuỳ chỉnh hiển thị dl
         [Display(Name = "Display Order")]

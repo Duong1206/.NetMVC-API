@@ -24,14 +24,14 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var category in Model)
+        @foreach (var coverType in Model)
         {
             <tr>     
-                <td>@category.Name</td>
+                <td>@coverType.Name</td>
                 
                 <td>
-                    <a asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id"> Edit</a> |
-                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id">Delete</a>
+                    <a asp-controller="CoverType" asp-action="Edit" asp-route-id="@coverType.Id"> Edit</a> |
+                    <a asp-controller="CoverType" asp-action="Delete" asp-route-id="@coverType.Id">Delete</a>
                 </td>
             </tr>
         }
