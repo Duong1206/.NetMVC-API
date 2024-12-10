@@ -29,13 +29,16 @@ namespace BanSachWeb.Areas.Customer.Controllers
         {
             ShoppingCart cartObj = new()
             {
-                Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id, includeProperties: "Category"),
+                Product = _unitOfWork.Product.GetFirstOrDefault(
+                    u => u.Id == id,
+                    includeProperties: "Category,Reviews.ApplicationUser" 
+                ),
                 Count = 1,
                 ProductId = id
-
             };
             return View(cartObj);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]

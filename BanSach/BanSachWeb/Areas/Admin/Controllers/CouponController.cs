@@ -17,14 +17,16 @@ namespace BanSachWeb.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Index()
         {
             //tạo một biến hứng dl
             IEnumerable<Coupon> objcouponList = _unitOfWork.Coupon.GetAll();
             return View(objcouponList);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Create()
         {
 
@@ -32,7 +34,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Create(Coupon obj)
         {
             if (ModelState.IsValid)
@@ -46,7 +49,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         // lấy ra  1 đối tượng với id
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
@@ -64,7 +68,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Edit(Coupon obj)
         {
             
@@ -79,7 +84,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         // lấy ra  1 đối tượng với id
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
@@ -98,7 +104,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult DeletePost(int? id)
         {
 

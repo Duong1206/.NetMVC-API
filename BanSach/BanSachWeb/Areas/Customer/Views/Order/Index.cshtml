@@ -1,0 +1,104 @@
+﻿@model BanSach.Model.ViewModel.OrderVM
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Book Store</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-secondary mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+            <h1 class="font-weight-semi-bold text-uppercase mb-3">Order List</h1>
+            <div class="d-inline-flex">
+                <p class="m-0"><a href="/">Home</a></p>
+                <p class="m-0 px-2">-</p>
+                <p class="m-0">Order</p>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+        <br />
+        <div class="container">
+            <div class="card">
+                <div class="card-header bg-dark text-light ml-0">
+                    <div class="row">
+                        <div class="col-6 pt-2">
+                            <i class="fa fa-box"></i> &nbsp; Order
+                        </div>
+                        <div class="col-6 text-end">
+                            <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-outline-info btn-sm">Continue Shopping</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                @foreach (var item in Model.OrderDetail.Where(o => o.OrderHeader.OrderStatus != BanSach.Utility.SD.StatusCancelled))
+                {
+                    <div class="row">
+                        <div class="d-none d-lg-block col-lg-1 text-center py-2">
+                            <img src="@item.Product?.ImageUrl" class="rounded" width="100%" />
+                        </div>
+                        <div class="col-12 col-lg-6 pt-md-3">
+                            <h5><strong>@item.Product?.Name</strong></h5>
+                        </div>
+                        <div class="col-12 col-lg-5 text-center row">
+                            <div class="col-4 text-md-right pt-4">
+                                <h6><strong>@item.Product?.Price50 VND <span class="text-muted">x</span>@item.Count</strong></h6>
+                            </div>
+                            <div class="col-2 col-sm-4 col-lg-2 text-right pt-2">
+                                <form asp-action="CancelOrder" method="post" onsubmit="return confirmCancel()">
+                                    <input type="hidden" name="orderDetailId" value="@item.Id" />
+                                    <button type="submit" class="btn btn-danger btn-lg">Cancel</button>
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <hr />
+                }
+                </div>
+            </div>
+        </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="/mail/jqBootstrapValidation.min.js"></script>
+    <script src="/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="/js/main.js"></script>
+    <script>
+        function confirmCancel() {
+            return confirm("Are you sure you want to cancel this order?");
+        }
+    </script>
+</body>
+</html>

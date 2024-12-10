@@ -1,26 +1,93 @@
 ﻿@model IEnumerable<BanSach.Model.Category>
 
+
+    
 <div class="border-bottom mb-4 pb-4">
+
     <h5 class="font-weight-semi-bold mb-4">Filter by category</h5>
     <form id="category-filtered">
-        @{
-            var totalDisplayOrder = Model.Sum(item => item.DisplayOrder);
-        }
-
-        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-            <input type="checkbox" class="custom-control-input category-checkbox" value="all" id="category-all">
-            <label class="custom-control-label" for="category-all">Tất cả thể loại</label>
-            <span class="badge border font-weight-normal text-dark">@totalDisplayOrder</span>
-        </div>
 
         @foreach (var item in Model)
         {
             <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                 <input type="checkbox" class="custom-control-input category-checkbox" value="@item.Id" id="category-@item.Id">
                 <label class="custom-control-label" for="category-@item.Id">@item.Name</label>
-                <span class="badge border font-weight-normal text-dark">@item.DisplayOrder</span>
             </div>
         }
     </form>
+
+
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const checkboxes = document.querySelectorAll('.category-checkbox');
+        const productList = document.getElementById('product-list');
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function () {
+                filterProducts();
+            });
+        });
+
+        function filterProducts() {
+            const selectedCategories = [];
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    selectedCategories.push(checkbox.value);
+                }
+            });
+
+            if (selectedCategories.length === 0) {
+                fetch('/Customer/Shop/Index')
+                    .then(response => response.text())
+                    .then(html => {
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(html, 'text/html');
+
+                        const initialProductList = doc.querySelector('#product-list');
+                        productList.innerHTML = initialProductList.innerHTML;
+                    })
+                    .catch(error => console.error('Error:', error));
+            } else {
+                fetch('/Customer/Shop/FilterProducts', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ categories: selectedCategories })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        updateProductList(data);
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        }
+
+        function updateProductList(products) {
+            productList.innerHTML = '';
+            products.forEach(product => {
+                const productElement = document.createElement('div');
+                productElement.classList.add('col-lg-3', 'col-md-6', 'col-sm-12', 'pb-1');
+                productElement.innerHTML = `
+                        <div class="card product-item border-0 mb-4" style="height: 100%;">
+                            <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0" style="aspect-ratio: 4/3;">
+                                <a href="/Customer/Home/Details/${product.id}">
+                                    <img class="img-fluid w-100" src="${product.imageUrl}" alt="" style="object-fit: contain; width: 100%; height: 100%;">
+                                </a>
+                            </div>
+                            <div class="card-body border-left border-right text-center p-0 pt-4 pb-3" style="min-height: 100px;">
+                                <h6 class="text-truncate mb-3" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${product.name}</h6>
+                                <div class="d-flex justify-content-center">
+                                    <h6>${product.price50} VND</h6><h6 class="text-muted ml-2"><del>${product.price100} VND</del></h6>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                productList.appendChild(productElement);
+            });
+        }
+    });
+</script>
 

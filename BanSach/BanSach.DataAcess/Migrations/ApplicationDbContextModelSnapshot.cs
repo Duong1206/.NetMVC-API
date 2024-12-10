@@ -301,6 +301,9 @@ namespace BanSach.DataAcess.Migrations
                     b.Property<double>("Price50")
                         .HasColumnType("float");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
@@ -655,7 +658,7 @@ namespace BanSach.DataAcess.Migrations
                         .HasForeignKey("ApplicationUserId");
 
                     b.HasOne("BanSach.Model.Product", "Product")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -740,6 +743,11 @@ namespace BanSach.DataAcess.Migrations
                         .HasForeignKey("CompanyId");
 
                     b.Navigation("company");
+                });
+
+            modelBuilder.Entity("BanSach.Model.Product", b =>
+                {
+                    b.Navigation("Reviews");
                 });
 #pragma warning restore 612, 618
         }

@@ -12,21 +12,14 @@ namespace BanSach.DataAcess.Repository
 {
     public class OrderHeaderRepository : Repository<OrderHeader>, IOrderHeaderRepository
     {
-        //tạo 1 biến 
         private readonly ApplicationDbContext _db;
     
 
-        //hàm khởi tạo
         public OrderHeaderRepository(ApplicationDbContext db):base(db)
         {
             _db = db;
         
         }
-    /*    public void Save()
-        {
-            _db.SaveChanges();
-        }*/
-
         public void Update(OrderHeader obj)
         {
            _db.OrderHeaders?.Update(obj);

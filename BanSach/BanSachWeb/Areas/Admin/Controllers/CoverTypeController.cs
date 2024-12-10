@@ -16,28 +16,27 @@ namespace BanSachWeb.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Index()
         {
             //tạo một biến hứng dl
             IEnumerable<CoverType> objcovertypeList = _unitOfWork.coverType.GetAll();
             return View(objcovertypeList);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Create()
         {
 
             return View();
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
         public IActionResult Create(CoverType obj)
-        {/*
-            if (obj.Name == obj.DisplayOrder.ToString())
-            {
-                ModelState.AddModelError("CustomError", "The DisplayOrder không được trùng với Name");
-            }*/
+        {
             if (ModelState.IsValid)
             {
                 _unitOfWork.coverType.Add(obj);
@@ -49,15 +48,15 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         // lấy ra  1 đối tượng với id
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
             {
                 return NotFound();
             }
-            // kiếm id 
-            // var categoryFromDb = _db.Categories.Find(id);
+
             var coverTypeFromDbFirst = _unitOfWork.coverType.GetFirstOrDefault(u => u.Id == id);
             if (coverTypeFromDbFirst == null)
             {
@@ -66,16 +65,13 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(coverTypeFromDbFirst);
         }
         // xử lý Edit
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
 
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
         public IActionResult Edit(CoverType obj)
         {
-           /* if (obj.Name == obj.DisplayOrder.ToString())
-            {
-                ModelState.AddModelError("CustomError", "The DisplayOrder không được trùng với Name");
-            }*/
             if (ModelState.IsValid)
             {
                 _unitOfWork.coverType.Update(obj);
@@ -87,7 +83,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         // lấy ra  1 đối tượng với id
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
@@ -103,7 +100,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(CoverTypeFromDb);
         }
         // xử lý Edit
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         [HttpPost] // nhận dl tu form
         [ValidateAntiForgeryToken]  // chống giả mạo pt post
         public IActionResult DeletePost(int? id)

@@ -110,6 +110,7 @@ namespace BanSachWeb.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
             [Required]
+            [RegularExpression(@"^[a-zA-Z0-9\s]*$", ErrorMessage = "Name must not contain special characters.")]
             public string? Name { get; set; }
             public string? StreetAddress { get; set; }
             public string? City { get; set; }

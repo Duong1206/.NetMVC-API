@@ -13,6 +13,7 @@
             <form id="account" method="post">
                 <br />
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <br />
                 <div class="form-group">
                     <label asp-for="Input.Email" class="form-label"></label>
                     <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
@@ -51,7 +52,7 @@
                     </p> *@
                 </div>
                 <br />
-                <div>
+                @* <div>
                     <p>You can sign in with: </p>
                 </div>
                 <br />
@@ -60,7 +61,7 @@
                         <i class="fab fa-google fa-2x " style="color: #4285F4;"></i>
                     </a>
 
-                </div>
+                </div> *@
                 
             </form>
         </section>

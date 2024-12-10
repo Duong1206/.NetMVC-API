@@ -65,7 +65,9 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="dropdown-item">Shopping Cart</a>
+                                    <a asp-area="Customer" asp-controller="Order" asp-action="Index" class="dropdown-item">Order</a>
                                     <a asp-area="Customer" asp-controller="Cart" asp-action="Summary" class="dropdown-item">Checkout</a>
+
                                 </div>
                             </div>
                             <a asp-action="Index" asp-controller="Contact" class="nav-item nav-link">Contact</a>
@@ -166,7 +168,11 @@
                         <div class="card-body border-left border-right text-center p-0 pt-4 pb-3" style="min-height: 100px;">
                             <h6 class="text-truncate mb-3" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">@item.Name</h6>
                             <div class="d-flex justify-content-center">
-                                <h6>@item.Price50 VND</h6><h6 class="text-muted ml-2"><del>@item.Price100 VND</del></h6>
+                                <h6>@item.Price50 VND</h6>
+                                @if (item.Price100 > 0)
+                                {
+                                    <h6 class="text-muted ml-2"><del>@item.Price100 VND</del></h6>
+                                }
                             </div>
                         </div>
                      

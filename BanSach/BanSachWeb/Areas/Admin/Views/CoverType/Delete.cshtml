@@ -1,7 +1,5 @@
 ﻿@model BanSach.Model.CoverType
 
-<!---->
-
 <form method="post" asp-action="DeletePost">
     <input type="hidden" asp-for="Id" /> <!-- lấy id nhưng ẩn-->
     <div class="border p-3 mt-4">
@@ -10,24 +8,52 @@
             <h2>Delete Cover Type</h2>
             <hr />
         </div>
-        <div asp-validation-summary=All>
+        <div asp-validation-summary="All">
         </div>
         <!--mấy ô nhập liệu-->
         <div class="mb-3">
             <label asp-for="Name">Name</label>
-            <input asp-for="Name" class="form-control" />
+            <input asp-for="Name" class="form-control" readonly />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
 
-       
-
         <!--button submit-->
-        <button type="submit" class="btn btn-primary"> Delete</button>
-        <a asp-controller="CoverType" asp-action="Index"> Back to List</a>
-
+        <button type="button" class="btn btn-danger" id="deleteButton"> Delete</button>
+        <a class="btn btn-primary" asp-controller="CoverType" asp-action="Index"> Back to List</a>
     </div>
 </form>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        document.getElementById("deleteButton").addEventListener("click", function (event) {
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You will not be able to recover this record!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonClass: "btn-danger",
+                confirmButtonText: "Yes, delete it!",
+                closeOnConfirm: false
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        type: "DELETE",
+                        url: "/Admin/CoverType/Delete?id=" + document.querySelector('input[asp-for="Id"]').value,
+                        success: function (data) {
+                            if (data.success) {
+                                toastr.success(data.message);
+                                // Redirect to Index after successful deletion
+                                window.location.href = "/Admin/CoverType/Index";
+                            } else {
+                                toastr.error(data.message);
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 }

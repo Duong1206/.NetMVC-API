@@ -1,9 +1,9 @@
-﻿
-@model BanSach.Model.ViewModel.ProductVM
+﻿@model BanSach.Model.ViewModel.ProductVM
 
 <!---->
 
 <form method="post" asp-action="Upsert" enctype="multipart/form-data">
+    <input type="hidden" asp-for="product.Id" />
     <div class="border p-3 mt-4">
         <!--tiêu đề form-->
         <div class="row pb-2">
@@ -41,15 +41,6 @@
             </div>
         </div>
 
-       
-
-        <!--không biết khúc này đâu ra-->
-       @*  <div class="mb-3">
-            <label asp-for="ListPrice">ListPrice</label>
-            <input asp-for="ListPrice" class="form-control" />
-            <span asp-validation-for="ListPrice" class="text-danger"></span>
-        </div> *@
-
         <div class="row">
             <div class="mb-3 col-6">
                 <label asp-for="product.Price50">Price50</label>
@@ -73,7 +64,11 @@
               <span asp-validation-for="product.ImageUrl" class="text-danger"></span>
         </div>
 
-      
+        <div class="mb-3">
+            <label asp-for="product.Quantity">Quantity</label>
+            <input asp-for="product.Quantity" min="1" class="form-control" />
+            <span asp-validation-for="product.Quantity" class="text-danger"></span>
+        </div>
 
         <!--Category List-->
 
@@ -84,7 +79,6 @@
                 <option disabled onselect="">---Select Option---</option>
             </select>
 
-          
         </div>
 
      
@@ -98,17 +92,16 @@
         </div>
 
 
-        @if(Model.product.Id == 0) {
-            <button type="submit" onclick="return validateInput()" class="btn btn-primary"> Create  </button>
-        }
-        else
-        {
-            <button type="submit" class="btn btn-primary"> Update</button>
-        }
+        <button type="submit"
+                class="btn btn-primary"
+        @(Model.product.Id == 0 ? "onclick='return validateInput()'" : "")>
+            @(Model.product.Id == 0 ? "Create" : "Update")
+        </button>
+
 
         <!--button submit-->
        
-        <a asp-controller="CoverType" asp-action="Index"> Back to List</a>
+        <a class="btn btn-primary" asp-controller="Product" asp-action="Index"> Back to List</a>
 
     </div>
 </form>

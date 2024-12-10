@@ -38,7 +38,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             };
             foreach (var cart in ShoppingCartVM.ListCart)
             {
-                cart.Price = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price100, cart.Product.Price50, cart.Product.Price100);
+                cart.Product.Price50 = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price50, cart.Product.Price50, cart.Product.Price100);
 
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
             }
@@ -67,7 +67,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
             foreach (var cart in ShoppingCartVM.ListCart)
             {
-                cart.Price = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price100, cart.Product.Price50, cart.Product.Price100);
+                cart.Product.Price50 = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price50, cart.Product.Price50, cart.Product.Price100);
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
             }
             return View(ShoppingCartVM);
@@ -91,8 +91,8 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
             foreach (var cart in ShoppingCartVM.ListCart)
             {
-                cart.Price = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price100, cart.Product.Price50, cart.Product.Price100);
-                ShoppingCartVM.OrderHeader.OrderTotal += cart.Price * cart.Count;
+                cart.Product.Price50 = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price50, cart.Product.Price50, cart.Product.Price100);
+                ShoppingCartVM.OrderHeader.OrderTotal += cart.Product.Price50 * cart.Count;
             }
 
             if (PaymentMethod == "COD")
@@ -100,7 +100,6 @@ namespace BanSachWeb.Areas.Customer.Controllers
                 ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
                 ShoppingCartVM.OrderHeader.OrderStatus = SD.StatisPending;
 
-                // Lưu vào database ngay lập tức
                 _unitOfWork.OrderHeader.Add(ShoppingCartVM.OrderHeader);
                 _unitOfWork.Save();
 
@@ -265,7 +264,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
                 {
                     return price50* 0.9;
                 }
-                return price100 * 0.7;
+                return price50 * 0.7;
             }
         }
 

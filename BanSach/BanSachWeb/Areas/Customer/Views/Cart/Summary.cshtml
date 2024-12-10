@@ -166,10 +166,26 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <button id="btnPlaceOrder" type="submit" value="Place Order" class="btn btn-primary form-control">Place Orders</button>
+                    <button id="btnPlaceOrder"
+                            type="submit"
+                            value="Place Order"
+                            class="btn btn-primary form-control"
+                    @(Model.OrderHeader.OrderTotal == 0 ? "disabled" : "")>
+                        Place Orders
+                    </button>
+
             </div>
         </div>
     </div>
 </form>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const btnPlaceOrder = document.getElementById("btnPlaceOrder");
+        const orderTotal = parseFloat('@Model.OrderHeader.OrderTotal');
 
+        if (orderTotal === 0) {
+            btnPlaceOrder.disabled = true;
+        }
+    });
+</script>

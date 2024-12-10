@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BanSach.DataAcess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241121075408_Review")]
-    partial class Review
+    [Migration("20241126152729_updateProductAndReview")]
+    partial class updateProductAndReview
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -657,7 +657,7 @@ namespace BanSach.DataAcess.Migrations
                         .HasForeignKey("ApplicationUserId");
 
                     b.HasOne("BanSach.Model.Product", "Product")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -742,6 +742,11 @@ namespace BanSach.DataAcess.Migrations
                         .HasForeignKey("CompanyId");
 
                     b.Navigation("company");
+                });
+
+            modelBuilder.Entity("BanSach.Model.Product", b =>
+                {
+                    b.Navigation("Reviews");
                 });
 #pragma warning restore 612, 618
         }

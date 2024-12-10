@@ -36,21 +36,32 @@ namespace BanSachWeb.Areas.Customer.Controllers
         [HttpPost]
         public IActionResult Search(string keyword, int productPage = 1)
         {
+            if (string.IsNullOrWhiteSpace(keyword))
+            {
+                return RedirectToAction("Index");
+            }
+
+            keyword = string.Join(" ", keyword.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries));
+
+            var productsQuery = _context.Products
+                ?.Where(p => p.Name.ToLower().Contains(keyword.ToLower()));
+
             return View("Index", new ProductListViewModel
             {
-                Products = _context.Products.Where(p => p.Name.Contains(keyword)).Skip((productPage - 1) * PageSize).Take(PageSize),
+                Products = productsQuery?.Skip((productPage - 1) * PageSize).Take(PageSize),
                 pagingInfo = new PagingInfo
                 {
                     ItemsPerPage = PageSize,
                     CurrentPage = productPage,
-                    TotalItems = _context.Products.Count()
+                    TotalItems = productsQuery?.Count() ?? 0
                 }
             });
         }
 
+
         public IActionResult ProductCategory(int categoryId, int productPage = 1)
         {
-            var products = _context.Products.Where(p => p.CategoryId == categoryId);
+            var products = _context.Products?.Where(p => p.CategoryId == categoryId);
 
             return View("Index", new ProductListViewModel
             {
@@ -64,30 +75,31 @@ namespace BanSachWeb.Areas.Customer.Controllers
             });
         }
 
-        [HttpGet]
-        public IActionResult FilterProducts(string[] categories)
-        {
-            // Validate input
-            if (categories == null || !categories.Any())
-            {
-                return PartialView("_ProductList", new List<Product>()); // Return an empty list if no categories are selected
-            }
-
-            // Logic to retrieve products based on selected categories
-            var products = GetProductsByCategories(categories);
-
-            // Return PartialView with the filtered product list
-            return PartialView("_ProductList", products);
-        }
-
         private List<Product> GetProductsByCategories(string[] categories)
         {
             // Filter products directly in the database based on selected categories
-            var products = _context.Products
+            var products = _context.Products?
                 .Where(p => categories.Contains(p.CategoryId.ToString()))
                 .ToList(); // Execute the query and retrieve the filtered products
 
             return products;
+        }
+
+
+        //filter category
+        [HttpPost]
+        public IActionResult FilterProducts([FromBody] FilterRequest request)
+        {
+            var filteredProducts = _context.Products
+                .Where(p => request.Categories.Contains("all") || request.Categories.Contains(p.CategoryId.ToString()))
+                .ToList();
+
+            return Json(filteredProducts);
+        }
+
+        public class FilterRequest
+        {
+            public List<string> Categories { get; set; }
         }
 
     }

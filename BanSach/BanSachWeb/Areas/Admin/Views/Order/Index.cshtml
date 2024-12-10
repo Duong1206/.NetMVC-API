@@ -1,0 +1,177 @@
+﻿@using BanSach.Utility
+@model List<BanSach.Model.ViewModel.OrderVM>
+
+<h2>Order Management</h2>
+<br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>User Name</th>
+            <th>Product Details</th>
+            <th>Total Price</th>
+            <th>Order Date</th>
+            <th>Shipping Date</th>
+            <th>Order Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            var i = 1;
+            <tr>
+                <td>@i</td>
+                <td>@order.OrderHeader.ApplicationUser.Name</td>
+                <td>
+                    @foreach (var detail in order.OrderDetail)
+                    {
+                        <span>@detail.Product?.Name x @detail.Count</span>
+                        <br />
+                    }
+                </td>
+                <td>@order.OrderHeader.OrderTotal VND</td>
+                <td>@order.OrderHeader.OrderDate.ToString("dd/MM/yyyy")</td>
+                <td>@order.OrderHeader.ShippingDate.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <span class="badge @GetStatusBadgeClass(order.OrderHeader.OrderStatus)">
+                        @order.OrderHeader.OrderStatus
+                    </span>
+                </td>
+                <td>
+                    @if (order.OrderHeader.OrderStatus == SD.StatisPending || order.OrderHeader.OrderStatus == SD.StatusApproved)
+                    {
+                        <button type="button" class="btn btn-success" onclick="updateStatus('@order.OrderHeader.Id', 'shipped')">Shipped</button>
+                        <button type="button" class="btn btn-warning" onclick="updateStatus('@order.OrderHeader.Id', 'cancel')">Cancel</button>
+                    }
+                    @if (order.OrderHeader.OrderStatus == SD.StatusShipped)
+                    {
+                        <button type="button" class="btn btn-info" onclick="updateStatus('@order.OrderHeader.Id', 'refund')">Refund</button>
+                    }
+                    <button type="button" class="btn btn-danger" onclick="deleteOrder('@order.OrderHeader.Id')">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <style>
+        .badge-pending {
+            background-color: #ffc107;
+            color: #212529;
+        }
+
+        .badge-approved {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .badge-shipped {
+            background-color: #17a2b8;
+            color: white;
+        }
+
+        .badge-cancelled {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .badge-refunded {
+            background-color: #6f42c1;
+            color: white;
+        }
+
+        .btn-warning {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .btn-info {
+            background-color: #17a2b8;
+            color: white;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        function updateStatus(orderId, status) {
+            Swal.fire({
+                title: "Are you sure?",
+                text: `You will update the status to ${status}!`,
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonClass: "btn-primary",
+                confirmButtonText: "Yes, update it!",
+                cancelButtonText: "Cancel",
+                closeOnConfirm: false
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        type: "POST",
+                        url: `/Admin/Order/${status == 'shipped' ? 'MarkAsShipped' : status == 'cancel' ? 'MarkAsCancelled' : 'MarkAsRefunded'}`,
+                        data: { orderId: orderId },
+                        success: function (data) {
+                            if (data.success) {
+                                toastr.success(data.message);
+                                location.reload();
+                            } else {
+                                toastr.error(data.message);
+                            }
+                        },
+                        error: function () {
+                            toastr.error('An error occurred while updating the status.');
+                        }
+                    });
+                }
+            });
+        }
+
+        function deleteOrder(orderId) {
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You will not be able to recover this record!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonClass: "btn-danger",
+                confirmButtonText: "Yes, delete it!",
+                closeOnConfirm: false
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        type: "POST", 
+                        url: "/Admin/Order/DeleteOrder",
+                        data: { orderId: orderId },
+                        success: function (data) {
+                            if (data.success) {
+                                toastr.success(data.message);
+                                location.reload();
+                            } else {
+                                toastr.error(data.message);
+                            }
+                        },
+                        error: function () {
+                            toastr.error('An error occurred while deleting the order.');
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+}
+
+@functions {
+    string GetStatusBadgeClass(string? status)
+    {
+        return status switch
+        {
+            SD.StatisPending => "badge-pending",
+            SD.StatusApproved => "badge-approved",
+            SD.StatusShipped => "badge-shipped",
+            SD.StatusCancelled => "badge-cancelled",
+            SD.StatusRefunded => "badge-refunded",
+            _ => "badge-pending" 
+        };
+    }
+}

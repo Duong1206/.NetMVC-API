@@ -1,5 +1,6 @@
 ﻿@model List<BanSach.Model.Product> 
 
+
 <div class="col-12 pb-1">
     <div class="d-flex align-items-center justify-content-between mb-4">
         <form asp-action="Search" asp-controller="Shop" method="post">
@@ -15,7 +16,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row" id="product-list">
     @if (Model != null && Model.Any())
     {
         foreach (var item in Model)

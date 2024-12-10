@@ -200,6 +200,7 @@ D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\Microsoft.O
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\RestSharp.dll
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -253,4 +254,3 @@ D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\refint\BanS
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\BanSachApi.pdb
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\BanSachApi.genruntimeconfig.cache
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\ref\BanSachApi.dll
-D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\RestSharp.dll

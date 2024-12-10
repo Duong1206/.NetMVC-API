@@ -16,22 +16,24 @@ namespace BanSachWeb.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Index()
         {
-            //tạo một biến hứng dl
             IEnumerable<Category> objcategoryList = _unitOfWork.Category.GetAll();
             return View(objcategoryList);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Create()
         {
 
             return View();
         }
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
-        [Authorize(Roles = "Admin")]
+        [HttpPost] 
+        [ValidateAntiForgeryToken]  
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Create(Category obj)
         {
             if (obj.Name == obj.DisplayOrder.ToString())
@@ -48,16 +50,14 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(obj);
         }
 
-        // lấy ra  1 đối tượng với id
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
             {
                 return NotFound();
             }
-            // kiếm id 
-            // var categoryFromDb = _db.Categories.Find(id);
             var categoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
             if (categoryFromDbFirst == null)
             {
@@ -65,11 +65,11 @@ namespace BanSachWeb.Areas.Admin.Controllers
             }
             return View(categoryFromDbFirst);
         }
-        // xử lý Edit
 
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
-        [Authorize(Roles = "Admin")]
+        [HttpPost] 
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Edit(Category obj)
         {
             if (obj.Name == obj.DisplayOrder.ToString())
@@ -86,8 +86,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(obj);
         }
 
-        // lấy ra  1 đối tượng với id
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
@@ -102,11 +102,11 @@ namespace BanSachWeb.Areas.Admin.Controllers
             }
             return View(categoryFromDb);
         }
-        // xử lý Edit
 
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
-        [Authorize(Roles = "Admin")]
+        [HttpPost] 
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Employee")]
+
         public IActionResult DeletePost(int? id)
         {
 

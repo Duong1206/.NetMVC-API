@@ -1,0 +1,80 @@
+﻿@model BanSach.Model.ViewModel.ProductVM
+
+<div class="border p-3 mt-4">
+    <div class="row pb-2">
+        <h2>Product Detail</h2>
+        <hr />
+    </div>
+    <div asp-validation-summary="All"></div>
+
+    <div class="mb-3">
+        <label asp-for="product.Name">Title</label>
+        <input asp-for="product.Name" class="form-control" readonly />
+        <span asp-validation-for="product.Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="product.Description">Description</label>
+        <textarea asp-for="product.Description" class="form-control" rows="3" readonly></textarea>
+        <span asp-validation-for="product.Description" class="text-danger"></span>
+    </div>
+
+    <div class="row">
+        <div class="mb-3 col-6">
+            <label asp-for="product.ISBN">ISBN</label>
+            <input asp-for="product.ISBN" class="form-control" readonly />
+            <span asp-validation-for="product.ISBN" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 col-6">
+            <label asp-for="product.Author">Author</label>
+            <input asp-for="product.Author" class="form-control" readonly />
+            <span asp-validation-for="product.Author" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="mb-3 col-6">
+            <label asp-for="product.Price50">Price50</label>
+            <input asp-for="product.Price50" class="form-control" readonly />
+            <span asp-validation-for="product.Price50" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 col-6">
+            <label asp-for="product.Price100">Price100</label>
+            <input asp-for="product.Price100" class="form-control" readonly />
+            <span asp-validation-for="product.Price100" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label>Image</label><br />
+        @if (!string.IsNullOrEmpty(Model.product.ImageUrl))
+        {
+            <img src="@Url.Content(Model.product.ImageUrl)" alt="Product Image" style="width:100px;height:auto;" />
+        }
+        else
+        {
+            <p>No image available</p>
+        }
+
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="product.Quantity">Quantity</label>
+        <input asp-for="product.Quantity" min="1" class="form-control" readonly />
+        <span asp-validation-for="product.Quantity" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Category</label>
+        <input type="text" class="form-control" value="@Model.product.Category?.Name" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label>Cover Type</label>
+        <input type="text" class="form-control" value="@Model.product.coverType?.Name" readonly />
+    </div>
+
+    <a class="btn btn-primary" asp-controller="Product" asp-action="Index">Back to List</a>
+</div>

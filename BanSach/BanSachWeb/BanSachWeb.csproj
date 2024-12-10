@@ -32,11 +32,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\assets\demo\chart-area-demo.js" />
+    <None Include="wwwroot\assets\demo\chart-bar-demo.js" />
+    <None Include="wwwroot\assets\demo\chart-pie-demo.js" />
+    <None Include="wwwroot\assets\demo\datatables-demo.js" />
+    <None Include="wwwroot\assets\img\error-404-monochrome.svg" />
     <None Include="wwwroot\js\company.js" />
     <None Include="wwwroot\js\contact.js" />
+    <None Include="wwwroot\js\datatables-simple-demo.js" />
     <None Include="wwwroot\js\main.js" />
     <None Include="wwwroot\js\product.js" />
     <None Include="wwwroot\js\script.js" />
+    <None Include="wwwroot\js\scripts.js" />
     <None Include="wwwroot\js\site.js" />
     <None Include="wwwroot\js\validate.js" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
@@ -169,6 +176,11 @@
     <None Include="wwwroot\scss\bootstrap\scss\_utilities.scss" />
     <None Include="wwwroot\scss\bootstrap\scss\_variables.scss" />
     <None Include="wwwroot\scss\style.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views\Dashboard\" />
+    <Folder Include="Areas\Admin\Views\Product\" />
   </ItemGroup>
 
 </Project>

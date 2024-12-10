@@ -6,7 +6,6 @@ namespace BanSach.Model
 {
     public class Product
     {
-        // các thuộc tính
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
@@ -18,20 +17,20 @@ namespace BanSach.Model
         public int ISBN { get; set; }
         [Required]
         public string? Author { get; set; }
-
-        // giá khi mua từ 50 cuốn
+        [Required]
+        [Range(1, 10000)]
+        public int Quantity { get; set; }
         [Required]
         [Range(1, 100000000)]
         public double Price50 { get; set; }
 
-        // giá khi mua từ 100 cuốn
         [Required]
-        [Range(1, 100000000)]
+        [Range(0, 100000000)]
         public double Price100 { get; set; }
         [ValidateNever]
+        [Required]
         public string? ImageUrl { get; set; }
 
-        //khoá ngoại CategoryId
         [Required]
         public int CategoryId { get; set; }
         [ValidateNever]
@@ -40,13 +39,12 @@ namespace BanSach.Model
 
         public Category? Category { get; set; }
 
-
-        //khoá ngoại CoverTypeId
         [Required]
         public int CoverTypeId { get; set; }
 
         [ForeignKey("CoverTypeId")]
         [ValidateNever]
         public CoverType? coverType { get; set; }
+        public List<Review> Reviews { get; set; } = new List<Review>();
     }
 }

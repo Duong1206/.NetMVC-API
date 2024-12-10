@@ -27,15 +27,6 @@ builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Str
 
 builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-
-
-/*builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-       b => b.MigrationsAssembly("BanSach.DataAcess")));*/
-
-
-
 //configuration Login Google Account
 /*builder.Services.AddAuthentication(options =>
 {

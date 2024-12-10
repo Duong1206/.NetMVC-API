@@ -30,8 +30,8 @@
                 <td>@category.Name</td>
                 <td>@category.DisplayOrder</td>    
                 <td>
-                    <a asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id"> Edit</a> |
-                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id">Delete</a>
+                    <a asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id"><i class="fas fa-edit"></i></a> 
+                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id"><i class="fas fa-trash-alt"></i></a>
                 </td>
             </tr>
         }

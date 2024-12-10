@@ -1,0 +1,42 @@
+﻿@using System.Security.Claims
+@model IEnumerable<BanSach.Model.Review>
+
+@foreach (var item in Model)
+{
+    <div class="review-item mb-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <h6>@item.ApplicationUser?.Name<small> - <i>@item.CreatedAt.ToString("dd MMM yyyy")</i></small></h6>
+
+            @if (User.Identity.IsAuthenticated &&
+           (User.FindFirst(ClaimTypes.NameIdentifier)?.Value == item.ApplicationUserId || User.IsInRole("Admin")))
+            {
+                <div class="dropdown">
+                    <button class="btn btn-link" type="button" id="dropdownMenuButton-@item.Id" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton-@item.Id">
+                        <form asp-controller="Review" asp-action="Delete" method="post">
+                            <input type="hidden" name="Id" value="@item.Id" />
+                            <button type="submit" class="dropdown-item text-danger">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="text-primary mb-2">
+            @for (int i = 1; i <= 5; i++)
+            {
+                if (i <= item.Rating)
+                {
+                    <i class="fas fa-star"></i>
+                }
+                else
+                {
+                    <i class="far fa-star"></i>
+                }
+            }
+        </div>
+        <p>@item.Comment</p>
+    </div>
+}
