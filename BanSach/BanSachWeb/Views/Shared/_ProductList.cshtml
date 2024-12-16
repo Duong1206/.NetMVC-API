@@ -19,20 +19,33 @@
 <div class="row" id="product-list">
     @if (Model != null && Model.Any())
     {
-        foreach (var item in Model)
+        @foreach (var item in Model)
         {
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" style="height: 100%;">
+                    <!-- Product image with aspect ratio -->
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0" style="aspect-ratio: 4/3;">
-                        <a asp-controller="Home" asp-action="Details" asp-route-id="@item.Id">
-                            <img class="img-fluid w-100" src="@item.ImageUrl" alt="@item.Name" style="object-fit: contain; width: 100%; height: 100%;">
+                        <a asp-action="Details" asp-route-id="@item.Id">
+                            <img class="img-fluid w-100 @(item.Quantity == 0 ? "out-of-stock" : "")" src="@item.ImageUrl" alt="" style="object-fit: contain; width: 100%; height: 100%;">
+                            @if (item.Quantity == 0)
+                            {
+                                <div class="overlay">
+                                    <div class="text">Out of Stock</div>
+                                </div>
+                            }
                         </a>
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3" style="min-height: 100px;">
                         <h6 class="text-truncate mb-3" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">@item.Name</h6>
                         <div class="d-flex justify-content-center">
                             <h6>@item.Price50 VND</h6>
-                            <h6 class="text-muted ml-2"><del>@item.Price100 VND</del></h6>
+                            @if (item.Price100 > 0)
+                            {
+                                <h6 class="text-muted ml-2"><del>@item.Price100 VND</del></h6>
+                            }
+                        </div>
+                        <div class="d-flex justify-content-between mt-3 px-3">
+                            <small class="text-muted">Sold: @item.SoldCount</small>
                         </div>
                     </div>
                 </div>

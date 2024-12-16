@@ -1,12 +1,7 @@
 ﻿using BanSach.DataAcess.Data;
 using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using BanSach.Utility;
 
 namespace BanSach.DataAcess.Repository
 {
@@ -31,5 +26,16 @@ namespace BanSach.DataAcess.Repository
         {
             _db.OrderDetails?.Update(obj);
         }
+        public int GetSoldCountForProduct(int productId)
+        {
+            return _db.OrderDetails
+        .Where(od => od.ProductId == productId &&
+                     (od.OrderHeader.OrderStatus == SD.StatusShipped ||
+                      od.OrderHeader.OrderStatus == SD.StatusInProcess ||
+                      od.OrderHeader.OrderStatus == SD.StatisPending ||
+                      od.OrderHeader.OrderStatus == SD.StatusApproved))
+        .Sum(od => od.Count);
+        }
+
     }
 }

@@ -1,8 +1,23 @@
 ﻿@using BanSach.Utility
-@model List<BanSach.Model.ViewModel.OrderVM>
+@model BanSach.Model.ViewModel.OrderListViewModel
 
 <h2>Order Management</h2>
 <br />
+
+<!-- Bộ lọc trạng thái -->
+<div class="col-md-2">
+    <h5>Filter by Status</h5>
+    <select class="form-select" id="statusFilter" onchange="applyFilters()">
+        <option value="All">All</option>
+        <option value="Pending">Pending</option>
+        <option value="Approved">Approved</option>
+        <option value="Processing">Processing</option>
+        <option value="Shipped">Shipped</option>
+        <option value="Cancelled">Cancelled</option>
+        <option value="Refunded">Refunded</option>
+    </select>
+</div>
+
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -16,11 +31,13 @@
             <th>Action</th>
         </tr>
     </thead>
-    <tbody>
-        @foreach (var order in Model)
+    <tbody id="orderTable">
+        @{
+            int i = (Model.PagingInfo.CurrentPage - 1) * Model.PagingInfo.ItemsPerPage + 1;
+        }
+        @foreach (var order in Model.Orders)
         {
-            var i = 1;
-            <tr>
+            <tr data-status="@order.OrderHeader.OrderStatus">
                 <td>@i</td>
                 <td>@order.OrderHeader.ApplicationUser.Name</td>
                 <td>
@@ -38,22 +55,70 @@
                         @order.OrderHeader.OrderStatus
                     </span>
                 </td>
+
                 <td>
                     @if (order.OrderHeader.OrderStatus == SD.StatisPending || order.OrderHeader.OrderStatus == SD.StatusApproved)
                     {
+                        <button type="button" class="btn btn-primary" onclick="updateStatus('@order.OrderHeader.Id', 'processing')">Process</button>
+                        <button type="button" class="btn btn-warning" onclick="updateStatus('@order.OrderHeader.Id', 'cancel')">Cancel</button>
+                        <button type="button" class="btn btn-danger" onclick="deleteOrder('@order.OrderHeader.Id')">Delete</button>
+                        <button type="button" class="btn btn-info" onclick="printOrder('@order.OrderHeader.Id')">Print</button>
+
+
+                    }
+                    @if (order.OrderHeader.OrderStatus == SD.StatusInProcess)
+                    {
                         <button type="button" class="btn btn-success" onclick="updateStatus('@order.OrderHeader.Id', 'shipped')">Shipped</button>
                         <button type="button" class="btn btn-warning" onclick="updateStatus('@order.OrderHeader.Id', 'cancel')">Cancel</button>
+                        <button type="button" class="btn btn-danger" onclick="deleteOrder('@order.OrderHeader.Id')">Delete</button>
                     }
+                    
                     @if (order.OrderHeader.OrderStatus == SD.StatusShipped)
                     {
-                        <button type="button" class="btn btn-info" onclick="updateStatus('@order.OrderHeader.Id', 'refund')">Refund</button>
+                        <button type="button" class="btn badge-refunded" onclick="updateStatus('@order.OrderHeader.Id', 'refund')">Refund</button>
+                        <button type="button" class="btn btn-danger" onclick="deleteOrder('@order.OrderHeader.Id')">Delete</button>
                     }
-                    <button type="button" class="btn btn-danger" onclick="deleteOrder('@order.OrderHeader.Id')">Delete</button>
+                    @if (order.OrderHeader.OrderStatus == SD.StatusRefunded || order.OrderHeader.OrderStatus == SD.StatusCancelled)
+                    {
+                        <button type="button" class="btn btn-danger" onclick="deleteOrder('@order.OrderHeader.Id')">Delete</button>
+                    }
                 </td>
             </tr>
+            i++;
         }
     </tbody>
 </table>
+
+<div class="col-12 pb-1">
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center mb-3">
+            @if (Model.PagingInfo.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-orderPage="@(Model.PagingInfo.CurrentPage - 1)">
+                        &laquo; Previous
+                    </a>
+                </li>
+            }
+
+            @for (int j = 1; j <= Model.PagingInfo.TotalPage; j++)
+            {
+                <li class="page-item @(j == Model.PagingInfo.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-orderPage="@j">@j</a>
+                </li>
+            }
+
+            @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-orderPage="@(Model.PagingInfo.CurrentPage + 1)">
+                        Next &raquo;
+                    </a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
 
 @section Scripts {
     <style>
@@ -64,6 +129,11 @@
 
         .badge-approved {
             background-color: #28a745;
+            color: white;
+        }
+
+        .badge-processing {
+            background-color: #17a2b8;
             color: white;
         }
 
@@ -91,6 +161,11 @@
             background-color: #17a2b8;
             color: white;
         }
+
+        .btn-print {
+            background-color: black;
+            color: white;
+        }
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
@@ -110,7 +185,7 @@
                 if (result.isConfirmed) {
                     $.ajax({
                         type: "POST",
-                        url: `/Admin/Order/${status == 'shipped' ? 'MarkAsShipped' : status == 'cancel' ? 'MarkAsCancelled' : 'MarkAsRefunded'}`,
+                        url: `/Admin/Order/${status == 'shipped' ? 'MarkAsShipped' : status == 'cancel' ? 'MarkAsCancelled' : status == 'processing' ? 'MarkAsProcessing' : 'MarkAsRefunded'}`,
                         data: { orderId: orderId },
                         success: function (data) {
                             if (data.success) {
@@ -140,7 +215,7 @@
             }).then((result) => {
                 if (result.isConfirmed) {
                     $.ajax({
-                        type: "POST", 
+                        type: "POST",
                         url: "/Admin/Order/DeleteOrder",
                         data: { orderId: orderId },
                         success: function (data) {
@@ -158,6 +233,45 @@
                 }
             });
         }
+
+        function applyFilters() {
+            var selectedStatus = document.getElementById('statusFilter').value;
+            var rows = document.querySelectorAll('#orderTable tr');
+
+            rows.forEach(row => {
+                var status = row.getAttribute('data-status');
+                if (selectedStatus === "All" || selectedStatus === status) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+
+            function printOrder(orderId) {
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("PrintOrder", "Order")',
+                    data: { orderId: orderId },
+                    success: function (response) {
+                        if (response.success) {
+                            alert(response.message);
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("AJAX error:", status, error);
+                        alert("An error occurred while processing the print request.");
+                    }
+                });
+            }
+
+
+
+
+
     </script>
 }
 
@@ -168,10 +282,11 @@
         {
             SD.StatisPending => "badge-pending",
             SD.StatusApproved => "badge-approved",
+            SD.StatusInProcess => "badge-processing",
             SD.StatusShipped => "badge-shipped",
             SD.StatusCancelled => "badge-cancelled",
             SD.StatusRefunded => "badge-refunded",
-            _ => "badge-pending" 
+            _ => "badge-pending"
         };
     }
 }

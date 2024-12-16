@@ -170,6 +170,9 @@ namespace BanSach.DataAcess.Migrations
                     b.Property<int>("Count")
                         .HasColumnType("int");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
@@ -289,6 +292,7 @@ namespace BanSach.DataAcess.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("ImageUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -302,6 +306,9 @@ namespace BanSach.DataAcess.Migrations
                         .HasColumnType("float");
 
                     b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SoldCount")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -607,7 +614,7 @@ namespace BanSach.DataAcess.Migrations
             modelBuilder.Entity("BanSach.Model.OrderDetail", b =>
                 {
                     b.HasOne("BanSach.Model.OrderHeader", "OrderHeader")
-                        .WithMany()
+                        .WithMany("OrderDetails")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -743,6 +750,11 @@ namespace BanSach.DataAcess.Migrations
                         .HasForeignKey("CompanyId");
 
                     b.Navigation("company");
+                });
+
+            modelBuilder.Entity("BanSach.Model.OrderHeader", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 
             modelBuilder.Entity("BanSach.Model.Product", b =>

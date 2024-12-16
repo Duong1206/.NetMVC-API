@@ -65,8 +65,8 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css
 
                 <div class="col-lg-7 pb-5">
                     <h3 class="font-weight-semi-bold">@Model.Product.Name</h3>
-                    <br />
-                    @* <h3 class="font-weight-semi-bold mb-4">ISBN: @Model.Product.ISBN</h3> *@
+                    <p>@Model.Product.Author</p>
+                    <br>
                     <h3 class="font-weight-semi-bold mb-4">
                         @Model.Product.Price50 VND &nbsp;
                         @if (Model.Product.Price100 > 0)
@@ -80,12 +80,25 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css
                     <div class="d-flex align-items-center mb-4 pt-2">
                         <div class="input-group quantity mr-3" style="width: 130px;">
 
-                            <p class="col-2 text-primary"><h4>Count</h4></p>
-                            <p class="col-10"><input asp-for="Count" class="form-control" min="1" max="99" /></p>
+                            @if (Model.Product.Quantity == 0)
+                            {
+                                <p class="col-10"><input asp-for="Count" class="form-control" min="1" max="@Model.Product.Quantity" disabled /></p>
 
+                            }
+                            else
+                            {
+                                <p class="col-10"><input asp-for="Count" class="form-control" min="1" max="@Model.Product.Quantity" /></p>
+                            }
                         </div>
-                        <button type="submit" value="Add to Cart" class="btn btn-primary form-control" style="height:50px">Add To Cart</button>
+                        <button type="submit" value="Add to Cart" class="btn btn-primary form-control" style="height:50px" @(Model.Product.Quantity == 0 ? "disabled" : "")>Add To Cart</button>
                     </div>
+                    <br />
+                    @if (Model.Product.Quantity == 0)
+                    {
+                        <div class="alert alert-warning mt-3" role="alert">
+                            <i class="fas fa-exclamation-triangle mr-2"></i>This product is out of stock.
+                        </div>
+                    }
 
                 </div>
             </div>

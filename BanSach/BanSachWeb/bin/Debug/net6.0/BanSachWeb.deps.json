@@ -38,6 +38,7 @@
           "BanSach.Utility": "1.0.0",
           "Baseline": "4.1.0",
           "DryIoc.dll": "5.4.3",
+          "ESC-POS-USB-NET": "1.1.3",
           "LamarCodeGeneration": "6.3.0",
           "Microsoft.AspNetCore.Authentication.Google": "6.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.29",
@@ -217,7 +218,6 @@
           "System.Drawing": "4.0.0.0",
           "System.Drawing.Primitives": "6.0.0.0",
           "System.Dynamic.Runtime": "6.0.0.0",
-          "System.Formats.Asn1.Reference": "6.0.0.0",
           "System.Globalization.Calendars.Reference": "6.0.0.0",
           "System.Globalization.Reference": "6.0.0.0",
           "System.Globalization.Extensions.Reference": "6.0.0.0",
@@ -306,7 +306,6 @@
           "System.Security.SecureString": "6.0.0.0",
           "System.ServiceModel.Web": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
-          "System.Text.Encoding.CodePages.Reference": "6.0.0.0",
           "System.Text.Encoding.Reference": "6.0.0.0",
           "System.Text.Encoding.Extensions.Reference": "6.0.0.0",
           "System.Text.Encodings.Web.Reference": "6.0.0.0",
@@ -371,6 +370,17 @@
           "lib/net6.0/Bogus.dll": {}
         }
       },
+      "BouncyCastle.Cryptography/2.5.0": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.5.0.6119"
+          }
+        },
+        "compile": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {}
+        }
+      },
       "DryIoc.dll/5.4.3": {
         "runtime": {
           "lib/net6.0/DryIoc.dll": {
@@ -380,6 +390,20 @@
         },
         "compile": {
           "lib/net6.0/DryIoc.dll": {}
+        }
+      },
+      "ESC-POS-USB-NET/1.1.3": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ESC-POS-USB-NET.dll": {
+            "assemblyVersion": "1.1.3.0",
+            "fileVersion": "1.1.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/ESC-POS-USB-NET.dll": {}
         }
       },
       "Humanizer/2.14.1": {
@@ -942,6 +966,21 @@
           "lib/net6.0/LamarCodeGeneration.dll": {}
         }
       },
+      "MailKit/4.9.0": {
+        "dependencies": {
+          "MimeKit": "4.9.0",
+          "System.Formats.Asn1": "8.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MailKit.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/MailKit.dll": {}
+        }
+      },
       "MessagePack/2.1.152": {
         "dependencies": {
           "MessagePack.Annotations": "2.1.152",
@@ -1282,7 +1321,7 @@
           "System.Reflection.Metadata": "6.0.0",
           "System.Reflection.MetadataLoadContext": "6.0.0",
           "System.Security.Principal.Windows": "5.0.0",
-          "System.Text.Encoding.CodePages": "6.0.0",
+          "System.Text.Encoding.CodePages": "8.0.0",
           "System.Text.Json": "6.0.0",
           "System.Threading.Tasks.Dataflow": "6.0.0"
         },
@@ -1329,7 +1368,7 @@
           "System.Memory": "4.5.5",
           "System.Reflection.Metadata": "6.0.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encoding.CodePages": "6.0.0",
+          "System.Text.Encoding.CodePages": "8.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
@@ -1759,7 +1798,7 @@
           "System.Diagnostics.DiagnosticSource": "6.0.1",
           "System.Runtime.Caching": "4.7.0",
           "System.Security.Principal.Windows": "5.0.0",
-          "System.Text.Encoding.CodePages": "6.0.0"
+          "System.Text.Encoding.CodePages": "8.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
@@ -2360,6 +2399,23 @@
           "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
         }
       },
+      "MimeKit/4.9.0": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.5.0",
+          "System.Formats.Asn1": "8.0.1",
+          "System.Security.Cryptography.Pkcs": "8.0.1",
+          "System.Text.Encoding.CodePages": "8.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MimeKit.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/MimeKit.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -2511,7 +2567,7 @@
           "NuGet.Configuration": "6.6.1",
           "NuGet.Versioning": "6.6.1",
           "System.Security.Cryptography.Cng": "5.0.0",
-          "System.Security.Cryptography.Pkcs": "5.0.0"
+          "System.Security.Cryptography.Pkcs": "8.0.1"
         },
         "runtime": {
           "lib/net5.0/NuGet.Packaging.dll": {
@@ -3033,7 +3089,17 @@
           "lib/net6.0/System.Drawing.Common.dll": {}
         }
       },
-      "System.Formats.Asn1/5.0.0": {},
+      "System.Formats.Asn1/8.0.1": {
+        "runtime": {
+          "lib/net6.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
+          }
+        },
+        "compile": {
+          "lib/net6.0/System.Formats.Asn1.dll": {}
+        }
+      },
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -3379,7 +3445,7 @@
       },
       "System.Security.Cryptography.Cng/5.0.0": {
         "dependencies": {
-          "System.Formats.Asn1": "5.0.0"
+          "System.Formats.Asn1": "8.0.1"
         }
       },
       "System.Security.Cryptography.Csp/4.3.0": {
@@ -3432,13 +3498,26 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
         }
       },
-      "System.Security.Cryptography.Pkcs/5.0.0": {
+      "System.Security.Cryptography.Pkcs/8.0.1": {
         "dependencies": {
-          "System.Formats.Asn1": "5.0.0",
-          "System.Security.Cryptography.Cng": "5.0.0"
+          "System.Formats.Asn1": "8.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
         },
         "compile": {
-          "ref/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {}
+          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {}
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -3502,7 +3581,7 @@
       },
       "System.Security.Cryptography.Xml/4.5.0": {
         "dependencies": {
-          "System.Security.Cryptography.Pkcs": "5.0.0",
+          "System.Security.Cryptography.Pkcs": "8.0.1",
           "System.Security.Permissions": "6.0.0"
         }
       },
@@ -3529,9 +3608,26 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encoding.CodePages/6.0.0": {
+      "System.Text.Encoding.CodePages/8.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {}
         }
       },
       "System.Text.Encoding.Extensions/4.3.0": {
@@ -3695,8 +3791,10 @@
       },
       "BanSach.Utility/1.0.0": {
         "dependencies": {
+          "MailKit": "4.9.0",
           "Microsoft.AspNetCore.Identity.UI": "6.0.29",
-          "Microsoft.EntityFrameworkCore": "6.0.30"
+          "Microsoft.EntityFrameworkCore": "6.0.30",
+          "MimeKit": "4.9.0"
         },
         "runtime": {
           "BanSach.Utility.dll": {}
@@ -4707,12 +4805,6 @@
         },
         "compileOnly": true
       },
-      "System.Formats.Asn1.Reference/6.0.0.0": {
-        "compile": {
-          "System.Formats.Asn1.dll": {}
-        },
-        "compileOnly": true
-      },
       "System.Globalization.Calendars.Reference/6.0.0.0": {
         "compile": {
           "System.Globalization.Calendars.dll": {}
@@ -5241,12 +5333,6 @@
         },
         "compileOnly": true
       },
-      "System.Text.Encoding.CodePages.Reference/6.0.0.0": {
-        "compile": {
-          "System.Text.Encoding.CodePages.dll": {}
-        },
-        "compileOnly": true
-      },
       "System.Text.Encoding.Reference/6.0.0.0": {
         "compile": {
           "System.Text.Encoding.dll": {}
@@ -5455,12 +5541,26 @@
       "path": "bogus/35.5.1",
       "hashPath": "bogus.35.5.1.nupkg.sha512"
     },
+    "BouncyCastle.Cryptography/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rc7vRCq/KD3GtIwSgRtjanGaBwTb9nLenFDZnEcauWlssuuEoxcbMfWA3QWWho6QDMSOSkWjs657McdHzEtEcw==",
+      "path": "bouncycastle.cryptography/2.5.0",
+      "hashPath": "bouncycastle.cryptography.2.5.0.nupkg.sha512"
+    },
     "DryIoc.dll/5.4.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-yhXOG3SOxeWYxBAWskNRDD8fzw5hriEawv4VN4WKaFHOuubiop4kxe2rkWTEyCnTgRVgxVUSQCDBBkZqwPm1iQ==",
       "path": "dryioc.dll/5.4.3",
       "hashPath": "dryioc.dll.5.4.3.nupkg.sha512"
+    },
+    "ESC-POS-USB-NET/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sqHGbIRFllb4BL0NrUYiRpPctOjC9zFi7vVww5YHVPfvmKGivEdIndxWBd2/qfyzZB8q5QOp+rJGNb/QDkexcw==",
+      "path": "esc-pos-usb-net/1.1.3",
+      "hashPath": "esc-pos-usb-net.1.1.3.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -5825,6 +5925,13 @@
       "sha512": "sha512-PBHMzJEIcjl1CkSwU1DSf9oGLTcD7Z6PCJzxwWln2iipugPVJNyuyzuuhN3TCFGqJEzmZLTUr5JrKiGOEAmT+w==",
       "path": "lamarcodegeneration/6.3.0",
       "hashPath": "lamarcodegeneration.6.3.0.nupkg.sha512"
+    },
+    "MailKit/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wRUVzYXRWbjdUixwtSp7ivVHPhWw17h+BvwIVaouBike68B56Xk9b5+QRT39EK/QN8XF7MtOgt9caHvUaCvhIQ==",
+      "path": "mailkit/4.9.0",
+      "hashPath": "mailkit.4.9.0.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",
@@ -6554,6 +6661,13 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
+    "MimeKit/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DZXXMZzmAABDxFhOSMb6SE8KKxcRd/sk1E6aJTUE5ys2FWOQhznYV2Gl3klaaSfqKn27hQ32haqquH1J8Z6kJw==",
+      "path": "mimekit/4.9.0",
+      "hashPath": "mimekit.4.9.0.nupkg.sha512"
+    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -6925,12 +7039,12 @@
       "path": "system.drawing.common/6.0.0",
       "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
     },
-    "System.Formats.Asn1/5.0.0": {
+    "System.Formats.Asn1/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
-      "path": "system.formats.asn1/5.0.0",
-      "hashPath": "system.formats.asn1.5.0.0.nupkg.sha512"
+      "sha512": "sha512-XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
+      "path": "system.formats.asn1/8.0.1",
+      "hashPath": "system.formats.asn1.8.0.1.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
@@ -7219,12 +7333,12 @@
       "path": "system.security.cryptography.openssl/4.3.0",
       "hashPath": "system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
-    "System.Security.Cryptography.Pkcs/5.0.0": {
+    "System.Security.Cryptography.Pkcs/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9TPLGjBCGKmNvG8pjwPeuYy0SMVmGZRwlTZvyPHDbYv/DRkoeumJdfumaaDNQzVGMEmbWtg07zUpSW9q70IlDQ==",
-      "path": "system.security.cryptography.pkcs/5.0.0",
-      "hashPath": "system.security.cryptography.pkcs.5.0.0.nupkg.sha512"
+      "sha512": "sha512-CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+      "path": "system.security.cryptography.pkcs/8.0.1",
+      "hashPath": "system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
       "type": "package",
@@ -7275,12 +7389,12 @@
       "path": "system.text.encoding/4.3.0",
       "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
     },
-    "System.Text.Encoding.CodePages/6.0.0": {
+    "System.Text.Encoding.CodePages/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
-      "path": "system.text.encoding.codepages/6.0.0",
-      "hashPath": "system.text.encoding.codepages.6.0.0.nupkg.sha512"
+      "sha512": "sha512-OZIsVplFGaVY90G2SbpgU7EnCoOO5pw1t4ic21dBF3/1omrJFpAGoNAVpPyMVOC90/hvgkGG3VFqR13YgZMQfg==",
+      "path": "system.text.encoding.codepages/8.0.0",
+      "hashPath": "system.text.encoding.codepages.8.0.0.nupkg.sha512"
     },
     "System.Text.Encoding.Extensions/4.3.0": {
       "type": "package",
@@ -8237,11 +8351,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Formats.Asn1.Reference/6.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
     "System.Globalization.Calendars.Reference/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -8678,11 +8787,6 @@
       "sha512": ""
     },
     "System.ServiceProcess/4.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Text.Encoding.CodePages.Reference/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

@@ -21,9 +21,22 @@ namespace BanSachWeb.Areas.Customer.Controllers
         }
         public IActionResult Index()
         {
-            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category").Take(PageSize);
+            var productList = _unitOfWork.Product.GetAll(includeProperties: "Category")
+                                                 .GroupBy(p => p.Name)
+                                                 .Select(g => g.FirstOrDefault(p => p.Quantity > 0) ?? g.FirstOrDefault())
+                                                 .Take(PageSize)
+                                                 .ToList();
+
+            foreach (var product in productList)
+            {
+                product.SoldCount = _unitOfWork.OrderDetail.GetSoldCountForProduct(product.Id);
+            }
+
             return View(productList);
         }
+
+
+
 
         public IActionResult Details(int id)
         {

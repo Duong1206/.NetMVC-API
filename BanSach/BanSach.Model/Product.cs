@@ -46,5 +46,7 @@ namespace BanSach.Model
         [ValidateNever]
         public CoverType? coverType { get; set; }
         public List<Review> Reviews { get; set; } = new List<Review>();
+        public int SoldCount { get; set; }
+       
     }
 }

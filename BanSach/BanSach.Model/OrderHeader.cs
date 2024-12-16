@@ -38,6 +38,6 @@ namespace BanSach.Model
         public string? PostalCode { get; set; }
         [Required]
         public string? Name { get; set; }
-
+        public ICollection<OrderDetail>? OrderDetails { get; set; }
     }
 }

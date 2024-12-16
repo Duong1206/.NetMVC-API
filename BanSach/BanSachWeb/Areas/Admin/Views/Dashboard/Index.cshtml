@@ -20,16 +20,16 @@
 </head>
 <body>
     <div class="container mt-4">
-        <h2 class="text-center mb-4">Doanh Thu Tổng Quan</h2>
+        <h2 class="text-center mb-4">Revenue Overview</h2>
         <div class="row">
             <div class="col-md-4 col-sm-12 mb-4">
                 <div class="card text-white bg-primary mb-3">
-                    <div class="card-header">Doanh thu hôm nay</div>
+                    <div class="card-header">Revenue Today</div>
                     <div class="card-body">
                         <h5 class="card-title">
                             @if (User.IsInRole("Admin"))
                             {
-                            @ViewData["RevenueToday"] 
+                                @ViewData["RevenueToday"]
                             }
                             else
                             {
@@ -37,34 +37,18 @@
                             }
                             VND
                         </h5>
-                        <p class="card-text">Tổng số đơn: @ViewData["OrdersToday"]</p>
+                        <p class="card-text">Total Orders: @ViewData["OrdersToday"]</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-12 mb-4">
                 <div class="card text-white bg-success mb-3">
-                    <div class="card-header">Doanh thu tháng này</div>
+                    <div class="card-header">Revenue This Month</div>
                     <div class="card-body">
                         <h5 class="card-title">
                             @if (User.IsInRole("Admin"))
                             {
-                            @ViewData["RevenueMonth"]}
-                            else
-                            {
-                                @:---
-                            }
-                            VND</h5>
-                        <p class="card-text">Tổng số đơn: @ViewData["OrdersMonth"]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12 mb-4">
-                <div class="card text-white bg-warning mb-3">
-                    <div class="card-header">Doanh thu năm nay</div>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            @if (User.IsInRole("Admin"))
-                            {@ViewData["RevenueYear"]
+                                @ViewData["RevenueMonth"]
                             }
                             else
                             {
@@ -72,27 +56,61 @@
                             }
                             VND
                         </h5>
-                        <p class="card-text">Tổng số đơn: @ViewData["OrdersYear"]</p>
+                        <p class="card-text">Total Orders: @ViewData["OrdersMonth"]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="card text-white bg-warning mb-3">
+                    <div class="card-header">Revenue This Year</div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @if (User.IsInRole("Admin"))
+                            {
+                                @ViewData["RevenueYear"]
+                            }
+                            else
+                            {
+                                @:---
+                            }
+                            VND
+                        </h5>
+                        <p class="card-text">Total Orders: @ViewData["OrdersYear"]</p>
                     </div>
                 </div>
             </div>
         </div>
+        <br />
+        <h5>Orders of the Day</h5>
+        <br />
+
         <div class="row mb-4">
-            <div class="col-md-12 col-sm-12">
+            <div class="chart-container col-md-12 col-sm-12">
                 <canvas id="dailyOrdersChart" style="height: 250px; width: 100%;"></canvas>
             </div>
         </div>
-        <div class="row mb-4">
+        <h5>Orders This Year</h5>
+        <br />
+
+        <div class="chart-container row mb-4">
             <div class="col-md-12 col-sm-12">
                 <canvas id="monthlyOrdersChart" style="height: 250px; width: 100%;"></canvas>
             </div>
         </div>
+        <style>
+            .chart-container {
+                position: relative;
+                width: 100%;
+                height: 300px;
+            }
+        </style>
     </div>
 </body>
-<script>
 
+<script>
+    // Get data for daily orders chart
     var dailyOrdersData = @Html.Raw(Json.Serialize(ViewData["DailyOrdersData"]));
-    console.log("Daily Orders Data:", dailyOrdersData); 
+    console.log("Daily Orders Data:", dailyOrdersData);
     var hours = ['00:00', '02:00', '04:00', '06:00', '08:00', '10:00', '12:00', '14:00', '16:00', '18:00', '20:00', '22:00'];
     var dailyOrderCounts = new Array(hours.length).fill(0);
 
@@ -100,14 +118,14 @@
         var hourIndex = Math.floor(data.Hour / 2);
         dailyOrderCounts[hourIndex] += data.OrderCount;
     });
-    console.log("Daily Order Counts:", dailyOrderCounts); 
+    console.log("Daily Order Counts:", dailyOrderCounts);
 
     var dailyOrdersChart = new Chart(document.getElementById('dailyOrdersChart'), {
         type: 'line',
         data: {
             labels: hours,
             datasets: [{
-                label: 'Số đơn hàng',
+                label: 'Number of Orders',
                 data: dailyOrderCounts,
                 borderColor: 'rgba(75, 192, 192, 1)',
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
@@ -121,35 +139,36 @@
                 x: {
                     title: {
                         display: true,
-                        text: 'Giờ trong ngày'
+                        text: 'Hours of the Day'
                     }
                 },
                 y: {
                     title: {
                         display: true,
-                        text: 'Số đơn hàng'
+                        text: 'Number of Orders'
                     }
                 }
             }
         }
     });
 
+    // Get data for monthly orders chart
     var monthlyOrdersData = @Html.Raw(Json.Serialize(ViewData["MonthlyOrdersData"]));
-    console.log("Monthly Orders Data:", monthlyOrdersData); 
-    var months = ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'];
+    console.log("Monthly Orders Data:", monthlyOrdersData);
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     var monthlyOrderCounts = new Array(months.length).fill(0);
 
     monthlyOrdersData.forEach(data => {
         monthlyOrderCounts[data.Month - 1] += data.OrderCount;
     });
-    console.log("Monthly Order Counts:", monthlyOrderCounts); 
+    console.log("Monthly Order Counts:", monthlyOrderCounts);
 
     var monthlyOrdersChart = new Chart(document.getElementById('monthlyOrdersChart'), {
         type: 'line',
         data: {
             labels: months,
             datasets: [{
-                label: 'Số đơn hàng',
+                label: 'Number of Orders',
                 data: monthlyOrderCounts,
                 borderColor: 'rgba(153, 102, 255, 1)',
                 backgroundColor: 'rgba(153, 102, 255, 0.2)',
@@ -163,17 +182,16 @@
                 x: {
                     title: {
                         display: true,
-                        text: 'Tháng trong năm'
+                        text: 'Months of the Year'
                     }
                 },
                 y: {
                     title: {
                         display: true,
-                        text: 'Số đơn hàng'
+                        text: 'Number of Orders'
                     }
                 }
             }
         }
     });
-
 </script>

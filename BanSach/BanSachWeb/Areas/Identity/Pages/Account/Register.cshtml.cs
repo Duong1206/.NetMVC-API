@@ -114,7 +114,7 @@ namespace BanSachWeb.Areas.Identity.Pages.Account
             public string? Name { get; set; }
             public string? StreetAddress { get; set; }
             public string? City { get; set; }
-            public string? State { get; set; }
+           /* public string? State { get; set; }*/
             public string? PostalCode { get; set; }
             [Required]
             [RegularExpression(@"^0[35789]\d{8}$", ErrorMessage = "Please enter a valid Vietnamese phone number (10 digits, starting with 03, 05, 07, 08, or 09).")]
@@ -173,7 +173,7 @@ namespace BanSachWeb.Areas.Identity.Pages.Account
                 user.PostalCode = Input.PostalCode;
                 user.Name = Input.Name;
                 user.PhoneNumber = Input.PhoneNumber;
-                user.State = Input.State;
+               /* user.State = Input.State;*/
                 if(Input.Role == SD.Role_User_Comp)
                 {
                     user.CompanyId = Input.CompanyId;

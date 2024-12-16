@@ -38,7 +38,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             };
             foreach (var cart in ShoppingCartVM.ListCart)
             {
-                cart.Product.Price50 = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price50, cart.Product.Price50, cart.Product.Price100);
+                /*cart.Product.Price50 = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price50, cart.Product.Price50, cart.Product.Price100);*/
 
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
             }
@@ -67,7 +67,6 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
             foreach (var cart in ShoppingCartVM.ListCart)
             {
-                cart.Product.Price50 = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price50, cart.Product.Price50, cart.Product.Price100);
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
             }
             return View(ShoppingCartVM);
@@ -91,7 +90,6 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
             foreach (var cart in ShoppingCartVM.ListCart)
             {
-                cart.Product.Price50 = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price50, cart.Product.Price50, cart.Product.Price100);
                 ShoppingCartVM.OrderHeader.OrderTotal += cart.Product.Price50 * cart.Count;
             }
 
@@ -105,6 +103,15 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
                 foreach (var cart in ShoppingCartVM.ListCart)
                 {
+
+                    var product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == cart.ProductId);
+                    if (product != null)
+                    {
+                        product.Quantity -= cart.Count;
+                        product.SoldCount += cart.Count;
+                        _unitOfWork.Product.Update(product);
+                    }
+
                     var orderDetail = new OrderDetail
                     {
                         ProductId = cart.ProductId,
@@ -116,8 +123,6 @@ namespace BanSachWeb.Areas.Customer.Controllers
                 }
 
                 _unitOfWork.Save();
-
-                // Xóa giỏ hàng
                 _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartVM.ListCart);
                 _unitOfWork.Save();
 
@@ -252,7 +257,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private double GetPriceBaseOnQuantity(double quantity, double price, double price50, double price100)
+       /* private double GetPriceBaseOnQuantity(double quantity, double price, double price50, double price100)
         {
             if (quantity <= 10)
             {
@@ -266,7 +271,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
                 }
                 return price50 * 0.7;
             }
-        }
+        }*/
 
 
       

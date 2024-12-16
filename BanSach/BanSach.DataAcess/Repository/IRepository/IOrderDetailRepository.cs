@@ -1,9 +1,4 @@
 ﻿using BanSach.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BanSach.DataAcess.Repository.IRepository
 {
@@ -11,8 +6,7 @@ namespace BanSach.DataAcess.Repository.IRepository
     {
         void Update(OrderDetail obj);
 
-        /*void Save();*/
-
+        int GetSoldCountForProduct(int productId);
 
     }
 }

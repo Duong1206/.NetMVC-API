@@ -2,7 +2,7 @@
 {
     public class OrderListViewModel
     {
-        public IEnumerable<OrderVM> Orders { get; set; }
-        public PagingInfo PagingInfo { get; set; }
+        public IEnumerable<OrderVM>? Orders { get; set; }
+        public PagingInfo PagingInfo { get; set; } = new PagingInfo();
     }
 }
