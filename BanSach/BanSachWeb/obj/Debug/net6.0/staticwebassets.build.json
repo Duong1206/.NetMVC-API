@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FwzBGqwfKuq1seAL149NP5v/cXyGcBQ8cN/pVC6Q80A=",
+  "Hash": "3y6zfDzzzRa/MeziF7vAiSuvBof9vsgCeIHStOKkl5U=",
   "Source": "BanSachWeb",
   "BasePath": "_content/BanSachWeb",
   "Mode": "Default",
@@ -1442,6 +1442,25 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\0c66b45b-f955-4407-9fbb-d15b8cc25c0a.jpg"
     },
     {
+      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\235a8ee2-5772-497e-8211-2257dee716f0.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/235a8ee2-5772-497e-8211-2257dee716f0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\235a8ee2-5772-497e-8211-2257dee716f0.jpg"
+    },
+    {
       "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\34e191a2-ae53-42cf-b514-022d36451fbd.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
@@ -1499,6 +1518,25 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\38e3020f-fd38-4a2b-bc95-67c4f027379b.jpg"
     },
     {
+      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\535b1558-8717-417a-9b2d-41b52fa0b34b.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/535b1558-8717-417a-9b2d-41b52fa0b34b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\535b1558-8717-417a-9b2d-41b52fa0b34b.jpg"
+    },
+    {
       "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\5f9e5014-04aa-4a88-908c-bf88f2986d1d.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
@@ -1518,12 +1556,12 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\5f9e5014-04aa-4a88-908c-bf88f2986d1d.jpg"
     },
     {
-      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\6f423509-e149-4f3c-98f2-34bec077323e.jpg",
+      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\69aa8984-fd0c-4e1a-a1c7-dbcde213cacd.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
-      "RelativePath": "images/products/6f423509-e149-4f3c-98f2-34bec077323e.jpg",
+      "RelativePath": "images/products/69aa8984-fd0c-4e1a-a1c7-dbcde213cacd.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1534,7 +1572,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\6f423509-e149-4f3c-98f2-34bec077323e.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\69aa8984-fd0c-4e1a-a1c7-dbcde213cacd.jpg"
     },
     {
       "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\7ba56bbd-dd92-4f27-ac3e-0c7e477b390c.jpg",
@@ -1632,6 +1670,25 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\b80a6e8d-141b-466a-b9f5-04a0bf45ec42.jpg"
     },
     {
+      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\bdb06cbf-cb04-4cbc-8882-88f70ec8fac5.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/bdb06cbf-cb04-4cbc-8882-88f70ec8fac5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\bdb06cbf-cb04-4cbc-8882-88f70ec8fac5.jpg"
+    },
+    {
       "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\book1.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
@@ -1670,6 +1727,25 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\book2.jpg"
     },
     {
+      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\c453c4a5-7ce1-4d90-82c4-e7e53b6d2c53.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/c453c4a5-7ce1-4d90-82c4-e7e53b6d2c53.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\c453c4a5-7ce1-4d90-82c4-e7e53b6d2c53.jpg"
+    },
+    {
       "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\c900805c-025e-46e2-bff9-1f3d3845fe45.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
@@ -1689,12 +1765,12 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\c900805c-025e-46e2-bff9-1f3d3845fe45.jpg"
     },
     {
-      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\e252a8b5-7115-41fb-9797-95ae52ebfc30.jpg",
+      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\f7ef3929-5768-4784-bee0-d85ee43e0acd.jpg",
       "SourceId": "BanSachWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\",
       "BasePath": "_content/BanSachWeb",
-      "RelativePath": "images/products/e252a8b5-7115-41fb-9797-95ae52ebfc30.jpg",
+      "RelativePath": "images/products/f7ef3929-5768-4784-bee0-d85ee43e0acd.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1705,7 +1781,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\e252a8b5-7115-41fb-9797-95ae52ebfc30.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\f7ef3929-5768-4784-bee0-d85ee43e0acd.jpg"
+    },
+    {
+      "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\f8e2abd4-df03-4a0a-bd55-0d3e06ef148a.jpg",
+      "SourceId": "BanSachWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\",
+      "BasePath": "_content/BanSachWeb",
+      "RelativePath": "images/products/f8e2abd4-df03-4a0a-bd55-0d3e06ef148a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\f8e2abd4-df03-4a0a-bd55-0d3e06ef148a.jpg"
     },
     {
       "Identity": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\fac6e9ba-bb92-486c-9da8-8cfc8d59f158.jpg",

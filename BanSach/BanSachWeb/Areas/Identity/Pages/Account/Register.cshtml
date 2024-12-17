@@ -14,35 +14,35 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-floating py-2 col-6">
                 <input asp-for="Input.Name" class="form-control" autocomplete="username" aria-required="true" />
-                <label asp-for="Input.Name"></label>
+                <label asp-for="Input.Name"></label><span style="color:red; font-size:2em">*</span>
                 <span asp-validation-for="Input.Name" class="text-danger"></span>
             </div>
             <br />
 
             <div class="form-floating py-2 col-6">
                 <input asp-for="Input.Email" class="form-control" aria-required="true" />
-                <label asp-for="Input.Email"></label>
+                <label asp-for="Input.Email"></label><span style="color:red; font-size:2em">*</span>
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
             <br />
 
             <div class="form-floating py-2 col-6">
                 <input asp-for="Input.PhoneNumber" class="form-control" aria-required="true" />
-                <label asp-for="Input.PhoneNumber"></label>
+                <label asp-for="Input.PhoneNumber"></label><span style="color:red; font-size:2em">*</span>
                 <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
             </div>
             <br />
 
             <div class="form-floating py-2 col-6">
                 <input asp-for="Input.StreetAddress" class="form-control" aria-required="true" />
-                <label asp-for="Input.StreetAddress"></label>
+                <label asp-for="Input.StreetAddress"></label><span style="color:red; font-size:2em">*</span>
                 <span asp-validation-for="Input.StreetAddress" class="text-danger"></span>
             </div>
             <br />
 
             <div class="form-floating py-2 col-6">
                 <input asp-for="Input.City" class="form-control" aria-required="true" />
-                <label asp-for="Input.City"></label>
+                <label asp-for="Input.City"></label><span style="color:red; font-size:2em">*</span>
                 <span asp-validation-for="Input.City" class="text-danger"></span>
             </div>
             @* <br />
@@ -56,21 +56,21 @@
 
             <div class="form-floating py-2 col-6">
                 <input asp-for="Input.PostalCode" class="form-control" aria-required="true" />
-                <label asp-for="Input.PostalCode"></label>
+                <label asp-for="Input.PostalCode"></label><span style="color:red; font-size:2em">*</span>
                 <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
             </div>
             <br />
 
             <div class="form-floating py-2 col-6">
                 <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
-                <label asp-for="Input.Password"></label>
+                <label asp-for="Input.Password"></label><span style="color:red; font-size:2em">*</span>
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
             <br />
 
             <div class="form-floating py-2 col-6">
                 <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
-                <label asp-for="Input.ConfirmPassword"></label>
+                <label asp-for="Input.ConfirmPassword"></label><span style="color:red; font-size:2em">*</span>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
             <br />
@@ -87,9 +87,10 @@
                     <option disabled selected>--Selected Company--</option>
                 </select>
             </div> *@
-            <br />
+        
 
             <button id="registerSubmit" type="submit" class="login">Register</button>
+
         </form>
     </div>
 </div>

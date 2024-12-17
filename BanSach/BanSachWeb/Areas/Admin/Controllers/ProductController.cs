@@ -109,7 +109,6 @@ namespace BanSachWeb.Areas.Admin.Controllers
         // 
 
         [Authorize(Roles = "Admin,Employee")]
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(ProductVM obj, IFormFile file)
@@ -120,27 +119,24 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
                 if (file != null)
                 {
-                    // Giới hạn kích thước file: 10MB
-                    const long maxFileSize = 10 * 1024 * 1024; // 10MB
+                    const long maxFileSize = 10 * 1024 * 1024;
                     if (file.Length > maxFileSize)
                     {
                         TempData["error"] = "File size exceeds 10MB. Please upload a smaller file.";
                         return View(obj);
                     }
 
-                    // Kiểm tra phần mở rộng file
                     var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
                     var extension = Path.GetExtension(file.FileName).ToLower();
 
                     if (!allowedExtensions.Contains(extension))
                     {
-                        TempData["error"] = "Invalid file format. Only .jpg and .png files are allowed.";
+                        TempData["error"] = "Invalid file format. Only .jpg, .jpeg, and .png files are allowed.";
                         return View(obj);
                     }
 
                     string fileName = Guid.NewGuid().ToString();
                     var uploads = Path.Combine(wwwRootPath, @"images\products\");
-
                     if (obj.product.ImageUrl != null)
                     {
                         var oldImagePath = Path.Combine(wwwRootPath, obj.product.ImageUrl.TrimStart('\\'));
@@ -150,26 +146,47 @@ namespace BanSachWeb.Areas.Admin.Controllers
                         }
                     }
 
-                    using (var fileStreams =
-                           new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+                    using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
                     {
                         file.CopyTo(fileStreams);
                     }
-
                     obj.product.ImageUrl = @"\images\products\" + fileName + extension;
                 }
+                else if (obj.product.Id == 0) 
+                {
+                    TempData["error"] = "Please upload an image for the product.";
+                    return View(obj);
+                }
 
-                var existingProduct = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == obj.product.Id);
-
-                if (existingProduct == null)
+                if (obj.product.Id == 0)
                 {
                     _unitOfWork.Product.Add(obj.product);
                     TempData["success"] = "Product Created Successfully";
                 }
                 else
                 {
-                    _unitOfWork.Product.Update(existingProduct);
-                    TempData["success"] = "Product Updated Successfully";
+                    var existingProduct = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == obj.product.Id);
+                    if (existingProduct != null)
+                    {
+                        existingProduct.Name = obj.product.Name;
+                        existingProduct.Description = obj.product.Description;
+                        existingProduct.ISBN = obj.product.ISBN;
+                        existingProduct.Author = obj.product.Author;
+                        existingProduct.Price50 = obj.product.Price50;
+                        existingProduct.Price100 = obj.product.Price100;
+                        existingProduct.Quantity = obj.product.Quantity;
+                        existingProduct.CategoryId = obj.product.CategoryId;
+                        existingProduct.CoverTypeId = obj.product.CoverTypeId;
+                        existingProduct.ImageUrl = obj.product.ImageUrl ?? existingProduct.ImageUrl;
+
+                        _unitOfWork.Product.Update(existingProduct);
+                        TempData["success"] = "Product Updated Successfully";
+                    }
+                    else
+                    {
+                        TempData["error"] = "Product not found.";
+                        return View(obj);
+                    }
                 }
 
                 _unitOfWork.Save();
@@ -178,6 +195,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
             return View(obj);
         }
+
 
 
 

@@ -1,9 +1,12 @@
 ﻿using BanSach.DataAcess.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BanSachWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,Employee")]
+    
     public class DashboardController : Controller
     {
         private readonly ApplicationDbContext _dbContext;

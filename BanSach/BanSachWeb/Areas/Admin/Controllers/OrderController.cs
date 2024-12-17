@@ -80,12 +80,25 @@ namespace BanSachWeb.Areas.Admin.Controllers
             var orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == orderId);
             if (orderHeader != null)
             {
+                var orderDetails = _unitOfWork.OrderDetail.GetAll(od => od.OrderId == orderId).ToList();
+
+                foreach (var detail in orderDetails)
+                {
+                    var product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == detail.ProductId);
+                    if (product != null)
+                    {
+                        product.Quantity += detail.Count;
+                        _unitOfWork.Product.Update(product);
+                    }
+                }
+
                 orderHeader.OrderStatus = SD.StatusCancelled;
                 _unitOfWork.Save();
-                return Json(new { success = true, message = "Order marked as cancelled successfully." });
+                return Json(new { success = true, message = "Order marked as cancelled successfully and quantity returned." });
             }
             return Json(new { success = false, message = "Error occurred while updating the order status." });
         }
+
 
         [HttpPost]
         public IActionResult MarkAsRefunded(int orderId)
@@ -93,12 +106,25 @@ namespace BanSachWeb.Areas.Admin.Controllers
             var orderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == orderId);
             if (orderHeader != null)
             {
+                var orderDetails = _unitOfWork.OrderDetail.GetAll(od => od.OrderId == orderId).ToList();
+
+                foreach (var detail in orderDetails)
+                {
+                    var product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == detail.ProductId);
+                    if (product != null)
+                    {
+                        product.Quantity += detail.Count;
+                        _unitOfWork.Product.Update(product);
+                    }
+                }
+
                 orderHeader.OrderStatus = SD.StatusRefunded;
                 _unitOfWork.Save();
-                return Json(new { success = true, message = "Order marked as refunded successfully." });
+                return Json(new { success = true, message = "Order marked as refunded successfully and quantity returned." });
             }
             return Json(new { success = false, message = "Error occurred while updating the order status." });
         }
+
 
         [HttpPost]
         public IActionResult DeleteOrder(int orderId)
@@ -115,10 +141,9 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
         // xprinter58
         [HttpPost]
-        [HttpPost]
         public IActionResult PrintOrder(int orderId)
         {
-            var order = _unitOfWork.OrderHeader.GetFirstOrDefault(o => o.Id == orderId, includeProperties: "OrderDetails,ApplicationUser");
+            var order = _unitOfWork.OrderHeader.GetFirstOrDefault(o => o.Id == orderId, includeProperties: "OrderDetails.Product,ApplicationUser");
             if (order == null)
             {
                 return Json(new { success = false, message = "Order not found." });
@@ -126,7 +151,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
             try
             {
-                var printerName = "XP-58";  
+                var printerName = "XP-58";
                 var printer = new Printer(printerName);
 
                 StringBuilder receiptContent = new StringBuilder();
@@ -153,10 +178,10 @@ namespace BanSachWeb.Areas.Admin.Controllers
                 receiptContent.AppendLine("\nThank you for purchasing at the EBOOK STORE!");
 
                 printer.AlignCenter();
-                printer.BoldMode(receiptContent.ToString()); 
+                printer.BoldMode(receiptContent.ToString());
 
-                printer.FullPaperCut();  
-                printer.PrintDocument();  
+                printer.FullPaperCut();
+                printer.PrintDocument();
                 return Json(new { success = true, message = "Order is being printed." });
             }
             catch (Exception ex)
@@ -167,6 +192,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
                 return Json(new { success = false, message = $"Failed to print order: {ex.Message}" });
             }
         }
+
 
 
 

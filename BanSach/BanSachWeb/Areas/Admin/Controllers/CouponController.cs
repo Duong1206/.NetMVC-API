@@ -48,7 +48,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(obj);
         }
 
-        // lấy ra  1 đối tượng với id
+
         [Authorize(Roles = "Admin,Employee")]
 
         public IActionResult Edit(int? id)
@@ -64,10 +64,9 @@ namespace BanSachWeb.Areas.Admin.Controllers
             }
             return View(couponFromDbFirst);
         }
-        // xử lý Edit
 
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
+        [HttpPost] 
+        [ValidateAntiForgeryToken]  
         [Authorize(Roles = "Admin,Employee")]
 
         public IActionResult Edit(Coupon obj)

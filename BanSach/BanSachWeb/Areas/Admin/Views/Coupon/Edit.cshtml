@@ -13,34 +13,37 @@
         </div>
         <!--mấy ô nhập liệu-->
         <div class="mb-3">
-            <label asp-for="Name">Name</label>
+            <label asp-for="Name">Name</label><span style="color:red; font-size:1em">*</span>
             <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
-            <label asp-for="Description">Description</label>
+            <label asp-for="Description">Description</label><span style="color:red; font-size:1em">*</span>
             <input asp-for="Description" class="form-control" />
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="DateStarted">Date Started</label>
+            <label asp-for="DateStarted">Date Started</label><span style="color:red; font-size:1em">*</span>
             <input asp-for="DateStarted" class="form-control" />
             <span asp-validation-for="DateStarted" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="DateExpired">DateExpired</label>
+            <label asp-for="DateExpired">DateExpired</label><span style="color:red; font-size:1em">*</span>
             <input asp-for="DateExpired" class="form-control" />
             <span asp-validation-for="DateExpired" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="Quantity">Quantity</label>
+            <label asp-for="Quantity">Quantity</label><span style="color:red; font-size:1em">*</span>
             <input asp-for="Quantity" class="form-control" />
             <span asp-validation-for="Quantity" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="Status">Status</label>
-            <input asp-for="Status" class="form-control" />
+            <label asp-for="Status">Status</label><span style="color:red; font-size:1em">*</span>
+            <select asp-for="Status" class="form-control">
+                <option value="1">Active</option>
+                <option value="0">Inactive</option>
+            </select>
             <span asp-validation-for="Status" class="text-danger"></span>
         </div>
 

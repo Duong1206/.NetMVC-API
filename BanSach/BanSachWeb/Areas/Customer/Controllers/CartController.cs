@@ -38,8 +38,6 @@ namespace BanSachWeb.Areas.Customer.Controllers
             };
             foreach (var cart in ShoppingCartVM.ListCart)
             {
-                /*cart.Product.Price50 = GetPriceBaseOnQuantity(cart.Count, cart.Product.Price50, cart.Product.Price50, cart.Product.Price100);*/
-
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Product.Price50 * cart.Count);
             }
             return View(ShoppingCartVM);
