@@ -5,7 +5,10 @@
 <head>
     <meta charset="utf-8">
     <title>Book Store</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0" name="view
+
+
+">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
@@ -78,6 +81,15 @@
                             </div>
                             <div class="row my-1">
                                 <div class="col-3">
+                                    <label>District</label>
+                                </div>
+                                <div class="col-9">
+                                    <input asp-for="OrderHeader.State" class="form-control" readonly />
+                                    <span asp-validation-for="OrderHeader.State" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">
                                     <label>City</label>
                                 </div>
                                 <div class="col-9">
@@ -85,15 +97,7 @@
                                     <span asp-validation-for="OrderHeader.City" class="text-danger"></span>
                                 </div>
                             </div>
-                            <div class="row my-1">
-                                <div class="col-3">
-                                    <label>State</label>
-                                </div>
-                                <div class="col-9">
-                                    <input asp-for="OrderHeader.State" class="form-control" readonly />
-                                    <span asp-validation-for="OrderHeader.State" class="text-danger"></span>
-                                </div>
-                            </div>
+                            
                             <div class="row my-1">
                                 <div class="col-3">
                                     <label>Postal Code</label>
@@ -119,9 +123,9 @@
                                         <div class="text-right">
                                             @if (item.Product.Price100 * item.Count > 0)
                                             {
-                                                <span class="text-muted" style="display:block;"><strike>@((item.Product.Price100 * item.Count)) VND</strike></span>
+                                                <span class="text-muted" style="display:block;"><strike>@((item.Product.Price100 * item.Count)) €</strike></span>
                                             }
-                                            <span class="text-muted" style="display:block;">@((item.Product.Price50 * item.Count)) VND</span>
+                                            <span class="text-muted" style="display:block;">@((item.Product.Price50 * item.Count)) €</span>
                                         </div>
                                     </li>
                                 }
@@ -135,8 +139,8 @@
                                 </div>
 
                                 <li class="list-group-item d-flex justify-content-between bg-light">
-                                    <small class="text-info">Total (VND)</small>
-                                    <strong class="text-info">@Model.OrderHeader.OrderTotal VND</strong>
+                                    <small class="text-info">Total (€)</small>
+                                    <strong class="text-info">@Model.OrderHeader.OrderTotal €</strong>
                                 </li>
                                 <br />
                                 <div class="row my-3">

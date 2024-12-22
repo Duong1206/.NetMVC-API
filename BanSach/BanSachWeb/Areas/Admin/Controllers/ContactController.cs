@@ -9,13 +9,9 @@ namespace BanSachWeb.Areas.Admin.Controllers
     [Area("Admin")]
     public class ContactController : Controller
     {
-        //tạo 1 biến 
         private readonly IUnitOfWork _unitOfWork;
-
-        //tạo môi trường lưu hình
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        //hàm khởi tạo
         public ContactController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
             _unitOfWork = unitOfWork;
@@ -29,54 +25,59 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(objContactList);
         }
         [Authorize(Roles = "Admin,Employee")]
-
         public IActionResult Upsert(int? id)
         {
-         
-            Contact Contact = new Contact();
+            Contact contact = new Contact();
 
-            if (id == null || id == 0)
+            if (id != null && id != 0)
             {
-                return View(Contact);
+                contact = _unitOfWork.Contact.GetFirstOrDefault(u => u.Id == id);
+                if (contact == null)
+                {
+                    return NotFound();
+                }
             }
-            else
-            {
-
-                Contact = _unitOfWork.Contact.GetFirstOrDefault(u => u.Id == id);
-
-            }
-
-            return View(Contact);
+            return View(contact);
         }
-        // 
 
 
         [Authorize(Roles = "Admin,Employee")]
-        [HttpPost] 
-        [ValidateAntiForgeryToken]  
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Upsert(Contact obj)
         {
-            //tiến hành update
             if (ModelState.IsValid)
             {
-                //upload Images
-
                 if (obj.Id == 0)
                 {
                     _unitOfWork.Contact.Add(obj);
+                    TempData["success"] = "Contact created successfully!";
                 }
                 else
                 {
-                    _unitOfWork.Contact.Update(obj);
+                    var existingContact = _unitOfWork.Contact.GetFirstOrDefault(c => c.Id == obj.Id);
+                    if (existingContact != null)
+                    {
+                        existingContact.Name = obj.Name;
+                        existingContact.Map = obj.Map;
+                        existingContact.Address = obj.Address;
+                        existingContact.Email = obj.Email;
+                        existingContact.Phone = obj.Phone;
+                        _unitOfWork.Contact.Update(existingContact);
+                        TempData["success"] = "Contact updated successfully!";
+                    }
+                    else
+                    {
+                        return NotFound();
+                    }
                 }
-
-
                 _unitOfWork.Save();
-                TempData["success"] = "Contact Create Successfully";
-                return RedirectToAction("index");
+                return RedirectToAction("Index");
             }
             return View(obj);
         }
+
+
 
 
 

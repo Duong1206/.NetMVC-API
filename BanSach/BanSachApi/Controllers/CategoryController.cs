@@ -1,8 +1,6 @@
 ﻿using BanSach.DataAcess.Mappers;
 using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model.Dtos.Category;
-using BanSach.Model.Dtos.Stock;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BanSachApi.Controllers

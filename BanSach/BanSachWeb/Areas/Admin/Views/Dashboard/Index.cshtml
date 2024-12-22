@@ -4,20 +4,13 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
-
-    <!-- Favicon -->
     <link href="/img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
+
 <body>
     <div class="container mt-4">
         <h2 class="text-center mb-4">Revenue Overview</h2>
@@ -35,7 +28,7 @@
                             {
                                 @:---
                             }
-                            VND
+                            €
                         </h5>
                         <p class="card-text">Total Orders: @ViewData["OrdersToday"]</p>
                     </div>
@@ -54,7 +47,7 @@
                             {
                                 @:---
                             }
-                            VND
+                            €
                         </h5>
                         <p class="card-text">Total Orders: @ViewData["OrdersMonth"]</p>
                     </div>
@@ -73,125 +66,50 @@
                             {
                                 @:---
                             }
-                            VND
+                            €
                         </h5>
                         <p class="card-text">Total Orders: @ViewData["OrdersYear"]</p>
                     </div>
                 </div>
             </div>
         </div>
-        <br />
-        <h5>Orders of the Day</h5>
-        <br />
+        <h2 class="text-center mb-4">Statistics</h2>
 
-        <div class="row mb-4">
-            <div class="chart-container col-md-12 col-sm-12">
-                <canvas id="dailyOrdersChart" style="height: 250px; width: 100%;"></canvas>
+        <!-- Statistics Section -->
+        <div class="row mt-5">
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="card text-white bg-info mb-3">
+                    <div class="card-header">Total Products</div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @ViewData["TotalProducts"]
+                        </h5>
+                        <p class="card-text">Total Number of Products Available</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="card text-white bg-secondary mb-3">
+                    <div class="card-header">Total Comments</div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @ViewData["TotalComments"]
+                        </h5>
+                        <p class="card-text">Total Number of Comments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">Total Users</div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @ViewData["TotalUsers"]
+                        </h5>
+                        <p class="card-text">Total Number of Registered Users</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <h5>Orders This Year</h5>
-        <br />
-
-        <div class="chart-container row mb-4">
-            <div class="col-md-12 col-sm-12">
-                <canvas id="monthlyOrdersChart" style="height: 250px; width: 100%;"></canvas>
-            </div>
-        </div>
-        <style>
-            .chart-container {
-                position: relative;
-                width: 100%;
-                height: 300px;
-            }
-        </style>
     </div>
 </body>
-
-<script>
-    // Get data for daily orders chart
-    var dailyOrdersData = @Html.Raw(Json.Serialize(ViewData["DailyOrdersData"]));
-    console.log("Daily Orders Data:", dailyOrdersData);
-    var hours = ['00:00', '02:00', '04:00', '06:00', '08:00', '10:00', '12:00', '14:00', '16:00', '18:00', '20:00', '22:00'];
-    var dailyOrderCounts = new Array(hours.length).fill(0);
-
-    dailyOrdersData.forEach(data => {
-        var hourIndex = Math.floor(data.Hour / 2);
-        dailyOrderCounts[hourIndex] += data.OrderCount;
-    });
-    console.log("Daily Order Counts:", dailyOrderCounts);
-
-    var dailyOrdersChart = new Chart(document.getElementById('dailyOrdersChart'), {
-        type: 'line',
-        data: {
-            labels: hours,
-            datasets: [{
-                label: 'Number of Orders',
-                data: dailyOrderCounts,
-                borderColor: 'rgba(75, 192, 192, 1)',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                fill: true,
-                tension: 0.1
-            }]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                x: {
-                    title: {
-                        display: true,
-                        text: 'Hours of the Day'
-                    }
-                },
-                y: {
-                    title: {
-                        display: true,
-                        text: 'Number of Orders'
-                    }
-                }
-            }
-        }
-    });
-
-    // Get data for monthly orders chart
-    var monthlyOrdersData = @Html.Raw(Json.Serialize(ViewData["MonthlyOrdersData"]));
-    console.log("Monthly Orders Data:", monthlyOrdersData);
-    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    var monthlyOrderCounts = new Array(months.length).fill(0);
-
-    monthlyOrdersData.forEach(data => {
-        monthlyOrderCounts[data.Month - 1] += data.OrderCount;
-    });
-    console.log("Monthly Order Counts:", monthlyOrderCounts);
-
-    var monthlyOrdersChart = new Chart(document.getElementById('monthlyOrdersChart'), {
-        type: 'line',
-        data: {
-            labels: months,
-            datasets: [{
-                label: 'Number of Orders',
-                data: monthlyOrderCounts,
-                borderColor: 'rgba(153, 102, 255, 1)',
-                backgroundColor: 'rgba(153, 102, 255, 0.2)',
-                fill: true,
-                tension: 0.1
-            }]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                x: {
-                    title: {
-                        display: true,
-                        text: 'Months of the Year'
-                    }
-                },
-                y: {
-                    title: {
-                        display: true,
-                        text: 'Number of Orders'
-                    }
-                }
-            }
-        }
-    });
-</script>

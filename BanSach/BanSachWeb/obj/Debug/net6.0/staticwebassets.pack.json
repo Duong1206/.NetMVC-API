@@ -53,12 +53,44 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\0004bc86-df68-4152-b8a3-e47fc623a063.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\0004bc86-df68-4152-b8a3-e47fc623a063.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\015cfb41-6643-4643-a7ee-f210161cfac6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\015cfb41-6643-4643-a7ee-f210161cfac6.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\085884f7-d355-412b-8306-350b04a2280a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\085884f7-d355-412b-8306-350b04a2280a.jpg"
+    },
+    {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\0c66b45b-f955-4407-9fbb-d15b8cc25c0a.jpg",
       "PackagePath": "staticwebassets\\images\\products\\0c66b45b-f955-4407-9fbb-d15b8cc25c0a.jpg"
     },
     {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\116b5cfa-40cd-452f-b28b-d1da09b15017.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\116b5cfa-40cd-452f-b28b-d1da09b15017.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\1cb40331-8fa4-4745-8462-fdbe99813572.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\1cb40331-8fa4-4745-8462-fdbe99813572.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\1de221b7-9753-4f89-8040-ecfaeb21df5b.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\1de221b7-9753-4f89-8040-ecfaeb21df5b.jpg"
+    },
+    {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\235a8ee2-5772-497e-8211-2257dee716f0.jpg",
       "PackagePath": "staticwebassets\\images\\products\\235a8ee2-5772-497e-8211-2257dee716f0.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\28cb4e50-bb1d-4ba0-a1f4-935b47ca9e5f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\28cb4e50-bb1d-4ba0-a1f4-935b47ca9e5f.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\2bcf5647-a07b-42a8-a413-9325bfd0d18f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\2bcf5647-a07b-42a8-a413-9325bfd0d18f.jpg"
     },
     {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\34e191a2-ae53-42cf-b514-022d36451fbd.jpg",
@@ -73,24 +105,96 @@
       "PackagePath": "staticwebassets\\images\\products\\38e3020f-fd38-4a2b-bc95-67c4f027379b.jpg"
     },
     {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\4549e3d4-c5cb-4f7b-837e-91472b17783d.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\4549e3d4-c5cb-4f7b-837e-91472b17783d.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\4782df82-95fc-4bab-82be-18a4efd9cb6f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\4782df82-95fc-4bab-82be-18a4efd9cb6f.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\4d2c760b-d3f0-4504-99d1-8cb4a521a74b.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\4d2c760b-d3f0-4504-99d1-8cb4a521a74b.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\51bf8396-2589-471f-a33d-02c8339dff2b.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51bf8396-2589-471f-a33d-02c8339dff2b.jpg"
+    },
+    {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\535b1558-8717-417a-9b2d-41b52fa0b34b.jpg",
       "PackagePath": "staticwebassets\\images\\products\\535b1558-8717-417a-9b2d-41b52fa0b34b.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\54882e37-93d0-4dd2-a3c9-09754c63f4a5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\54882e37-93d0-4dd2-a3c9-09754c63f4a5.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\590a5b5c-a0d6-4183-a239-6f0ab3ea3792.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\590a5b5c-a0d6-4183-a239-6f0ab3ea3792.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\5d336ff3-2581-4d37-a661-31ff0b2ae9d9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\5d336ff3-2581-4d37-a661-31ff0b2ae9d9.jpg"
     },
     {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\5f9e5014-04aa-4a88-908c-bf88f2986d1d.jpg",
       "PackagePath": "staticwebassets\\images\\products\\5f9e5014-04aa-4a88-908c-bf88f2986d1d.jpg"
     },
     {
-      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\69aa8984-fd0c-4e1a-a1c7-dbcde213cacd.jpg",
-      "PackagePath": "staticwebassets\\images\\products\\69aa8984-fd0c-4e1a-a1c7-dbcde213cacd.jpg"
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\648862c7-d2ae-47d3-ba75-0aac879bca62.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\648862c7-d2ae-47d3-ba75-0aac879bca62.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\6c39f030-d679-4463-8039-9c7014829ac0.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\6c39f030-d679-4463-8039-9c7014829ac0.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\7afaef8c-7026-4a4f-bc80-c64d570862c4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\7afaef8c-7026-4a4f-bc80-c64d570862c4.jpg"
     },
     {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\7ba56bbd-dd92-4f27-ac3e-0c7e477b390c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\7ba56bbd-dd92-4f27-ac3e-0c7e477b390c.jpg"
     },
     {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\87c48a93-fc7f-4ccc-bd82-9bcab2f456e3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\87c48a93-fc7f-4ccc-bd82-9bcab2f456e3.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\89de3e02-06c6-4b5e-b65f-5110524a66fa.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\89de3e02-06c6-4b5e-b65f-5110524a66fa.jpg"
+    },
+    {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\8f581dcb-a604-44af-b170-aee3ea39e04f.jpg",
       "PackagePath": "staticwebassets\\images\\products\\8f581dcb-a604-44af-b170-aee3ea39e04f.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\96857996-4e22-4d00-95aa-90466b199fbd.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\96857996-4e22-4d00-95aa-90466b199fbd.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\96d20e01-580d-4baf-bc86-5f3c76d63e40.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\96d20e01-580d-4baf-bc86-5f3c76d63e40.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\9a861af8-cf7c-4976-8604-9afbb51d23d0.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\9a861af8-cf7c-4976-8604-9afbb51d23d0.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\9d615f69-8f46-46da-9c84-a2ff6d806b8a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\9d615f69-8f46-46da-9c84-a2ff6d806b8a.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\a0174364-85e1-43cc-afb3-4368f1807466.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a0174364-85e1-43cc-afb3-4368f1807466.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\a1d0fd2a-97ca-46fa-86d4-5e7efe1070ab.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a1d0fd2a-97ca-46fa-86d4-5e7efe1070ab.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\a24c0b83-593c-447a-b1f7-19daf745ca7f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a24c0b83-593c-447a-b1f7-19daf745ca7f.jpg"
     },
     {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\a6f12334-778b-422b-b7a9-59ac8a49be18.jpg",
@@ -101,8 +205,24 @@
       "PackagePath": "staticwebassets\\images\\products\\a841d997-714b-4dca-8ee0-d34c637b8f36.jpg"
     },
     {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\ab312bfb-213e-4c31-a674-48ff29bfcb08.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ab312bfb-213e-4c31-a674-48ff29bfcb08.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\acab48d6-793a-4f1a-817a-e2e504901335.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acab48d6-793a-4f1a-817a-e2e504901335.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\af7050f1-1300-4e19-9ae8-d2994480ca00.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\af7050f1-1300-4e19-9ae8-d2994480ca00.jpg"
+    },
+    {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\b80a6e8d-141b-466a-b9f5-04a0bf45ec42.jpg",
       "PackagePath": "staticwebassets\\images\\products\\b80a6e8d-141b-466a-b9f5-04a0bf45ec42.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\b87109de-ef33-45eb-8506-7a22a60ef829.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b87109de-ef33-45eb-8506-7a22a60ef829.jpg"
     },
     {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\bdb06cbf-cb04-4cbc-8882-88f70ec8fac5.jpg",
@@ -125,6 +245,30 @@
       "PackagePath": "staticwebassets\\images\\products\\c900805c-025e-46e2-bff9-1f3d3845fe45.jpg"
     },
     {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\cf70b650-b89d-44f1-b09d-27ccad55e456.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cf70b650-b89d-44f1-b09d-27ccad55e456.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\d2c51226-92e6-48ab-9d43-95c6aabad9a1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\d2c51226-92e6-48ab-9d43-95c6aabad9a1.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\e102e8d2-5154-452c-ac77-20ec63ad937a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\e102e8d2-5154-452c-ac77-20ec63ad937a.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\e35b203a-7556-4db0-a119-6e6d76a23091.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\e35b203a-7556-4db0-a119-6e6d76a23091.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\ec4fc918-caf4-4b93-8f11-d43136aa9ab1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ec4fc918-caf4-4b93-8f11-d43136aa9ab1.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\f0113369-7a9c-483c-86b1-97d4f96dbf2a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f0113369-7a9c-483c-86b1-97d4f96dbf2a.jpg"
+    },
+    {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\f7ef3929-5768-4784-bee0-d85ee43e0acd.jpg",
       "PackagePath": "staticwebassets\\images\\products\\f7ef3929-5768-4784-bee0-d85ee43e0acd.jpg"
     },
@@ -133,8 +277,16 @@
       "PackagePath": "staticwebassets\\images\\products\\f8e2abd4-df03-4a0a-bd55-0d3e06ef148a.jpg"
     },
     {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\fa5167b6-d418-472f-82bf-726a37804600.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fa5167b6-d418-472f-82bf-726a37804600.jpg"
+    },
+    {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\fac6e9ba-bb92-486c-9da8-8cfc8d59f158.jpg",
       "PackagePath": "staticwebassets\\images\\products\\fac6e9ba-bb92-486c-9da8-8cfc8d59f158.jpg"
+    },
+    {
+      "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\images\\products\\fce44a32-bf74-4640-a4c6-dca288395e9f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fce44a32-bf74-4640-a4c6-dca288395e9f.jpg"
     },
     {
       "Id": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\wwwroot\\img\\Library\\Library1.jpg",

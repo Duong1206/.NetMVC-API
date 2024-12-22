@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
 using BanSach.Model.ViewModel;
-using BanSach.Model;
 using BanSach.DataAcess.Data;
 
 namespace BanSachWeb.Areas.Admin.Controllers
@@ -108,7 +107,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            // Cập nhật vai trò của người dùng
+            // Update user role
             var currentRoles = _userManager.GetRolesAsync(user).Result;
             _userManager.RemoveFromRolesAsync(user, currentRoles).Wait();
             _userManager.AddToRoleAsync(user, model.Role).Wait();
@@ -117,8 +116,6 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
             return RedirectToAction("Index");
         }
-
-
 
         [HttpDelete]
         public IActionResult Delete(string id)
@@ -139,6 +136,5 @@ namespace BanSachWeb.Areas.Admin.Controllers
                 return Json(new { success = false, message = "Error occurred while deleting the user." });
             }
         }
-
     }
 }

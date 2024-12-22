@@ -4,12 +4,16 @@
 <div class="col-12 pb-1">
     <div class="d-flex align-items-center justify-content-between mb-4">
         <form asp-action="Search" asp-controller="Shop" method="post">
-            <div class="input-group">
-                <input type="text" name="keyword" class="form-control" placeholder="Search by name" required>
+            <div class="input-group position-relative">
+                <input type="text" name="keyword" id="searchKeyword" class="form-control" placeholder="Search by name">
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-warning">
                         <i class="fa fa-search"></i>
                     </button>
+                </div>
+                <!-- Gợi ý tìm kiếm -->
+                <div id="searchSuggestions" class="suggestions-box" style="display:none;">
+                    <ul id="suggestionsList"></ul>
                 </div>
             </div>
         </form>
@@ -38,10 +42,10 @@
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3" style="min-height: 100px;">
                         <h6 class="text-truncate mb-3" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">@item.Name</h6>
                         <div class="d-flex justify-content-center">
-                            <h6>@item.Price50 VND</h6>
+                            <h6>@item.Price50 €</h6>
                             @if (item.Price100 > 0)
                             {
-                                <h6 class="text-muted ml-2"><del>@item.Price100 VND</del></h6>
+                                <h6 class="text-muted ml-2"><del>@item.Price100 €</del></h6>
                             }
                         </div>
                         <div class="d-flex justify-content-between mt-3 px-3">
@@ -55,7 +59,53 @@
     else
     {
         <div class="col-12">
-            <p class="text-center">Không có sản phẩm nào được tìm thấy.</p>
+            <p class="text-center">No products found.</p>
         </div>
     }
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#searchKeyword').on('input', function () {
+            var keyword = $(this).val();
+
+            // Nếu từ khóa trống, ẩn gợi ý
+            if (keyword.length === 0) {
+                $('#searchSuggestions').hide();
+                return;
+            }
+
+            // Gửi AJAX request đến SearchSuggestions
+            $.ajax({
+                url: '/Customer/Shop/SearchSuggestions',
+                data: { keyword: keyword },
+                type: 'GET',
+                success: function (data) {
+                    if (data.length > 0) {
+                        var suggestionsHtml = '';
+                        data.forEach(function (item) {
+                            suggestionsHtml += '<li>' + item + '</li>';
+                        });
+
+                        $('#suggestionsList').html(suggestionsHtml);
+                        $('#searchSuggestions').show();
+                    } else {
+                        $('#searchSuggestions').hide();
+                    }
+                },
+                error: function () {
+                    console.error("Error fetching suggestions.");
+                }
+            });
+        });
+
+        // Khi người dùng click vào gợi ý
+        $(document).on('click', '#suggestionsList li', function () {
+            var selectedText = $(this).text();
+            $('#searchKeyword').val(selectedText); // Gán gợi ý vào ô input
+            $('#searchSuggestions').hide(); // Ẩn gợi ý
+        });
+    });
+
+</script>

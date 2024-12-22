@@ -1,6 +1,7 @@
 ﻿@model Contact
 
 <form method="post" asp-action="Upsert" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
     <div class="border p-3 mt-4">
         <!--tiêu đề form-->
         <div class="row pb-2">
@@ -52,7 +53,7 @@
 
         <!--button submit-->
 
-        <a asp-controller="Contact" asp-action="Index"> Back to List</a>
+        <a asp-controller="Contact" asp-action="Index" class="btn btn-primary"> Back to List</a>
 
     </div>
 </form>

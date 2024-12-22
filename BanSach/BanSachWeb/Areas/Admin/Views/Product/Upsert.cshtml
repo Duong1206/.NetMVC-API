@@ -15,7 +15,7 @@
      
         <!--mấy ô nhập liệu-->
         <div class="mb-3">
-            <label asp-for="product.Name">Title</label><span style="color:red; font-size:2em">*</span>
+            <label asp-for="product.Name">Title</label><span style="color:red; font-size:1em">*</span>
             <input asp-for="product.Name" class="form-control" />
             <span asp-validation-for="product.Name" class="text-danger"></span>
         </div>
@@ -43,13 +43,13 @@
 
         <div class="row">
             <div class="mb-3 col-6">
-                <label asp-for="product.Price50">Price50</label><span style="color:red; font-size:1em">*</span>
+                <label asp-for="product.Price50">Price</label><span style="color:red; font-size:1em">*</span>
                 <input asp-for="product.Price50" class="form-control" />
                 <span asp-validation-for="product.Price50" class="text-danger"></span>
             </div>
 
             <div class="mb-3 col-6">
-                <label asp-for="product.Price100">Price100</label><span style="color:red; font-size:1em">*</span>
+                <label asp-for="product.Price100">Price Sale</label><span style="color:red; font-size:1em">*</span>
                 <input asp-for="product.Price100" class="form-control" />
                 <span asp-validation-for="product.Price100" class="text-danger"></span>
             </div>
@@ -60,7 +60,7 @@
         <!--upload image-->
         <div class="mb-3">
             <label asp-for="product.ImageUrl">ImageUrl</label><span style="color:red; font-size:1em">*</span>
-            <input type="file" asp-for="product.ImageUrl" name="file" id="ImageUrl" class="form-control" />
+            <input type="file" asp-for="product.ImageUrl" name="file" id="ImageUrl" class="form-control" accept="image/*" />
               <span asp-validation-for="product.ImageUrl" class="text-danger"></span>
         </div>
 

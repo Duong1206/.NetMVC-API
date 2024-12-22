@@ -39,6 +39,11 @@
             <span asp-validation-for="Quantity" class="text-danger"></span>
         </div>
         <div class="mb-3">
+            <label asp-for="DiscountPercentage">Discount Percentage</label><span style="color:red; font-size:1em">*</span>
+            <input asp-for="DiscountPercentage" class="form-control" />
+            <span asp-validation-for="DiscountPercentage" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
             <label asp-for="Status">Status</label><span style="color:red; font-size:1em">*</span>
             <select asp-for="Status" class="form-control">
                 <option value="1">Active</option>
@@ -49,7 +54,7 @@
 
         <!--button submit-->
         <button type="submit" class="btn btn-primary"> Update</button>
-        <a asp-controller="Coupon" asp-action="Index"> Back to List</a>
+        <a asp-controller="Coupon" asp-action="Index" class="btn btn-secondary"> Back to List</a>
 
     </div>
 </form>

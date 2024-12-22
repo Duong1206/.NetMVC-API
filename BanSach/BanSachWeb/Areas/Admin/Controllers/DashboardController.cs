@@ -6,7 +6,6 @@ namespace BanSachWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin,Employee")]
-    
     public class DashboardController : Controller
     {
         private readonly ApplicationDbContext _dbContext;
@@ -22,52 +21,48 @@ namespace BanSachWeb.Areas.Admin.Controllers
             var currentMonth = new DateTime(today.Year, today.Month, 1);
             var currentYear = new DateTime(today.Year, 1, 1);
 
+            // Revenue and order count for today
             var revenueToday = _dbContext.OrderHeaders?
-                .Where(o => o.OrderDate.Date == today && o.OrderStatus == "Shipped") 
-                .Sum(o => o.OrderTotal);
+                .Where(o => o.OrderDate.Date == today && o.OrderStatus == "Shipped")
+                .Sum(o => (decimal?)o.OrderTotal) ?? 0;
 
             var ordersToday = _dbContext.OrderHeaders?
-                .Where(o => o.OrderDate.Date == today && o.OrderStatus == "Shipped") 
+                .Where(o => o.OrderDate.Date == today && o.OrderStatus == "Shipped")
                 .Count();
 
+            // Revenue and order count for this month
             var revenueMonth = _dbContext.OrderHeaders?
-                .Where(o => o.OrderDate >= currentMonth && o.OrderStatus == "Shipped") 
-                .Sum(o => o.OrderTotal);
+                .Where(o => o.OrderDate >= currentMonth && o.OrderStatus == "Shipped")
+                .Sum(o => (decimal?)o.OrderTotal) ?? 0;
 
             var ordersMonth = _dbContext.OrderHeaders?
-                .Where(o => o.OrderDate >= currentMonth && o.OrderStatus == "Shipped")  
+                .Where(o => o.OrderDate >= currentMonth && o.OrderStatus == "Shipped")
                 .Count();
 
+            // Revenue and order count for this year
             var revenueYear = _dbContext.OrderHeaders?
-                .Where(o => o.OrderDate >= currentYear && o.OrderStatus == "Shipped") 
-                .Sum(o => o.OrderTotal);
+                .Where(o => o.OrderDate >= currentYear && o.OrderStatus == "Shipped")
+                .Sum(o => (decimal?)o.OrderTotal) ?? 0;
 
             var ordersYear = _dbContext.OrderHeaders?
-                .Where(o => o.OrderDate >= currentYear && o.OrderStatus == "Shipped")  
+                .Where(o => o.OrderDate >= currentYear && o.OrderStatus == "Shipped")
                 .Count();
 
-            var dailyOrdersData = _dbContext.OrderHeaders?
-                .Where(o => o.OrderDate.Date == today && o.OrderStatus == "Shipped")  
-                .GroupBy(o => o.OrderDate.Hour)
-                .Select(g => new { Hour = g.Key, OrderCount = g.Count() })
-                .OrderBy(g => g.Hour)
-                .ToList();
+            // Total Products, Comments, and Users
+            var totalProducts = _dbContext.Products.Count();
+            var totalComments = _dbContext.Reviews.Count();
+            var totalUsers = _dbContext.Users.Count();
 
-            var monthlyOrdersData = _dbContext.OrderHeaders?
-                .Where(o => o.OrderDate.Year == today.Year && o.OrderStatus == "Shipped") 
-                .GroupBy(o => o.OrderDate.Month)
-                .Select(g => new { Month = g.Key, OrderCount = g.Count() })
-                .OrderBy(g => g.Month)
-                .ToList();
-
+            // Passing data to the view
             ViewData["RevenueToday"] = revenueToday;
             ViewData["OrdersToday"] = ordersToday;
             ViewData["RevenueMonth"] = revenueMonth;
             ViewData["OrdersMonth"] = ordersMonth;
             ViewData["RevenueYear"] = revenueYear;
             ViewData["OrdersYear"] = ordersYear;
-            ViewData["DailyOrdersData"] = dailyOrdersData;
-            ViewData["MonthlyOrdersData"] = monthlyOrdersData;
+            ViewData["TotalProducts"] = totalProducts;
+            ViewData["TotalComments"] = totalComments;
+            ViewData["TotalUsers"] = totalUsers;
 
             return View();
         }

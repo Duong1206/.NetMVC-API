@@ -1,9 +1,9 @@
 ﻿using BanSach.DataAcess.Repository.IRepository;
-
 using BanSach.Model;
 using BanSach.Model.ViewModel;
 using BanSach.Utility;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Stripe.Checkout;
 using System.Security.Claims;
@@ -15,12 +15,14 @@ namespace BanSachWeb.Areas.Customer.Controllers
     public class CartController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IEmailSender _emailSender;
         public int OrderTotl { get; set; }
         public ShoppingCartVM ShoppingCartVM { get; set; }
-        public CartController(IUnitOfWork unitOfWork)
+        public CartController(IUnitOfWork unitOfWork, IEmailSender emailSender)
         {
             _unitOfWork = unitOfWork;
-       
+            _emailSender = emailSender;
+
         }
         public IActionResult Success()
         {
@@ -144,8 +146,8 @@ namespace BanSachWeb.Areas.Customer.Controllers
                     {
                         PriceData = new SessionLineItemPriceDataOptions
                         {
-                            UnitAmount = (long)(item.Product.Price50 ),
-                            Currency = "vnd",
+                            UnitAmount = (long)(item.Product.Price50*100 ),
+                            Currency = "EUR",
                             ProductData = new SessionLineItemPriceDataProductDataOptions
                             {
                                 Name = item.Product.Name,
@@ -176,7 +178,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
         }
 
         [HttpGet]
-        public IActionResult StripeSuccess()
+        public async Task<IActionResult> StripeSuccess()
         {
             if (TempData["StripeSessionId"] == null)
             {
@@ -199,6 +201,15 @@ namespace BanSachWeb.Areas.Customer.Controllers
             foreach (var orderDetail in orderDetails)
             {
                 orderDetail.OrderId = orderHeader.Id;
+
+                var product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == orderDetail.ProductId);
+                if (product != null)
+                {
+                    product.Quantity -= orderDetail.Count;
+                    product.SoldCount += orderDetail.Count;
+                    _unitOfWork.Product.Update(product);
+                }
+
                 _unitOfWork.OrderDetail.Add(orderDetail);
             }
 
@@ -213,8 +224,42 @@ namespace BanSachWeb.Areas.Customer.Controllers
             _unitOfWork.ShoppingCart.RemoveRange(shoppingCartItems);
             _unitOfWork.Save();
 
+            foreach (var detail in orderDetails)
+            {
+                if (detail.ProductId != 0)
+                {
+                    detail.Product = _unitOfWork.Product.GetFirstOrDefault(p => p.Id == detail.ProductId);
+                }
+            }
+            var user = _unitOfWork.ApplicationUser.GetFirstOrDefault(u => u.Id == orderHeader.ApplicationUserId);
+            var userEmail = User.Identity.Name;  
+            var emailSubject = "YOUR BILL";
+            var htmlMessage = $"<h3>Thank you for your order!</h3>" +
+                              $"<p>Your order has been successfully processed. Here are the details:</p>" +
+                              $"<p>Phone: {user.PhoneNumber}</p>" +
+                              $"<p>Address: {user.StreetAddress},{user.State}, {user.City} </p>"+
+                              $"<table><tr><th>Product</th>\t|\t<th>Quantity</th>\t|\t<th>Price</th>\t|\t<th>Total</th></tr>";
+
+            foreach (var detail in orderDetails)
+            {
+                if (detail.Product != null)
+                {
+                    htmlMessage += $"<tr><td>{detail.Product.Name}</td>\t|\t<td>{detail.Count}</td>\t|\t<td>{detail.Price}</td>\t|\t<td>{detail.Price * detail.Count}</td></tr>";
+                }
+                else
+                {
+                    htmlMessage += $"<tr><td>Product not found</td>\t|\t<td>{detail.Count}</td>\t|\t<td>{detail.Price}</td>\t|\t<td>{detail.Price * detail.Count}</td></tr>";
+                }
+            }
+
+            htmlMessage += $"</table><p>Total: {orderHeader.OrderTotal}</p>";
+            await _emailSender.SendEmailAsync(userEmail, emailSubject, htmlMessage);
+
             return RedirectToAction("Success", "Cart");
         }
+
+
+
 
         [HttpGet]
         public IActionResult StripeCancel()
@@ -225,11 +270,26 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
         public IActionResult Plus(int CartId)
         {
-            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == CartId);
-            _unitOfWork.ShoppingCart.IncrementCount(cart, 1);
-            _unitOfWork.Save();
+            var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == CartId, includeProperties: "Product");
+
+            if (cart == null || cart.Product == null)
+            {
+                return NotFound();
+            }
+
+            if (cart.Count < cart.Product.Quantity) 
+            {
+                _unitOfWork.ShoppingCart.IncrementCount(cart, 1);
+                _unitOfWork.Save();
+            }
+            else
+            {
+                TempData["Error"] = "OUT OF STOCK";
+            }
+
             return RedirectToAction(nameof(Index));
         }
+
 
         public IActionResult Minus(int CartId)
         {

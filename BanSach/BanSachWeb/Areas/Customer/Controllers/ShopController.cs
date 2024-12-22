@@ -26,6 +26,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             var availableProducts = _context.Products.ToList()
                 .GroupBy(p => p.Name)
                 .Select(g => g.FirstOrDefault(p => p.Quantity > 0) ?? g.First())
+                .OrderBy(p => p.Name)
                 .ToList();
 
             foreach (var product in availableProducts)
@@ -62,8 +63,10 @@ namespace BanSachWeb.Areas.Customer.Controllers
             keyword = RemoveVietnameseTone(string.Join(" ", keyword.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)));
 
             var productsQuery = _context.Products
-                .AsEnumerable() // Chuyển đổi dữ liệu sang client-side
-                .Where(p => RemoveVietnameseTone(p.Name.ToLower()).Contains(keyword.ToLower()));
+                .AsEnumerable()
+                .Where(p =>
+                    RemoveVietnameseTone(p.Name.ToLower()).Contains(keyword.ToLower()) ||
+                    RemoveVietnameseTone(p.Author.ToLower()).Contains(keyword.ToLower()));
 
             return View("Index", new ProductListViewModel
             {
@@ -76,6 +79,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
                 }
             });
         }
+
 
         private string RemoveVietnameseTone(string text)
         {
@@ -108,6 +112,32 @@ namespace BanSachWeb.Areas.Customer.Controllers
             return text;
         }
 
+
+        [HttpGet]
+        public IActionResult SearchSuggestions(string keyword)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(keyword))
+                {
+                    return Json(new List<string>());
+                }
+
+
+                var suggestions = _context.Products
+                    .Where(p => p.Name.ToLower().Contains(keyword.ToLower())) 
+                    .Select(p => p.Name)
+                    .Take(3)
+                    .ToList();
+
+                return Json(suggestions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Internal server error");
+            }
+        }
 
 
 
@@ -148,7 +178,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
             var filteredProducts = _context.Products
                 .Where(p => (request.Categories.Contains("all") || request.Categories.Contains(p.CategoryId.ToString())) && p.Quantity > 0)
                 .GroupBy(p => p.Name)
-                .Select(g => g.First()) 
+                .Select(g => g.First())
                 .ToList();
 
             return Json(filteredProducts);

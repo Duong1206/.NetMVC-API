@@ -1,4 +1,8 @@
 ﻿@model IEnumerable<BanSach.Model.Product>
+<!-- Toastr CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+
+<!-- Toastr JS -->
 
 <!--hiện thị khi thành công-->
 <partial name="_Notification" />
@@ -20,6 +24,7 @@
             <th>ISBN</th>
             <th>Author</th>
             <th>Quantity</th>
+            <th>Sold</th>
             <th>Status</th>
                <th>Action</th>
        
@@ -30,3 +35,4 @@
 @section Scripts {
     <script src="~/js/product.js"></script>
 }
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>

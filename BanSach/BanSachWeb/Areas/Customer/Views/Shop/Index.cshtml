@@ -28,6 +28,34 @@
 </head>
 
 <style>
+    .suggestions-box {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-top: none;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        max-height: 150px; /* Giới hạn chiều cao */
+        overflow-y: auto; /* Cuộn nếu quá nhiều kết quả */
+    }
+
+        .suggestions-box ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            .suggestions-box ul li {
+                padding: 8px;
+                cursor: pointer;
+            }
+
+                .suggestions-box ul li:hover {
+                    background-color: #f1f1f1;
+                }
 
     .card {
         display: flex;
@@ -141,18 +169,23 @@
                 <div class="row pb-3" id="product-list">
                     <div class="col-12 pb-1">
                         <div class="d-flex align-items-center justify-content-between mb-4">
-                            
+
                             <form asp-action="Search" asp-controller="Shop" method="post">
-                                
-                                <div class="input-group">
-                                    <input type="text" name="keyword" class="form-control" placeholder="Search by name">
+                                <div class="input-group position-relative">
+                                    <input type="text" name="keyword" id="searchKeyword" class="form-control" placeholder="Search by name">
                                     <div class="input-group-append">
                                         <button type="submit" class="btn btn-warning">
                                             <i class="fa fa-search"></i>
                                         </button>
                                     </div>
+                                    <!-- Gợi ý tìm kiếm -->
+                                    <div id="searchSuggestions" class="suggestions-box" style="display:none;">
+                                        <ul id="suggestionsList"></ul>
+                                    </div>
                                 </div>
                             </form>
+
+
 
                         </div>
                     </div>
@@ -174,13 +207,15 @@
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3 d-flex flex-column" style="min-height: 200px;">
                                     <h6 class="text-truncate mb-3" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">@item.Name</h6>
+                                    <p>@item.Author</p>
                                     <div class="d-flex justify-content-center">
-                                        <h6>@item.Price50 VND</h6>
+                                        <h6>@item.Price50 €</h6>
                                         @if (item.Price100 > 0)
                                         {
-                                            <h6 class="text-muted ml-2"><del>@item.Price100 VND</del></h6>
+                                            <h6 class="text-muted ml-2"><del>@item.Price100 €</del></h6>
                                         }
                                     </div>
+                                    
                                     <div class="d-flex justify-content-between mt-3 px-3">
                                         <small class="text-muted">Sold: @item.SoldCount</small>
                                     </div>
@@ -229,8 +264,8 @@
 
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
@@ -240,6 +275,52 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#searchKeyword').on('input', function () {
+                var keyword = $(this).val();
+
+                // Nếu từ khóa trống, ẩn gợi ý
+                if (keyword.length === 0) {
+                    $('#searchSuggestions').hide();
+                    return;
+                }
+
+                // Gửi AJAX request đến SearchSuggestions
+                $.ajax({
+                    url: '/Customer/Shop/SearchSuggestions',
+                    data: { keyword: keyword },
+                    type: 'GET',
+                    success: function (data) {
+                        if (data.length > 0) {
+                            var suggestionsHtml = '';
+                            data.forEach(function (item) {
+                                suggestionsHtml += '<li>' + item + '</li>';
+                            });
+
+                            $('#suggestionsList').html(suggestionsHtml);
+                            $('#searchSuggestions').show();
+                        } else {
+                            $('#searchSuggestions').hide();
+                        }
+                    },
+                    error: function () {
+                        console.error("Error fetching suggestions.");
+                    }
+                });
+            });
+
+            // Khi người dùng click vào gợi ý
+            $(document).on('click', '#suggestionsList li', function () {
+                var selectedText = $(this).text();
+                $('#searchKeyword').val(selectedText); // Gán gợi ý vào ô input
+                $('#searchSuggestions').hide(); // Ẩn gợi ý
+            });
+        });
+
+    </script>
 
     
 </body>

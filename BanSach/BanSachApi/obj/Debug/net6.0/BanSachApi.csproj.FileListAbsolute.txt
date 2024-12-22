@@ -254,3 +254,12 @@ D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\refint\BanS
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\BanSachApi.pdb
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\BanSachApi.genruntimeconfig.cache
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\obj\Debug\net6.0\ref\BanSachApi.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\MailKit.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\MimeKit.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+D:\ProjectIndividual\.NetMVC-API\BanSach\BanSachApi\bin\Debug\net6.0\AWSSDK.dll

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AWSSDK/2.3.55.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Baseline/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -4969,6 +4982,28 @@
     }
   },
   "libraries": {
+    "AWSSDK/2.3.55.2": {
+      "sha512": "zy/6psTOx9c8LaZqL1tUtiGKMpd35b16TNRctz/N6Qc6hqFeOjyZ5WVhn89szJkkZtotcMFyfq58Y2RfyRxxUg==",
+      "type": "package",
+      "path": "awssdk/2.3.55.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.2.3.55.2.nupkg.sha512",
+        "awssdk.nuspec",
+        "lib/net35/AWSSDK.dll",
+        "lib/net35/AWSSDK.pdb",
+        "lib/net45/AWSSDK.dll",
+        "lib/net45/AWSSDK.pdb",
+        "lib/portable-wpa+netcore45/AWSSDK.dll",
+        "lib/windows8/AWSSDK.dll",
+        "lib/windowsphone8/AWSSDK.dll",
+        "tools/account-management.ps1",
+        "tools/net35/install.ps1",
+        "tools/net45/install.ps1"
+      ]
+    },
     "Baseline/4.1.0": {
       "sha512": "uM4EJYhrn9OmjLOTI0nJuT6WwqsH/+ZM+d8uwLS1o/SX8MRp5xj/83Zoms7ffwi8D3AMK+qDyUJ4cx4jgVY9gg==",
       "type": "package",
@@ -13256,6 +13291,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AWSSDK >= 2.3.55.2",
       "BanSach.DataAcess >= 1.0.0",
       "BanSach.Utility >= 1.0.0",
       "Baseline >= 4.1.0",
@@ -13327,6 +13363,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AWSSDK": {
+            "target": "Package",
+            "version": "[2.3.55.2, )"
+          },
           "Baseline": {
             "target": "Package",
             "version": "[4.1.0, )"
@@ -13412,5 +13452,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AWSSDK 2.3.55.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AWSSDK",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

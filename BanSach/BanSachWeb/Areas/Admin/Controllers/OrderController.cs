@@ -88,6 +88,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
                     if (product != null)
                     {
                         product.Quantity += detail.Count;
+                        product.SoldCount -= detail.Count;
                         _unitOfWork.Product.Update(product);
                     }
                 }
@@ -114,6 +115,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
                     if (product != null)
                     {
                         product.Quantity += detail.Count;
+                        product.SoldCount -= detail.Count;
                         _unitOfWork.Product.Update(product);
                     }
                 }
@@ -169,11 +171,11 @@ namespace BanSachWeb.Areas.Admin.Controllers
                     var quantity = detail.Count;
                     var price = detail.Price.ToString("N0");
 
-                    receiptContent.AppendLine($"{productName,-16} {quantity,3} {price,7} VND");
+                    receiptContent.AppendLine($"{productName,-16} {quantity,3} {price,7} EUR");
                 }
 
                 receiptContent.AppendLine("------------------------------");
-                receiptContent.AppendLine($"Total: {order.OrderTotal:N0} VND");
+                receiptContent.AppendLine($"Total: {order.OrderTotal:N0} EUR");
                 receiptContent.AppendLine($"Status: {order.OrderStatus}");
                 receiptContent.AppendLine("\nThank you for purchasing at the EBOOK STORE!");
 

@@ -9,14 +9,15 @@ function loadDataTable() {
             "url": "/admin/product/GetAll"
         },
         "columns": [
-            { "data": "name", "width": "15%" },
-            { "data": "isbn", "width": "15%" },
+            { "data": "name", "width": "10%" },
+            { "data": "isbn", "width": "10%" },
             { "data": "author", "width": "15%" },
-            { "data": "quantity", "width": "15%" },
+            { "data": "quantity", "width": "5%" },
+            { "data": "soldCount", "width": "5%" },
             {
                 "data": null,
                 "render": function (data) {
-                    var remaining = data.quantity - data.soldCount;
+                    var remaining = data.quantity ;
                     var status = "Still many";
                     var backgroundColor = "green";
 
@@ -27,6 +28,7 @@ function loadDataTable() {
                         status = "Almost out of stock";
                         backgroundColor = "orange";
                     }
+                   
 
 
                     return `<span style="background-color:${backgroundColor}; color: white; padding: 5px; border-radius: 5px;">${status}</span>`;

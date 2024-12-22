@@ -16,8 +16,9 @@ namespace BanSach.Model
         public DateTime DateExpired { get; set; } = DateTime.Now.AddDays(5);
         [Required]
         public int Quantity { get; set; }
-        public int Status { get; set; } 
-
+        [Required]
+        public double DiscountPercentage { get; set; }
+        public int Status { get; set; }
     }
 
 

@@ -8,37 +8,34 @@ namespace BanSachWeb.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoryController : Controller
     {
-        //tạo 1 biến 
         private readonly IUnitOfWork _unitOfWork;
 
-        //hàm khởi tạo
         public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
-        [Authorize(Roles = "Admin,Employee")]
 
+        [Authorize(Roles = "Admin,Employee")]
         public IActionResult Index()
         {
             IEnumerable<Category> objcategoryList = _unitOfWork.Category.GetAll();
             return View(objcategoryList);
         }
-        [Authorize(Roles = "Admin,Employee")]
 
+        [Authorize(Roles = "Admin,Employee")]
         public IActionResult Create()
         {
-
             return View();
         }
-        [HttpPost] 
-        [ValidateAntiForgeryToken]  
-        [Authorize(Roles = "Admin,Employee")]
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Employee")]
         public IActionResult Create(Category obj)
         {
             if (obj.Name == obj.DisplayOrder.ToString())
             {
-                ModelState.AddModelError("CustomError", "The DisplayOrder không được trùng với Name");
+                ModelState.AddModelError("CustomError", "The DisplayOrder cannot be the same as Name");
             }
             if (ModelState.IsValid)
             {
@@ -51,13 +48,13 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         [Authorize(Roles = "Admin,Employee")]
-
         public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
             {
                 return NotFound();
             }
+
             var categoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
             if (categoryFromDbFirst == null)
             {
@@ -66,15 +63,14 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(categoryFromDbFirst);
         }
 
-        [HttpPost] 
+        [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin,Employee")]
-
         public IActionResult Edit(Category obj)
         {
             if (obj.Name == obj.DisplayOrder.ToString())
             {
-                ModelState.AddModelError("CustomError", "The DisplayOrder không được trùng với Name");
+                ModelState.AddModelError("CustomError", "The DisplayOrder cannot be the same as Name");
             }
             if (ModelState.IsValid)
             {
@@ -87,46 +83,37 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
 
         [Authorize(Roles = "Admin,Employee")]
-
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
             {
                 return NotFound();
             }
-            // kiếm id
+
             var categoryFromDb = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
             if (categoryFromDb == null)
             {
                 return NotFound();
             }
+
             return View(categoryFromDb);
         }
 
-        [HttpPost] 
+        [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin,Employee")]
-
-        public IActionResult DeletePost(int? id)
+        public IActionResult DeletePost(int id)
         {
-
-            // kiếm đối tượng theo id
             var categoryFromDb = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
             if (categoryFromDb == null)
             {
                 return NotFound();
             }
-            else
-            {
 
-                _unitOfWork.Category.Remove(categoryFromDb);
-                _unitOfWork.Save();
-                TempData["success"] = "Category Delete successfully";
-                return RedirectToAction("index");
-            }
-/*
-            return View(categoryFromDb);*/
-
+            _unitOfWork.Category.Remove(categoryFromDb);
+            _unitOfWork.Save();
+            TempData["success"] = "Category deleted successfully";
+            return RedirectToAction("Index");
         }
     }
 }

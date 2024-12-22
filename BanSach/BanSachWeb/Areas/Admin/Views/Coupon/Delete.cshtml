@@ -1,7 +1,7 @@
 ﻿@model BanSach.Model.Coupon
 
 <form method="post" asp-action="DeletePost">
-    <input type="hidden" asp-for="Id" /> <!-- lấy id nhưng ẩn-->
+    <input type="hidden" asp-for="Id" /> 
     <div class="border p-3 mt-4">
         <!--tiêu đề form-->
         <div class="row pb-2">
@@ -38,48 +38,20 @@
             <span asp-validation-for="Quantity" class="text-danger"></span>
         </div>
         <div class="mb-3">
+            <label asp-for="DiscountPercentage">Discount Percentage</label>
+            <input asp-for="DiscountPercentage" class="form-control" readonly />
+            <span asp-validation-for="DiscountPercentage" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
             <label asp-for="Status">Status</label>
             <input asp-for="Status" class="form-control" readonly />
             <span asp-validation-for="Status" class="text-danger"></span>
         </div>
 
         <!--button submit-->
-        <button type="button" class="btn btn-danger" id="deleteButton"> Delete</button>
+        <button type="submit" class="btn btn-danger" id="deleteButton"> Delete</button>
         <a class="btn btn-primary" asp-controller="Coupon" asp-action="Index"> Back to List</a>
     </div>
 </form>
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script type="text/javascript">
-        document.getElementById("deleteButton").addEventListener("click", function (event) {
-            Swal.fire({
-                title: "Are you sure?",
-                text: "You will not be able to recover this record!",
-                icon: "warning",
-                showCancelButton: true,
-                confirmButtonClass: "btn-danger",
-                confirmButtonText: "Yes, delete it!",
-                closeOnConfirm: false
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    $.ajax({
-                        type: "DELETE",
-                        url: "/Admin/Coupon/Delete?id=" + document.querySelector('input[asp-for="Id"]').value,
-                        success: function (data) {
-                            if (data.success) {
-                                toastr.success(data.message);
-                                // Redirect to Index after successful deletion
-                                window.location.href = "/Admin/Coupon/Index";
-                            } else {
-                                toastr.error(data.message);
-                            }
-                        }
-                    });
-                }
-            });
-        });
-    </script>
-}
+

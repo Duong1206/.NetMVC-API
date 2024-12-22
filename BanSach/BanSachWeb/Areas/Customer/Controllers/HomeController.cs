@@ -22,6 +22,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
         public IActionResult Index()
         {
             var productList = _unitOfWork.Product.GetAll(includeProperties: "Category")
+                                                 .Where(p => p.Price100 > 0) 
                                                  .GroupBy(p => p.Name)
                                                  .Select(g => g.FirstOrDefault(p => p.Quantity > 0) ?? g.FirstOrDefault())
                                                  .Take(PageSize)
@@ -34,6 +35,7 @@ namespace BanSachWeb.Areas.Customer.Controllers
 
             return View(productList);
         }
+
 
 
 

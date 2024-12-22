@@ -47,7 +47,7 @@
                         <br />
                     }
                 </td>
-                <td>@order.OrderHeader.OrderTotal VND</td>
+                <td>@order.OrderHeader.OrderTotal €</td>
                 <td>@order.OrderHeader.OrderDate.ToString("dd/MM/yyyy")</td>
                 <td>@order.OrderHeader.ShippingDate.ToString("dd/MM/yyyy")</td>
                 <td>
@@ -61,7 +61,6 @@
                     {
                         <button type="button" class="btn btn-primary" onclick="updateStatus('@order.OrderHeader.Id', 'processing')">Process</button>
                         <button type="button" class="btn btn-warning" onclick="updateStatus('@order.OrderHeader.Id', 'cancel')">Cancel</button>
-                        <button type="button" class="btn btn-danger" onclick="deleteOrder('@order.OrderHeader.Id')">Delete</button>
                         <button type="button" class="btn btn-info" onclick="printOrder('@order.OrderHeader.Id')">Print</button>
 
 
@@ -70,7 +69,6 @@
                     {
                         <button type="button" class="btn btn-success" onclick="updateStatus('@order.OrderHeader.Id', 'shipped')">Shipped</button>
                         <button type="button" class="btn btn-warning" onclick="updateStatus('@order.OrderHeader.Id', 'cancel')">Cancel</button>
-                        <button type="button" class="btn btn-danger" onclick="deleteOrder('@order.OrderHeader.Id')">Delete</button>
                     }
                     
                     @if (order.OrderHeader.OrderStatus == SD.StatusShipped)

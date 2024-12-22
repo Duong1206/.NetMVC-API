@@ -75,23 +75,25 @@
                 const productElement = document.createElement('div');
                 productElement.classList.add('col-lg-3', 'col-md-6', 'col-sm-12', 'pb-1');
                 productElement.innerHTML = `
-                        <div class="card product-item border-0 mb-4" style="height: 100%;">
-                            <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0" style="aspect-ratio: 4/3;">
-                                <a href="/Customer/Home/Details/${product.id}">
-                                    <img class="img-fluid w-100" src="${product.imageUrl}" alt="" style="object-fit: contain; width: 100%; height: 100%;">
-                                </a>
-                            </div>
-                            <div class="card-body border-left border-right text-center p-0 pt-4 pb-3" style="min-height: 100px;">
-                                <h6 class="text-truncate mb-3" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${product.name}</h6>
-                                <div class="d-flex justify-content-center">
-                                    <h6>${product.price50} VND</h6><h6 class="text-muted ml-2"><del>${product.price100} VND</del></h6>
-                                </div>
-                            </div>
+                <div class="card product-item border-0 mb-4" style="height: 100%;">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0" style="aspect-ratio: 4/3;">
+                        <a href="/Customer/Home/Details/${product.id}">
+                            <img class="img-fluid w-100" src="${product.imageUrl}" alt="" style="object-fit: contain; width: 100%; height: 100%;">
+                        </a>
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3" style="min-height: 100px;">
+                        <h6 class="text-truncate mb-3" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${product.name}</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>${product.price50} €</h6>
+                            ${product.price100 > 0 ? `<h6 class="text-muted ml-2"><strike>${product.price100} €</strike></h6>` : ''}
                         </div>
-                    `;
+                    </div>
+                </div>
+            `;
                 productList.appendChild(productElement);
             });
         }
+         
     });
 </script>
 

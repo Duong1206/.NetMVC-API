@@ -24,42 +24,8 @@
         </div>
 
         <!--button submit-->
-        <button type="button" class="btn btn-danger" id="deleteButton"> Delete</button>
+        <button type="submit" class="btn btn-danger" id="deleteButton"> Delete</button>
         <a class="btn btn-primary" asp-controller="Category" asp-action="Index"> Back to List</a>
     </div>
 </form>
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script type="text/javascript">
-        document.getElementById("deleteButton").addEventListener("click", function (event) {
-            Swal.fire({
-                title: "Are you sure?",
-                text: "You will not be able to recover this record!",
-                icon: "warning",
-                showCancelButton: true,
-                confirmButtonClass: "btn-danger",
-                confirmButtonText: "Yes, delete it!",
-                closeOnConfirm: false
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    $.ajax({
-                        type: "DELETE",
-                        url: "/Admin/Category/Delete?id=" + document.querySelector('input[asp-for="Id"]').value,
-                        success: function (data) {
-                            if (data.success) {
-                                toastr.success(data.message);
-                                // Redirect to Index after successful deletion
-                                window.location.href = "/Admin/Category/Index";
-                            } else {
-                                toastr.error(data.message);
-                            }
-                        }
-                    });
-                }
-            });
-        });
-    </script>
-}

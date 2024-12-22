@@ -20,6 +20,8 @@ namespace BanSach.Model
         [Required]
         [Range(1, 10000)]
         public int Quantity { get; set; }
+        public int SoldCount { get; set; }
+
         [Required]
         [Range(1, 100000000)]
         public double Price50 { get; set; }
@@ -46,7 +48,6 @@ namespace BanSach.Model
         [ValidateNever]
         public CoverType? coverType { get; set; }
         public List<Review> Reviews { get; set; } = new List<Review>();
-        public int SoldCount { get; set; }
        
     }
 }

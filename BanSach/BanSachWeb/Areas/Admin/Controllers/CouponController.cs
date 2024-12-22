@@ -1,4 +1,4 @@
-﻿using BanSach.DataAcess.Data;
+﻿
 using BanSach.DataAcess.Repository.IRepository;
 using BanSach.Model;
 using Microsoft.AspNetCore.Authorization;
@@ -82,7 +82,6 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(obj);
         }
 
-        // lấy ra  1 đối tượng với id
         [Authorize(Roles = "Admin,Employee")]
 
         public IActionResult Delete(int? id)
@@ -91,7 +90,6 @@ namespace BanSachWeb.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            // kiếm id
             var couponFromDb = _unitOfWork.Coupon.GetFirstOrDefault(u => u.Id == id);
             if (couponFromDb == null)
             {
@@ -99,16 +97,13 @@ namespace BanSachWeb.Areas.Admin.Controllers
             }
             return View(couponFromDb);
         }
-        // xử lý Edit
 
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
+        [HttpPost] 
+        [ValidateAntiForgeryToken]  
         [Authorize(Roles = "Admin,Employee")]
 
         public IActionResult DeletePost(int? id)
         {
-
-            // kiếm đối tượng theo id
             var couponFromDb = _unitOfWork.Coupon.GetFirstOrDefault(u => u.Id == id);
             if (couponFromDb == null)
             {
@@ -116,7 +111,6 @@ namespace BanSachWeb.Areas.Admin.Controllers
             }
             else
             {
-
                 _unitOfWork.Coupon.Remove(couponFromDb);
                 _unitOfWork.Save();
                 TempData["success"] = "Coupon Delete successfully";
