@@ -1,39 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj": {}
+    "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj": {}
   },
   "projects": {
-    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
+    "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+        "projectUniqueName": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
         "projectName": "BanSach.DataAcess",
-        "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\obj\\",
+        "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj",
+        "packagesPath": "C:\\Users\\PNhi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PNhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
-                "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
+              "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+                "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj"
               },
-              "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
-                "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
+              "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+                "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
               }
             }
           }
@@ -47,10 +45,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "Bogus": {
@@ -91,38 +91,50 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
+    "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+        "projectUniqueName": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
         "projectName": "BanSach.Model",
-        "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Model\\obj\\",
+        "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Model\\BanSach.Model.csproj",
+        "packagesPath": "C:\\Users\\PNhi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PNhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -136,10 +148,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
@@ -166,38 +180,50 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+    "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
         "projectName": "BanSach.Utility",
-        "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\obj\\",
+        "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj",
+        "packagesPath": "C:\\Users\\PNhi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PNhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -211,10 +237,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "MailKit": {
@@ -251,45 +279,57 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj": {
+    "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+        "projectUniqueName": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
         "projectName": "BanSachWeb",
-        "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSachWeb\\obj\\",
+        "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSachWeb\\BanSachWeb.csproj",
+        "packagesPath": "C:\\Users\\PNhi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSachWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PNhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
-                "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
+              "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj": {
+                "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.DataAcess\\BanSach.DataAcess.csproj"
               },
-              "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
-                "projectPath": "D:\\ProjectIndividual\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
+              "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj": {
+                "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Utility\\BanSach.Utility.csproj"
               }
             }
           }
@@ -303,10 +343,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "AWSSDK": {
@@ -387,6 +429,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -395,7 +455,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

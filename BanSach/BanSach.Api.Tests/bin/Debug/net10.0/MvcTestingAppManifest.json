@@ -1,0 +1,8 @@
+{
+  "BanSach.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Api",
+  "BanSach.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Application",
+  "BanSach.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Domain",
+  "BanSach.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Infrastructure",
+  "BanSach.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Model",
+  "BanSach.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Persistence"
+}

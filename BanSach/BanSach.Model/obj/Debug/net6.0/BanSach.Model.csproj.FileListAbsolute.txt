@@ -74,3 +74,16 @@ D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\refint\BanSach.Model.dll
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.pdb
 D:\ProjectIndividual\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\ref\BanSach.Model.dll
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\bin\Debug\net6.0\BanSach.Model.deps.json
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\bin\Debug\net6.0\BanSach.Model.dll
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\bin\Debug\net6.0\BanSach.Model.pdb
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.csproj.AssemblyReference.cache
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.AssemblyInfoInputs.cache
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.AssemblyInfo.cs
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.csproj.CoreCompileInputs.cache
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.sourcelink.json
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.dll
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\refint\BanSach.Model.dll
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\BanSach.Model.pdb
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Model\obj\Debug\net6.0\ref\BanSach.Model.dll

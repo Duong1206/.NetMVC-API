@@ -1,0 +1,12 @@
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\bin\Debug\net10.0\BanSach.Domain.deps.json
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\bin\Debug\net10.0\BanSach.Domain.dll
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\bin\Debug\net10.0\BanSach.Domain.pdb
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\BanSach.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\BanSach.Domain.AssemblyInfoInputs.cache
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\BanSach.Domain.AssemblyInfo.cs
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\BanSach.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\BanSach.Domain.sourcelink.json
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\BanSach.Domain.dll
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\refint\BanSach.Domain.dll
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\BanSach.Domain.pdb
+C:\Users\PNhi\Desktop\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net10.0\ref\BanSach.Domain.dll

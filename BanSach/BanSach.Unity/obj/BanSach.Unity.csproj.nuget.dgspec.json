@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LEARNING\\CODE\\C_Sharp\\ASP\\CORE\\unica\\core6\\BanSach\\BanSach.Unity\\BanSach.Unity.csproj": {}
+    "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Unity\\BanSach.Unity.csproj": {}
   },
   "projects": {
-    "D:\\LEARNING\\CODE\\C_Sharp\\ASP\\CORE\\unica\\core6\\BanSach\\BanSach.Unity\\BanSach.Unity.csproj": {
+    "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Unity\\BanSach.Unity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LEARNING\\CODE\\C_Sharp\\ASP\\CORE\\unica\\core6\\BanSach\\BanSach.Unity\\BanSach.Unity.csproj",
+        "projectUniqueName": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Unity\\BanSach.Unity.csproj",
         "projectName": "BanSach.Unity",
-        "projectPath": "D:\\LEARNING\\CODE\\C_Sharp\\ASP\\CORE\\unica\\core6\\BanSach\\BanSach.Unity\\BanSach.Unity.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\LEARNING\\CODE\\C_Sharp\\ASP\\CORE\\unica\\core6\\BanSach\\BanSach.Unity\\obj\\",
+        "projectPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Unity\\BanSach.Unity.csproj",
+        "packagesPath": "C:\\Users\\PNhi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PNhi\\Desktop\\.NetMVC-API\\BanSach\\BanSach.Unity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PNhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -44,10 +38,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "imports": [
             "net461",
@@ -60,12 +56,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
