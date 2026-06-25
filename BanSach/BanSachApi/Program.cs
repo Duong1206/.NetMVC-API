@@ -1,6 +1,6 @@
-using BanSach.DataAcess.Data;
-using BanSach.DataAcess.Repository.IRepository;
-using BanSach.DataAcess.Repository;
+using BanSach.Persistence.Context;
+using BanSach.DataAccess.Repository.IRepository;
+using BanSach.DataAccess.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,13 +13,21 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
+        builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found."),
+        sqlOptions => sqlOptions
+            .EnableRetryOnFailure(maxRetryCount: 3, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null)
+            .MigrationsAssembly("BanSach.Persistence")));
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAnyOrigin",
-        builder => builder.AllowAnyOrigin()
-                          .AllowAnyMethod()
-                          .AllowAnyHeader());
+    var corsOrigins = builder.Environment.IsDevelopment()
+        ? new[] { "https://localhost:7001", "https://localhost:44363", "http://localhost:3000" }
+        : new[] { "https://yourdomain.com" }; // Update production domain
+    
+    options.AddPolicy("AllowSpecificOrigins",
+        policy => policy.WithOrigins(corsOrigins)
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
 });
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
@@ -30,7 +38,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors("AllowAnyOrigin");
+app.UseCors("AllowSpecificOrigins");
 
 app.UseAuthorization();
 

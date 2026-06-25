@@ -1,7 +1,6 @@
-﻿using BanSach.DataAcess.Repository.IRepository;
+using BanSach.DataAccess.Repository.IRepository;
 using BanSach.Model.ViewModel;
 using BanSach.Utility;
-using ESC_POS_USB_NET.Printer;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 
@@ -153,9 +152,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
             try
             {
-                var printerName = "XP-58";
-                var printer = new Printer(printerName);
-
+                // Printer functionality disabled - ESC-POS device not available in this environment
                 StringBuilder receiptContent = new StringBuilder();
                 receiptContent.AppendLine("Order Receipt");
                 receiptContent.AppendLine("------------------------------");
@@ -179,19 +176,17 @@ namespace BanSachWeb.Areas.Admin.Controllers
                 receiptContent.AppendLine($"Status: {order.OrderStatus}");
                 receiptContent.AppendLine("\nThank you for purchasing at the EBOOK STORE!");
 
-                printer.AlignCenter();
-                printer.BoldMode(receiptContent.ToString());
+                // Log the receipt content instead of printing
+                System.Diagnostics.Debug.WriteLine("Receipt:\n" + receiptContent.ToString());
 
-                printer.FullPaperCut();
-                printer.PrintDocument();
-                return Json(new { success = true, message = "Order is being printed." });
+                return Json(new { success = true, message = "Order receipt generated (printer disabled)." });
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error occurred while printing order: {ex.Message}");
+                Console.WriteLine($"Error occurred while generating order receipt: {ex.Message}");
                 Console.WriteLine($"StackTrace: {ex.StackTrace}");
 
-                return Json(new { success = false, message = $"Failed to print order: {ex.Message}" });
+                return Json(new { success = false, message = $"Failed to generate receipt: {ex.Message}" });
             }
         }
 

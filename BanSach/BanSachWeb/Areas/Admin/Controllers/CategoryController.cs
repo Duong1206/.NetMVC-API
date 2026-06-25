@@ -1,4 +1,4 @@
-﻿using BanSach.DataAcess.Repository.IRepository;
+using BanSach.DataAccess.Repository.IRepository;
 using BanSach.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

@@ -1,14 +1,16 @@
 using BanSach.Api.Middlewares;
 using BanSach.Application;
+using BanSach.DataAccess;
 using BanSach.Infrastructure;
 using BanSach.Persistence;
+using BanSach.Persistence.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.EntityFrameworkCore;
 using System.IO.Compression;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddProblemDetails();
 builder.Services.AddMemoryCache();
 builder.Services.AddResponseCompression(options =>
 {
@@ -46,12 +48,18 @@ if (!builder.Environment.IsEnvironment("Testing"))
 builder.Services.AddApplication();
 builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddInfrastructure();
+builder.Services.AddScoped<DataSeeder>();
 
 var app = builder.Build();
 
 app.UseResponseCompression();
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseResponseCaching();
+
+// Configure CORS policy
+var corsOrigins = app.Environment.IsDevelopment()
+    ? new[] { "https://localhost:7001", "http://localhost:3000", "http://localhost:5000" }
+    : new[] { "https://yourdomain.com" }; // Update production domain
 
 if (app.Environment.IsDevelopment())
 {
@@ -63,13 +71,31 @@ else
     app.UseHsts();
 }
 
-app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+app.UseCors(options => options
+    .WithOrigins(corsOrigins)
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .AllowCredentials());
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseAuthorization();
 app.MapControllers();
 app.MapHealthChecks("/health");
 
-app.Run();
+// Apply migrations and seed data
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
 
-public partial class Program;
+    // Run migrations
+    if (!app.Environment.IsProduction())
+    {
+        dbContext.Database.Migrate();
+    }
+
+    // Seed data
+    var seeder = scope.ServiceProvider.GetRequiredService<DataSeeder>();
+    await seeder.SeedAsync();
+}
+
+app.Run();

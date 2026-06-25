@@ -1,4 +1,4 @@
-﻿using BanSach.DataAcess.Repository.IRepository;
+using BanSach.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BanSachWeb.Areas.Customer.Controllers

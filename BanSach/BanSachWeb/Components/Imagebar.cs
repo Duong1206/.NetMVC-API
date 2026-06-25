@@ -1,4 +1,4 @@
-﻿using BanSach.DataAcess.Data;
+using BanSach.Persistence.Context;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BanSachWeb.Components

@@ -1,4 +1,4 @@
-﻿// Licensed to the .NET Foundation under one or more agreements.
+// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
@@ -24,7 +24,7 @@ using BanSach.Utility;
 using BanSach.Model;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using BanSach.DataAcess.Repository.IRepository;
+using BanSach.DataAccess.Repository.IRepository;
 
 namespace BanSachWeb.Areas.Identity.Pages.Account
 {

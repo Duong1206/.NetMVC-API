@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6rQKUtq5unvWLWa6+LNXJwJhPPGH86ATpO4yLdIbRnU=",
+  "Source": "BanSach.Api",
+  "BasePath": "_content/BanSach.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

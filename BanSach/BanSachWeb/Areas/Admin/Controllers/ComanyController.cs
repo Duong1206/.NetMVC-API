@@ -1,4 +1,4 @@
-﻿using BanSach.DataAcess.Repository.IRepository;
+using BanSach.DataAccess.Repository.IRepository;
 using BanSach.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,20 +9,20 @@ namespace BanSachWeb.Areas.Admin.Controllers
     [Area("Admin")]
     public class CompanyController : Controller
     {
-        //tạo 1 biến 
+        //t?o 1 bi?n 
         private readonly IUnitOfWork _unitOfWork;
 
-        //tạo môi trường lưu hình
+        //t?o m�i tr�?ng l�u h?nh
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        //hàm khởi tạo
+        //h�m kh?i t?o
         public CompanyController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
             _unitOfWork = unitOfWork;
             _webHostEnvironment = webHostEnvironment;
         }
 
-        //hàm khởi tạo
+        //h�m kh?i t?o
         /* public ProductController(IUnitOfWork unitOfWork)
          {
              _unitOfWork = unitOfWork;
@@ -30,18 +30,18 @@ namespace BanSachWeb.Areas.Admin.Controllers
         [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
-            //tạo một biến hứng dl
+            //t?o m?t bi?n h?ng dl
             IEnumerable<Company> objCompanyList = _unitOfWork.Company.GetAll();
             return View(objCompanyList);
         }
 
-        // lấy ra  1 đối tượng với id
+        // l?y ra  1 �?i t�?ng v?i id
         [Authorize(Roles = "Admin")]
         public IActionResult Upsert(int? id)
         {
 
            /* Product product = new Product();
-            // lấy ra danhs sách Category, coverType dự vào Id trong product
+            // l?y ra danhs s�ch Category, coverType d? v�o Id trong product
             IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll().Select(
                 u => new SelectListItem()
                 {
@@ -79,7 +79,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
             }
 
-            // kiếm id 
+            // ki?m id 
             // var categoryFromDb = _db.Categories.Find(id);
 
             return View(company);
@@ -88,11 +88,11 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
 
         [Authorize(Roles = "Admin")]
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
+        [HttpPost] // nh?n dl tu form
+        [ValidateAntiForgeryToken]  // ch?ng gi? m?o pt post
         public IActionResult Upsert(Company obj)
         {
-            //tiến hành update
+            //ti?n h�nh update
             if (ModelState.IsValid)
             {
                 //upload Images
@@ -133,7 +133,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
         /*   public IActionResult DeletePost(int? id)
            {
 
-               // kiếm đối tượng theo id
+               // ki?m �?i t�?ng theo id
                var obj = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
                if (obj == null)
                {

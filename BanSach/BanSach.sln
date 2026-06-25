@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanSachWeb", "BanSachWeb\BanSachWeb.csproj", "{C7897AC5-C216-4F65-96FC-B3023CC59C6A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanSach.DataAcess", "BanSach.DataAcess\BanSach.DataAcess.csproj", "{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanSach.DataAccess", "BanSach.DataAccess\BanSach.DataAccess.csproj", "{27439AAC-8CDC-49AE-AFA2-C3B1B5416E33}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanSach.Model", "BanSach.Model\BanSach.Model.csproj", "{D9C1F8DB-9C7B-498C-AE25-565774AE1DC9}"
 EndProject

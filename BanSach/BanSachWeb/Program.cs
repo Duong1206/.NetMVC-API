@@ -1,8 +1,8 @@
 
-using BanSach.DataAcess.Data;
-using BanSach.DataAcess;
-using BanSach.DataAcess.Repository;
-using BanSach.DataAcess.Repository.IRepository;
+using BanSach.Persistence.Context;
+using BanSach.DataAccess;
+using BanSach.DataAccess.Repository;
+using BanSach.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -18,36 +18,38 @@ builder.Services.AddControllersWithViews();
 // thêm servicer chạy runtime không cần build lại
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
-// thêm servvice chuyền chuỗi kn vào
+// thêm servvice chuyền chuỗi kn vào - with connection pooling for performance
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
+        builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found."),
+        sqlOptions => sqlOptions
+            .EnableRetryOnFailure(maxRetryCount: 3, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null)
+            .MigrationsAssembly("BanSach.Persistence")));
+
+// Enable query result caching
+builder.Services.AddMemoryCache();
+builder.Services.AddResponseCaching();
 
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
 builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-//configuration Login Google Account
-/*builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-}).AddCookie().AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
-{
-    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
-});*/
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
 
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAnyOrigin",
-        builder => builder.AllowAnyOrigin()
-                          .AllowAnyMethod()
-                          .AllowAnyHeader());
+    var corsOrigins = builder.Environment.IsDevelopment()
+        ? new[] { "https://localhost:7001", "https://localhost:44363", "http://localhost:3000" }
+        : new[] { "https://yourdomain.com" }; // Update production domain
+    
+    options.AddPolicy("AllowSpecificOrigins",
+        policy => policy.WithOrigins(corsOrigins)
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
 });
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -79,7 +81,7 @@ using (var scope = app.Services.CreateScope())
 
 
 app.UseStaticFiles();
-app.UseCors("AllowAnyOrigin");
+app.UseCors("AllowSpecificOrigins");
 app.UseRouting();
 StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 app.UseAuthentication();

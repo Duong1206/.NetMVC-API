@@ -1,8 +1,7 @@
-﻿using BanSach.DataAcess.Data;
-using BanSach.DataAcess.Repository.IRepository;
+using BanSach.Persistence.Context;
+using BanSach.DataAccess.Repository.IRepository;
 using BanSach.Model;
 using BanSach.Model.ViewModel;
-using DryIoc.ImTools;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -86,20 +85,20 @@ namespace BanSachWeb.Areas.Customer.Controllers
             string[] VietnameseSigns = new string[]
             {
         "aAeEoOuUiIdDyY",
-        "áàạảãâấầậẩẫăắằặẳẵ",
-        "ÁÀẠẢÃÂẤẦẬẨẪĂẮẰẶẲẴ",
-        "éèẹẻẽêếềệểễ",
-        "ÉÈẸẺẼÊẾỀỆỂỄ",
-        "óòọỏõôốồộổỗơớờợởỡ",
-        "ÓÒỌỎÕÔỐỒỘỔỖƠỚỜỢỞỠ",
-        "úùụủũưứừựửữ",
-        "ÚÙỤỦŨƯỨỪỰỬỮ",
-        "íìịỉĩ",
-        "ÍÌỊỈĨ",
-        "đ",
-        "Đ",
-        "ýỳỵỷỹ",
-        "ÝỲỴỶỸ"
+        "��???�?????�?????",
+        "��???�?????�?????",
+        "��???�?????",
+        "��???�?????",
+        "�????�?????�?????",
+        "�????�?????�?????",
+        "��???�?????",
+        "��???�?????",
+        "�????",
+        "�????",
+        "�",
+        "�",
+        "?????",
+        "?????"
             };
 
             for (int i = 1; i < VietnameseSigns.Length; i++)

@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
 using BanSach.Model.ViewModel;
-using BanSach.DataAcess.Data;
+using BanSach.Persistence.Context;
 
 namespace BanSachWeb.Areas.Admin.Controllers
 {

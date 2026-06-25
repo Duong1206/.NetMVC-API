@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -16,14 +16,14 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return Challenge(properties, GoogleDefaults.AuthenticationScheme);
         }
 
-        // Xử lý phản hồi từ Google
+        // X? l? ph?n h?i t? Google
         [HttpGet]
         public async Task<IActionResult> GoogleResponse(string returnUrl = null)
         {
             var result = await HttpContext.AuthenticateAsync();
             if (result?.Principal != null)
             {
-                // Thêm thông tin người dùng vào Claims
+                // Th�m th�ng tin ng�?i d�ng v�o Claims
                 var claims = result.Principal.Claims.Select(claim => new Claim(claim.Type, claim.Value)).ToList();
                 var identity = new ClaimsIdentity(claims, "GoogleKeys");
                 var claimsPrincipal = new ClaimsPrincipal(identity);

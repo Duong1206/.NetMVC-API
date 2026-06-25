@@ -1,6 +1,5 @@
-﻿
-using Amazon.DynamoDBv2.Model;
-using BanSach.DataAcess.Data;
+
+using BanSach.Persistence.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -39,7 +38,7 @@ namespace BanSachApi.Controllers
 
     public class DialogflowRequest
     {
-        public QueryResult queryResult { get; set; }
+        public Dictionary<string, object> queryResult { get; set; }
     }
 
     public class DialogflowResponse

@@ -1,0 +1,12 @@
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\bin\Debug\net6.0\BanSach.Domain.deps.json
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\bin\Debug\net6.0\BanSach.Domain.dll
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\bin\Debug\net6.0\BanSach.Domain.pdb
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\BanSach.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\BanSach.Domain.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\BanSach.Domain.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\BanSach.Domain.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\BanSach.Domain.sourcelink.json
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\BanSach.Domain.dll
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\refint\BanSach.Domain.dll
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\BanSach.Domain.pdb
+C:\Users\nguye\OneDrive\Máy tính\.NetMVC-API\BanSach\BanSach.Domain\obj\Debug\net6.0\ref\BanSach.Domain.dll

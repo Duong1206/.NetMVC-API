@@ -1,4 +1,4 @@
-﻿using BanSach.DataAcess.Repository.IRepository;
+using BanSach.DataAccess.Repository.IRepository;
 using BanSach.Model;
 using BanSach.Model.ViewModel;
 using Microsoft.AspNetCore.Authorization;
@@ -14,7 +14,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        //hàm khởi tạo
+        //h�m kh?i t?o
         public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
             _unitOfWork = unitOfWork;

@@ -1,4 +1,4 @@
-﻿using BanSach.DataAcess.Repository.IRepository;
+using BanSach.DataAccess.Repository.IRepository;
 using BanSach.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,10 +8,10 @@ namespace BanSachWeb.Areas.Admin.Controllers
     [Area("Admin")]
     public class CoverTypeController : Controller
     {
-        //tạo 1 biến 
+        //t?o 1 bi?n 
         private readonly IUnitOfWork _unitOfWork;
 
-        //hàm khởi tạo
+        //h�m kh?i t?o
         public CoverTypeController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -20,7 +20,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            //tạo một biến hứng dl
+            //t?o m?t bi?n h?ng dl
             IEnumerable<CoverType> objcovertypeList = _unitOfWork.coverType.GetAll();
             return View(objcovertypeList);
         }
@@ -33,8 +33,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
         }
         [Authorize(Roles = "Admin,Employee")]
 
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
+        [HttpPost] // nh?n dl tu form
+        [ValidateAntiForgeryToken]  // ch?ng gi? m?o pt post
         public IActionResult Create(CoverType obj)
         {
             if (ModelState.IsValid)
@@ -47,7 +47,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(obj);
         }
 
-        // lấy ra  1 đối tượng với id
+        // l?y ra  1 �?i t�?ng v?i id
         [Authorize(Roles = "Admin,Employee")]
 
         public IActionResult Edit(int? id)
@@ -64,12 +64,12 @@ namespace BanSachWeb.Areas.Admin.Controllers
             }
             return View(coverTypeFromDbFirst);
         }
-        // xử lý Edit
+        // x? l? Edit
         [Authorize(Roles = "Admin,Employee")]
 
 
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
+        [HttpPost] // nh?n dl tu form
+        [ValidateAntiForgeryToken]  // ch?ng gi? m?o pt post
         public IActionResult Edit(CoverType obj)
         {
             if (ModelState.IsValid)
@@ -82,7 +82,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
             return View(obj);
         }
 
-        // lấy ra  1 đối tượng với id
+        // l?y ra  1 �?i t�?ng v?i id
         [Authorize(Roles = "Admin,Employee")]
 
         public IActionResult Delete(int? id)
@@ -91,7 +91,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            // kiếm id
+            // ki?m id
             var CoverTypeFromDb = _unitOfWork.coverType.GetFirstOrDefault(u => u.Id == id);
             if (CoverTypeFromDb == null)
             {
@@ -99,15 +99,15 @@ namespace BanSachWeb.Areas.Admin.Controllers
             }
             return View(CoverTypeFromDb);
         }
-        // xử lý Edit
+        // x? l? Edit
         [Authorize(Roles = "Admin,Employee")]
 
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
+        [HttpPost] // nh?n dl tu form
+        [ValidateAntiForgeryToken]  // ch?ng gi? m?o pt post
         public IActionResult DeletePost(int? id)
         {
 
-            // kiếm đối tượng theo id
+            // ki?m �?i t�?ng theo id
             var CoverTypeFromDb = _unitOfWork.coverType.GetFirstOrDefault(u => u.Id == id);
             if (CoverTypeFromDb == null)
             {

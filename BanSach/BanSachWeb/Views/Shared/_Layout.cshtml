@@ -1,174 +1,300 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - BanSachWeb</title>
+    <title>@ViewData["Title"] - Cosmic eBook Store</title>
 
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom Space Theme CSS -->
+    <link rel="stylesheet" href="~/css/space-theme.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BanSachWeb.styles.css" asp-append-version="true" />
-    <link href="~/css/bootswatch.css" rel="stylesheet" asp-append-version="true" />
+
+    <!-- Toastr Notifications -->
     <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="//cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css" asp-append-version="true" />
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css"
+          asp-append-version="true" />
+
+    <style>
+            /* Additional animations and fixes */
+            body>div::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(0,217,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)"/></svg>');
+                pointer-events: none;
+                z-index: -1;
+            }
+
+            /* Smooth scroll behavior */
+            html {
+                scroll-behavior: smooth;
+            }
+
+            /* Loading animation */
+            .page-loading {
+                display: none;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 9999;
+            }
+
+            .navbar-toggler {
+                border: 1px solid var(--accent-primary) !important;
+            }
+
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2300d9ff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+            }
+    </style>
 </head>
+
 <body>
+    <!-- Navigation Header -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="Customer" asp-controller="Home" asp-action="Index">EBOOK STORE</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-area="Customer" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-rocket"></i> COSMIC EBOOK
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Customer" asp-controller="Shop" asp-action="Index">
+                                <i class="fas fa-book"></i> Shop
+                            </a>
+                        </li>
                         <li class="nav-item">
                             @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Employee")))
                             {
-                                <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="nav-link nav-link text-white">Admin</a>
-                                
+                                <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="nav-link">
+                                    <i class="fas fa-chart-line"></i> Admin Dashboard
+                                </a>
                             }
-                            
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <partial name="_LoginPartial" />
+                        </li>
+                        <li class="nav-item">
+                            <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="nav-link">
+                                <i class="fas fa-shopping-cart"></i> Cart
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-area="Customer" asp-controller="Order" asp-action="Index" class="nav-link">
+                                <i class="fas fa-box"></i> Orders
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            <!-- Topbar Start -->
-            <div class="container-fluid">
-                <div class="row bg-secondary py-2 px-xl-5">
-                    <div class="col-lg-6 d-none d-lg-block">
-                        <div class="d-inline-flex align-items-center">
-                            <a class="text-dark" href="">FAQs</a>
-                            <span class="text-muted px-2">|</span>
-                            <a class="text-dark" href="">Help</a>
-                            <span class="text-muted px-2">|</span>
-                            <a class="text-dark" href="">Support</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-center text-lg-right">
-                        <div class="d-inline-flex align-items-center">
-                            <a class="text-dark px-2" href="">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="text-dark px-2" href="">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="text-dark px-2" href="">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a class="text-dark px-2" href="">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a class="text-dark pl-2" href="">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center py-3 px-xl-5">
-                    <div class="col-lg-3 d-none d-lg-block">
-                        <a href="" class="text-decoration-none">
-                            <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">E</span>BOOK</h1>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-6 text-left">
-                       @*  <form asp-action="Search" asp-controller="Shop" method="post">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search for products">
-                                <div class="input-group-append">
-                                    <span class="input-group-text bg-transparent text-primary">
-                                        <i class="fa fa-search"></i>
-                                    </span>
-                                </div>
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <main role="main" class="pb-5">
+            <!-- Top Info Bar -->
+            <div class="topbar">
+                <div class="container-fluid px-3 px-lg-5">
+                    <div class="row align-items-center py-2">
+                        <div class="col-lg-6 d-none d-lg-block">
+                            <div class="d-inline-flex align-items-center">
+                                <a href="#"><i class="fas fa-question-circle"></i> FAQs</a>
+                                <span class="px-3">|</span>
+                                <a href="#"><i class="fas fa-life-ring"></i> Help</a>
+                                <span class="px-3">|</span>
+                                <a href="#"><i class="fas fa-headset"></i> Support</a>
                             </div>
-                        </form> *@
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end">
+                            <div class="d-inline-flex align-items-center gap-3">
+                                <a href="https://facebook.com" target="_blank" title="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com" target="_blank" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://instagram.com" target="_blank" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://youtube.com" target="_blank" title="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-6 text-right">
-
-                        <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="btn border">
-                            <i class="fas fa-shopping-cart text-primary"></i>
-                        </a>
-                        <a asp-area="Customer" asp-controller="Order" asp-action="Index" class="btn border ml-2">
-                            <i class="fas fa-box text-primary"></i>
-                        </a>
-                    </div>
-
                 </div>
             </div>
-            <!-- Topbar End -->
+
+            <!-- Page Content -->
             @RenderBody()
-            <!-- Footer Start -->
-            <div class="container-fluid bg-secondary text-dark mt-5 pt-5">
-                <div class="row px-xl-5 pt-5">
-                    <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
-                        <a href="" class="text-decoration-none">
-                            <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">E</span>BOOK</h1>
-                        </a>
-                        <p>Welcome to Vietnam's number 1 bookstore</p>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Thanh Xuan district, Ha Noi City</p>
-                        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>nguyenxuanduong12062002@gmail.com</p>
-                        <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>0928201485</p>
-                    </div>
-                    <div class="col-lg-8 col-md-12">
-                        <div class="row">
-                            <div class="col-md-4 ml-lg-5 mb-6">
-                                <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
-                                <div class="d-flex flex-column justify-content-start">
-                                    <a class="text-dark mb-2" asp-action="Index" asp-controller="Home"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                                    <a class="text-dark mb-2" asp-action="Index" asp-controller="Shop"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
-                                    <a class="text-dark" asp-action="Index" asp-controller="Contact"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+
+            <!-- Footer -->
+            <footer>
+                <div class="container-fluid px-3 px-lg-5 py-5">
+                    <div class="row">
+                        <!-- Footer Section 1: About -->
+                        <div class="col-lg-4 col-md-6 footer-section mb-4">
+                            <h5><i class="fas fa-book"></i> Cosmic eBook Store</h5>
+                            <p>Vietnam's premier destination for digital books and knowledge. Explore millions of titles
+                                across all genres.</p>
+                                <div class="mt-3">
+                                    <p><i class="fas fa-map-marker-alt"></i> <strong>Thanh Xuan District, Hanoi
+                                        City</strong></p>
+                                        <p><i class="fas fa-envelope"></i> <strong>contact@ebookstore.com</strong></p>
+                                        <p><i class="fas fa-phone"></i> <strong>+84 928 201 485</strong></p>
+                                    </div>
+                                </div>
+
+                                <!-- Footer Section 2: Quick Links -->
+                                <div class="col-lg-2 col-md-6 footer-section">
+                                    <h5><i class="fas fa-link"></i> Quick Links</h5>
+                                    <ul class="list-unstyled">
+                                        <li><a asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a></li>
+                                        <li><a asp-area="Customer" asp-controller="Shop" asp-action="Index">Shop</a></li>
+                                        <li><a asp-area="Customer" asp-controller="Contact" asp-action="Index">Contact</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- Footer Section 3: Support -->
+                                <div class="col-lg-2 col-md-6 footer-section">
+                                    <h5><i class="fas fa-headset"></i> Support</h5>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Shipping Info</a></li>
+                                        <li><a href="#">Returns</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- Footer Section 4: Newsletter -->
+                                <div class="col-lg-4 col-md-6 footer-section">
+                                    <h5><i class="fas fa-envelope"></i> Newsletter</h5>
+                                    <p>Subscribe to get special offers and updates!</p>
+                                    <form>
+                                        <div class="input-group mb-3">
+                                            <input type="email" class="form-control" placeholder="Your email" required>
+                                            <button class="btn btn-primary" type="submit">
+                                                <i class="fas fa-paper-plane"></i> Subscribe
+                                            </button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-5">
-                                <h5 class="font-weight-bold text-dark mb-4">Newsletter</h5>
-                                <form action="">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
-                                               required="required" />
-                                    </div>
-                                    <div>
-                                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">Subscribe Now</button>
-                                    </div>
-                                </form>
+                            <!-- Footer Bottom -->
+                            <hr style="border-color: var(--border-color);">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <p class="mb-0">&copy; 2024 <strong>Cosmic eBook Store</strong>. All rights reserved.</p>
+                                </div>
+                                <div class="col-md-6 text-md-end">
+                                    <a asp-area="" asp-controller="Home" asp-action="Privacy" class="me-3">Privacy Policy</a>
+                                    <a href="#">Terms of Service</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
+                    </footer>
+                </main>
             </div>
-            <!-- Footer End -->
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - BanSachWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+            <!-- Scripts -->
+            <script src="~/lib/jquery/dist/jquery.min.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="//cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script src="https://cdn.tiny.cloud/1/rc80k9t7fl8be1fh5wv9k2kevhq4qzgacc5qkqi3j0jv4rt9/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
-    @* chatbox *@
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger chat-title="EBOOKSTORE"
-                  agent-id="c53e862c-bc68-4b0e-96fd-2c98845e2cba"
-                  language-code="en"></df-messenger>
+            <!-- External Libraries -->
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script src="//cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+            <script src="https://cdn.tiny.cloud/1/rc80k9t7fl8be1fh5wv9k2kevhq4qzgacc5qkqi3j0jv4rt9/tinymce/7/tinymce.min.js"
+                    referrerpolicy="origin"></script>
 
-    @RenderSection("Scripts", required: false)
-</body>
-</html>
+            <!-- Chatbot -->
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger chat-title="COSMIC EBOOK SUPPORT" agent-id="c53e862c-bc68-4b0e-96fd-2c98845e2cba"
+                          language-code="en"></df-messenger>
+
+            <!-- Page Animations -->
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                // Add animation classes to elements
+                const cards = document.querySelectorAll('.card, .product-card');
+                cards.forEach((card, index) => {
+                card.style.animationDelay = (index * 0.1) + 's';
+                card.classList.add('slide-up');
+                });
+
+                // Smooth scroll for navigation
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+                }
+                });
+                });
+
+                // Add glow effect on hover
+                document.querySelectorAll('.btn, .nav-link').forEach(el => {
+                el.addEventListener('mouseenter', function () {
+                this.style.transition = 'all 0.3s ease';
+                });
+                });
+                });
+
+                // Toastr Configuration
+                toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "newestOnTop": true,
+                "progressBar": true,
+                "positionClass": "toast-top-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "slideDown",
+                "hideMethod": "slideUp"
+                };
+            </script>
+
+            @RenderSection("Scripts", required: false)
+        </body>
+
+    </html>

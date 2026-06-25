@@ -18,7 +18,6 @@ public sealed class ApiWebApplicationFactory : WebApplicationFactory<Program>
         builder.ConfigureServices(services =>
         {
             services.RemoveAll<DbContextOptions<ApplicationDbContext>>();
-            services.RemoveAll<IDbContextOptionsConfiguration<ApplicationDbContext>>();
             services.RemoveAll<IConfigureOptions<DbContextOptions<ApplicationDbContext>>>();
             services.RemoveAll<DbContextOptions>();
             services.RemoveAll<IStartupFilter>();

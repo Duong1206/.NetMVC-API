@@ -1,5 +1,5 @@
-﻿
-using BanSach.DataAcess.Repository.IRepository;
+
+using BanSach.DataAccess.Repository.IRepository;
 using BanSach.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,10 +9,10 @@ namespace BanSachWeb.Areas.Admin.Controllers
     [Area("Admin")]
     public class CouponController : Controller
     {
-        //tạo 1 biến 
+        //t?o 1 bi?n 
         private readonly IUnitOfWork _unitOfWork;
 
-        //hàm khởi tạo
+        //h�m kh?i t?o
         public CouponController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -21,7 +21,7 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            //tạo một biến hứng dl
+            //t?o m?t bi?n h?ng dl
             IEnumerable<Coupon> objcouponList = _unitOfWork.Coupon.GetAll();
             return View(objcouponList);
         }
@@ -32,8 +32,8 @@ namespace BanSachWeb.Areas.Admin.Controllers
 
             return View();
         }
-        [HttpPost] // nhận dl tu form
-        [ValidateAntiForgeryToken]  // chống giả mạo pt post
+        [HttpPost] // nh?n dl tu form
+        [ValidateAntiForgeryToken]  // ch?ng gi? m?o pt post
         [Authorize(Roles = "Admin,Employee")]
 
         public IActionResult Create(Coupon obj)

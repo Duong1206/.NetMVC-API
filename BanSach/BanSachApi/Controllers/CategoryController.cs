@@ -1,5 +1,5 @@
-﻿using BanSach.DataAcess.Mappers;
-using BanSach.DataAcess.Repository.IRepository;
+using BanSach.DataAccess.Mappers;
+using BanSach.DataAccess.Repository.IRepository;
 using BanSach.Model.Dtos.Category;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,7 +11,7 @@ namespace BanSachApi.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        //hàm khởi tạo
+        //h�m kh?i t?o
         public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
